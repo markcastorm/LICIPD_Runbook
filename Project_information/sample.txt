@@ -1,0 +1,4552 @@
+<html class="ltr yui3-js-enabled" dir="ltr" lang="en-US"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Public Disclosure | Official website of Life Insurance Corporation 
+   of India.</title>
+  <link rel="shortcut icon" href="https://licindia.in/o/lic-theme/images/lic_logo.png">
+  <!--call google font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah:400&amp;display=swap">
+  <!--slick css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+  <!--fa font-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+	<!-- Google Tag Manager -->
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/destination?id=AW-431424345&amp;cx=c&amp;gtm=4e65k1h1"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-122267849-1&amp;cx=c&amp;gtm=4e65k1h1"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-YZK568XV7C&amp;cx=c&amp;gtm=4e65k1h1"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-5WNBT5G"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WNBT5G');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta name="google-site-verification" content="bo9gHwfrjI9T8gZO9YFlCu5hclidR6PYVTj7-56d020">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-senna-track="temporary">var Liferay = window.Liferay || {};Liferay.Icons = Liferay.Icons || {};Liferay.Icons.basePath = '/o/icons';Liferay.Icons.spritemap = 'https://licindia.in/o/lic-theme/images/clay/icons.svg';Liferay.Icons.systemSpritemap = 'https://licindia.in/o/lic-theme/images/clay/icons.svg';</script>
+<script data-senna-track="permanent" src="/combo?browserId=chrome&amp;minifierType=js&amp;languageId=en_US&amp;t=1779169455804&amp;/o/frontend-js-jquery-web/jquery/jquery.min.js&amp;/o/frontend-js-jquery-web/jquery/init.js&amp;/o/frontend-js-jquery-web/jquery/ajax.js&amp;/o/frontend-js-jquery-web/jquery/bootstrap.bundle.min.js&amp;/o/frontend-js-jquery-web/jquery/collapsible_search.js&amp;/o/frontend-js-jquery-web/jquery/fm.js&amp;/o/frontend-js-jquery-web/jquery/form.js&amp;/o/frontend-js-jquery-web/jquery/popper.min.js&amp;/o/frontend-js-jquery-web/jquery/side_navigation.js" type="text/javascript"></script>
+<link data-senna-track="temporary" href="https://licindia.in/public-disclosure" rel="canonical">
+<link data-senna-track="temporary" href="https://licindia.in/hi/public-disclosure" hreflang="hi-IN" rel="alternate">
+<link data-senna-track="temporary" href="https://licindia.in/mr/public-disclosure" hreflang="mr-IN" rel="alternate">
+<link data-senna-track="temporary" href="https://licindia.in/public-disclosure" hreflang="en-US" rel="alternate">
+<link data-senna-track="temporary" href="https://licindia.in/public-disclosure" hreflang="x-default" rel="alternate">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="hi_IN">
+<meta property="og:locale:alternate" content="mr_IN">
+<meta property="og:site_name" content="Liferay DXP">
+<meta property="og:title" content="Public Disclosure - Liferay DXP">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://licindia.in/public-disclosure">
+
+
+<link href="/documents/20121/0/logo.png/284a37df-1dff-e7c2-b8c1-59d8fa1fb7c3" rel="icon">
+
+
+
+<link rel="stylesheet" id="yui_patched_v3_18_3_1_1779782945418_34" href="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/frontend-js-aui-web/aui/widget-base/assets/skins/sam/widget-base.css"><script charset="utf-8" id="yui_patched_v3_18_3_1_1779782945418_35" src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/frontend-js-aui-web/aui/yui-throttle/yui-throttle-min.js&amp;/o/frontend-js-aui-web/aui/classnamemanager/classnamemanager-min.js&amp;/o/frontend-js-aui-web/aui/aui-classnamemanager/aui-classnamemanager-min.js&amp;/o/frontend-js-aui-web/aui/aui-debounce/aui-debounce-min.js&amp;/o/frontend-js-aui-web/aui/array-extras/array-extras-min.js&amp;/o/frontend-js-aui-web/aui/event-base/event-base-min.js&amp;/o/frontend-js-aui-web/aui/dom-core/dom-core-min.js&amp;/o/frontend-js-aui-web/aui/dom-base/dom-base-min.js&amp;/o/frontend-js-aui-web/aui/selector-native/selector-native-min.js&amp;/o/frontend-js-aui-web/aui/selector/selector-min.js&amp;/o/frontend-js-aui-web/aui/node-core/node-core-min.js&amp;/o/frontend-js-aui-web/aui/dom-style/dom-style-min.js&amp;/o/frontend-js-aui-web/aui/node-base/node-base-min.js&amp;/o/frontend-js-aui-web/aui/event-delegate/event-delegate-min.js&amp;/o/frontend-js-aui-web/aui/node-event-delegate/node-event-delegate-min.js" async=""></script><script charset="utf-8" id="yui_patched_v3_18_3_1_1779782945418_36" src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/frontend-js-aui-web/aui/pluginhost-base/pluginhost-base-min.js&amp;/o/frontend-js-aui-web/aui/pluginhost-config/pluginhost-config-min.js&amp;/o/frontend-js-aui-web/aui/node-pluginhost/node-pluginhost-min.js&amp;/o/frontend-js-aui-web/aui/dom-screen/dom-screen-min.js&amp;/o/frontend-js-aui-web/aui/node-screen/node-screen-min.js&amp;/o/frontend-js-aui-web/aui/node-style/node-style-min.js&amp;/o/frontend-js-aui-web/aui/aui-node-base/aui-node-base-min.js&amp;/o/frontend-js-aui-web/aui/escape/escape-min.js&amp;/o/frontend-js-aui-web/aui/selector-css2/selector-css2-min.js&amp;/o/frontend-js-aui-web/aui/selector-css3/selector-css3-min.js&amp;/o/frontend-js-aui-web/aui/base-core/base-core-min.js&amp;/o/frontend-js-aui-web/aui/base-observable/base-observable-min.js&amp;/o/frontend-js-aui-web/aui/base-base/base-base-min.js&amp;/o/frontend-js-aui-web/aui/base-pluginhost/base-pluginhost-min.js&amp;/o/frontend-js-aui-web/aui/event-synthetic/event-synthetic-min.js" async=""></script><script charset="utf-8" id="yui_patched_v3_18_3_1_1779782945418_37" src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/frontend-js-aui-web/aui/event-focus/event-focus-min.js&amp;/o/frontend-js-aui-web/aui/widget-base/widget-base-min.js&amp;/o/frontend-js-aui-web/aui/aui-widget-cssclass/aui-widget-cssclass-min.js&amp;/o/frontend-js-aui-web/aui/aui-widget-toggle/aui-widget-toggle-min.js&amp;/o/frontend-js-aui-web/aui/base-build/base-build-min.js&amp;/o/frontend-js-aui-web/aui/aui-component/aui-component-min.js&amp;/o/frontend-js-aui-web/aui/aui-event-base/aui-event-base-min.js&amp;/o/frontend-js-aui-web/aui/timers/timers-min.js&amp;/o/frontend-js-aui-web/aui/aui-event-input/aui-event-input-min.js&amp;/o/frontend-js-aui-web/aui/aui-form-validator/aui-form-validator-min.js&amp;/o/frontend-js-aui-web/liferay/form.js" async=""></script><script charset="utf-8" id="yui_patched_v3_18_3_1_1779782945418_107" src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/frontend-js-aui-web/aui/aui-timer/aui-timer-min.js&amp;/o/frontend-js-aui-web/aui/event-touch/event-touch-min.js&amp;/o/frontend-js-aui-web/aui/event-move/event-move-min.js" async=""></script><script charset="utf-8" id="yui_patched_v3_18_3_1_1779782945418_108" src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/frontend-js-aui-web/liferay/menu.js" async=""></script><script charset="utf-8" id="yui_patched_v3_18_3_1_1779782945418_120" src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/frontend-js-aui-web/aui/array-invoke/array-invoke-min.js" async=""></script><script charset="utf-8" id="yui_patched_v3_18_3_1_1779782945418_132" src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/frontend-js-aui-web/aui/cookie/cookie-min.js&amp;/o/frontend-js-aui-web/aui/plugin/plugin-min.js&amp;/o/frontend-js-aui-web/liferay/session.js" async=""></script><link class="lfr-css-file" data-senna-track="temporary" href="https://licindia.in/o/lic-theme/css/clay.css?browserId=chrome&amp;themeId=lictheme_WAR_lictheme&amp;minifierType=css&amp;languageId=en_US&amp;t=1779169468000" id="liferayAUICSS" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+		<link data-senna-track="temporary" href="/combo?browserId=chrome&amp;minifierType=&amp;themeId=lictheme_WAR_lictheme&amp;languageId=en_US&amp;com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_duol:%2Fcss%2Fmain.css&amp;com_liferay_portal_search_web_portlet_SearchPortlet:%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet:%2Fcss%2Fmain.css&amp;com_liferay_segments_experiment_web_internal_portlet_SegmentsExperimentPortlet:%2Fcss%2Fmain.css&amp;com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet:%2Fcss%2Fmain.css&amp;com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet:%2Fcss%2Fmain.css&amp;lic_visitor_count_web_LicVisitorCountWebPortlet_INSTANCE_10758:%2Fcss%2Fmain.css&amp;t=1779169468000" id="6f2308ca" rel="stylesheet" type="text/css">
+
+	
+
+
+
+
+
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		var Liferay = Liferay || {};
+
+		Liferay.Browser = {
+			acceptsGzip: function() {
+				return true;
+			},
+
+			
+
+			getMajorVersion: function() {
+				return 148.0;
+			},
+
+			getRevision: function() {
+				return '537.36';
+			},
+			getVersion: function() {
+				return '148.0';
+			},
+
+			
+
+			isAir: function() {
+				return false;
+			},
+			isChrome: function() {
+				return true;
+			},
+			isEdge: function() {
+				return false;
+			},
+			isFirefox: function() {
+				return false;
+			},
+			isGecko: function() {
+				return true;
+			},
+			isIe: function() {
+				return false;
+			},
+			isIphone: function() {
+				return false;
+			},
+			isLinux: function() {
+				return true;
+			},
+			isMac: function() {
+				return false;
+			},
+			isMobile: function() {
+				return true;
+			},
+			isMozilla: function() {
+				return false;
+			},
+			isOpera: function() {
+				return false;
+			},
+			isRtf: function() {
+				return true;
+			},
+			isSafari: function() {
+				return true;
+			},
+			isSun: function() {
+				return false;
+			},
+			isWebKit: function() {
+				return true;
+			},
+			isWindows: function() {
+				return false;
+			}
+		};
+
+		Liferay.Data = Liferay.Data || {};
+
+		Liferay.Data.ICONS_INLINE_SVG = true;
+
+		Liferay.Data.NAV_SELECTOR = '#navigation';
+
+		Liferay.Data.NAV_SELECTOR_MOBILE = '#navigationCollapse';
+
+		Liferay.Data.isCustomizationView = function() {
+			return false;
+		};
+
+		Liferay.Data.notices = [
+			
+		];
+
+		(function () {
+			var available = {};
+
+			var direction = {};
+
+			
+
+				available['en_US'] = 'English\x20\x28United\x20States\x29';
+				direction['en_US'] = 'ltr';
+
+			
+
+				available['hi_IN'] = 'Hindi\x20\x28India\x29';
+				direction['hi_IN'] = 'ltr';
+
+			
+
+				available['mr_IN'] = 'Marathi\x20\x28India\x29';
+				direction['mr_IN'] = 'lang.dir';
+
+			
+
+			Liferay.Language = {
+				available,
+				direction,
+				get: function(key) {
+					return key;
+				}
+			};
+		})();
+
+		var featureFlags = {"LPS-149720":"false","LRAC-10632":"false","LPS-152677":"false","LPS-114786":"false","LPS-150277":"false","COMMERCE-8087":"false","LPS-153687":"false","LRAC-10757":"false","LPS-157670":"false","COMMERCE-5898":"false","LPS-155692":"false","LPS-144527":"false","COMMERCE-8949":"false","LPS-147895":"false","LPS-145112":"false","LPS-152906":"false","LPS-151671":"false","LPS-152541":"false","LPS-87806":"false","LPS-135404":"false","LPS-153457":"false","LPS-155284":"false","LPS-135430":"false","LPS-142518":"false","LPS-143206":"false","LPS-149625":"false","LPS-122223":"false"};
+
+		Liferay.FeatureFlags = Object.keys(featureFlags).reduce(
+			(acc, key) => ({
+				...acc, [key]: featureFlags[key] === 'true'
+			}), {}
+		);
+
+		Liferay.PortletKeys = {
+			DOCUMENT_LIBRARY: 'com_liferay_document_library_web_portlet_DLPortlet',
+			DYNAMIC_DATA_MAPPING: 'com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet',
+			ITEM_SELECTOR: 'com_liferay_item_selector_web_portlet_ItemSelectorPortlet'
+		};
+
+		Liferay.PropsValues = {
+			JAVASCRIPT_SINGLE_PAGE_APPLICATION_TIMEOUT: 0,
+			UPLOAD_SERVLET_REQUEST_IMPL_MAX_SIZE: 1048576000
+		};
+
+		Liferay.ThemeDisplay = {
+
+			
+
+			
+				getLayoutId: function() {
+					return '441';
+				},
+
+				
+
+				getLayoutRelativeControlPanelURL: function() {
+					return '/group/guest/~/control_panel/manage';
+				},
+
+				getLayoutRelativeURL: function() {
+					return '/web/guest/public-disclosure';
+				},
+				getLayoutURL: function() {
+					return 'https://licindia.in/web/guest/public-disclosure';
+				},
+				getParentLayoutId: function() {
+					return '103';
+				},
+				isControlPanel: function() {
+					return false;
+				},
+				isPrivateLayout: function() {
+					return 'false';
+				},
+				isVirtualLayout: function() {
+					return false;
+				},
+			
+
+			getBCP47LanguageId: function() {
+				return 'en-US';
+			},
+			getCanonicalURL: function() {
+
+				
+
+				return 'https\x3a\x2f\x2flicindia\x2ein\x2fpublic-disclosure';
+			},
+			getCDNBaseURL: function() {
+				return 'https://licindia.in';
+			},
+			getCDNDynamicResourcesHost: function() {
+				return '';
+			},
+			getCDNHost: function() {
+				return '';
+			},
+			getCompanyGroupId: function() {
+				return '20123';
+			},
+			getCompanyId: function() {
+				return '20097';
+			},
+			getDefaultLanguageId: function() {
+				return 'en_US';
+			},
+			getDoAsUserIdEncoded: function() {
+				return '';
+			},
+			getLanguageId: function() {
+				return 'en_US';
+			},
+			getParentGroupId: function() {
+				return '20121';
+			},
+			getPathContext: function() {
+				return '';
+			},
+			getPathImage: function() {
+				return '/image';
+			},
+			getPathJavaScript: function() {
+				return '/o/frontend-js-web';
+			},
+			getPathMain: function() {
+				return '/c';
+			},
+			getPathThemeImages: function() {
+				return 'https://licindia.in/o/lic-theme/images';
+			},
+			getPathThemeRoot: function() {
+				return '/o/lic-theme';
+			},
+			getPlid: function() {
+				return '463';
+			},
+			getPortalURL: function() {
+				return 'https://licindia.in';
+			},
+			getRealUserId: function() {
+				return '20101';
+			},
+			getScopeGroupId: function() {
+				return '20121';
+			},
+			getScopeGroupIdOrLiveGroupId: function() {
+				return '20121';
+			},
+			getSessionId: function() {
+				return '';
+			},
+			getSiteAdminURL: function() {
+				return 'https://licindia.in/group/guest/~/control_panel/manage?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view';
+			},
+			getSiteGroupId: function() {
+				return '20121';
+			},
+			getURLControlPanel: function() {
+				return '/group/control_panel?refererPlid=463';
+			},
+			getURLHome: function() {
+				return 'https\x3a\x2f\x2flicindia\x2ein\x2fweb\x2fguest';
+			},
+			getUserEmailAddress: function() {
+				return '';
+			},
+			getUserId: function() {
+				return '20101';
+			},
+			getUserName: function() {
+				return '';
+			},
+			isAddSessionIdToURL: function() {
+				return false;
+			},
+			isImpersonated: function() {
+				return false;
+			},
+			isSignedIn: function() {
+				return false;
+			},
+
+			isStagedPortlet: function() {
+				
+					
+						return false;
+					
+				
+			},
+
+			isStateExclusive: function() {
+				return false;
+			},
+			isStateMaximized: function() {
+				return false;
+			},
+			isStatePopUp: function() {
+				return false;
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		Liferay.AUI = {
+
+			
+
+			getCombine: function() {
+				return true;
+			},
+			getComboPath: function() {
+				return '/combo/?browserId=chrome&minifierType=&languageId=en_US&t=1779169429957&';
+			},
+			getDateFormat: function() {
+				return '%m/%d/%Y';
+			},
+			getEditorCKEditorPath: function() {
+				return '/o/frontend-editor-ckeditor-web';
+			},
+			getFilter: function() {
+				var filter = 'raw';
+
+				
+					
+						filter = 'min';
+					
+					
+
+				return filter;
+			},
+			getFilterConfig: function() {
+				var instance = this;
+
+				var filterConfig = null;
+
+				if (!instance.getCombine()) {
+					filterConfig = {
+						replaceStr: '.js' + instance.getStaticResourceURLParams(),
+						searchExp: '\\.js$'
+					};
+				}
+
+				return filterConfig;
+			},
+			getJavaScriptRootPath: function() {
+				return '/o/frontend-js-web';
+			},
+			getPortletRootPath: function() {
+				return '/html/portlet';
+			},
+			getStaticResourceURLParams: function() {
+				return '?browserId=chrome&minifierType=&languageId=en_US&t=1779169429957';
+			}
+		};
+
+		Liferay.authToken = 'NCQEWNY1';
+
+		
+
+		Liferay.currentURL = '\x2fpublic-disclosure';
+		Liferay.currentURLEncoded = '\x252Fpublic-disclosure';
+	// ]]>
+</script>
+
+<script data-senna-track="temporary" type="text/javascript">window.__CONFIG__= {basePath: '',combine: true, defaultURLParams: null, explainResolutions: false, exposeGlobal: false, logLevel: 'warn', namespace:'Liferay', reportMismatchedAnonymousModules: 'warn', resolvePath: '/o/js_resolve_modules', url: '/combo/?browserId=chrome&minifierType=&languageId=en_US&t=1779169429957&', waitTimeout: 7000};</script><script data-senna-track="permanent" src="/o/frontend-js-loader-modules-extender/loader.js?&amp;mac=8TOodH/f/0adFbM2161Kv7ZtPbo=&amp;browserId=chrome&amp;languageId=en_US&amp;minifierType=js" type="text/javascript"></script><script data-senna-track="permanent" src="/combo?browserId=chrome&amp;minifierType=js&amp;languageId=en_US&amp;t=1779169429957&amp;/o/frontend-js-aui-web/aui/aui/aui-min.js&amp;/o/frontend-js-aui-web/liferay/modules.js&amp;/o/frontend-js-aui-web/liferay/aui_sandbox.js&amp;/o/frontend-js-aui-web/aui/attribute-base/attribute-base-min.js&amp;/o/frontend-js-aui-web/aui/attribute-complex/attribute-complex-min.js&amp;/o/frontend-js-aui-web/aui/attribute-core/attribute-core-min.js&amp;/o/frontend-js-aui-web/aui/attribute-observable/attribute-observable-min.js&amp;/o/frontend-js-aui-web/aui/attribute-extras/attribute-extras-min.js&amp;/o/frontend-js-aui-web/aui/event-custom-base/event-custom-base-min.js&amp;/o/frontend-js-aui-web/aui/event-custom-complex/event-custom-complex-min.js&amp;/o/frontend-js-aui-web/aui/oop/oop-min.js&amp;/o/frontend-js-aui-web/aui/aui-base-lang/aui-base-lang-min.js&amp;/o/frontend-js-aui-web/liferay/dependency.js&amp;/o/frontend-js-aui-web/liferay/util.js&amp;/o/frontend-js-web/liferay/dom_task_runner.js&amp;/o/frontend-js-web/liferay/events.js&amp;/o/frontend-js-web/liferay/lazy_load.js&amp;/o/frontend-js-web/liferay/liferay.js&amp;/o/frontend-js-web/liferay/global.bundle.js&amp;/o/frontend-js-web/liferay/portlet.js&amp;/o/frontend-js-web/liferay/workflow.js&amp;/o/frontend-js-module-launcher/webpack_federation.js" type="text/javascript"></script>
+<script data-senna-track="temporary" type="text/javascript">try {var MODULE_MAIN='staging-processes-web@5.0.27/index';var MODULE_PATH='/o/staging-processes-web';AUI().applyConfig({groups:{stagingprocessesweb:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-staging-processes-export-import":{path:"js/main.js",requires:["aui-datatype","aui-dialog-iframe-deprecated","aui-modal","aui-parse-content","aui-toggler","aui-tree-view","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='layout-taglib@10.0.2/index';var MODULE_PATH='/o/layout-taglib';AUI().applyConfig({groups:{"layout-taglib":{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-layouts-tree":{path:"layouts_tree/js/layouts_tree.js",requires:["aui-tree-view"]},"liferay-layouts-tree-check-content-display-page":{path:"layouts_tree/js/layouts_tree_check_content_display_page.js",requires:["aui-component","plugin"]},"liferay-layouts-tree-node-radio":{path:"layouts_tree/js/layouts_tree_node_radio.js",requires:["aui-tree-node"]},"liferay-layouts-tree-node-task":{path:"layouts_tree/js/layouts_tree_node_task.js",requires:["aui-tree-node"]},"liferay-layouts-tree-radio":{path:"layouts_tree/js/layouts_tree_radio.js",requires:["aui-tree-node","liferay-layouts-tree-node-radio"]},"liferay-layouts-tree-selectable":{path:"layouts_tree/js/layouts_tree_selectable.js",requires:["liferay-layouts-tree-node-task"]},"liferay-layouts-tree-state":{path:"layouts_tree/js/layouts_tree_state.js",requires:["aui-base"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='invitation-invite-members-web@5.0.18/index';var MODULE_PATH='/o/invitation-invite-members-web';AUI().applyConfig({groups:{"invite-members":{base:MODULE_PATH+"/invite_members/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-portlet-invite-members":{path:"main.js",requires:["aui-base","autocomplete-base","datasource-io","datatype-number","liferay-portlet-base","liferay-util-window","node-core"]}},root:MODULE_PATH+"/invite_members/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='contacts-web@5.0.34/index';var MODULE_PATH='/o/contacts-web';AUI().applyConfig({groups:{contactscenter:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-contacts-center":{path:"main.js",requires:["aui-io-plugin-deprecated","aui-toolbar","autocomplete-base","datasource-io","json-parse","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='calendar-web@5.0.44/index';var MODULE_PATH='/o/calendar-web';AUI().applyConfig({groups:{calendar:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-calendar-a11y":{path:"calendar_a11y.js",requires:["calendar"]},"liferay-calendar-container":{path:"calendar_container.js",requires:["aui-alert","aui-base","aui-component","liferay-portlet-base"]},"liferay-calendar-date-picker-sanitizer":{path:"date_picker_sanitizer.js",requires:["aui-base"]},"liferay-calendar-interval-selector":{path:"interval_selector.js",requires:["aui-base","liferay-portlet-base"]},"liferay-calendar-interval-selector-scheduler-event-link":{path:"interval_selector_scheduler_event_link.js",requires:["aui-base","liferay-portlet-base"]},"liferay-calendar-list":{path:"calendar_list.js",requires:["aui-template-deprecated","liferay-scheduler"]},"liferay-calendar-message-util":{path:"message_util.js",requires:["liferay-util-window"]},"liferay-calendar-recurrence-converter":{path:"recurrence_converter.js",requires:[]},"liferay-calendar-recurrence-dialog":{path:"recurrence.js",requires:["aui-base","liferay-calendar-recurrence-util"]},"liferay-calendar-recurrence-util":{path:"recurrence_util.js",requires:["aui-base","liferay-util-window"]},"liferay-calendar-reminders":{path:"calendar_reminders.js",requires:["aui-base"]},"liferay-calendar-remote-services":{path:"remote_services.js",requires:["aui-base","aui-component","liferay-calendar-util","liferay-portlet-base"]},"liferay-calendar-session-listener":{path:"session_listener.js",requires:["aui-base","liferay-scheduler"]},"liferay-calendar-simple-color-picker":{path:"simple_color_picker.js",requires:["aui-base","aui-template-deprecated"]},"liferay-calendar-simple-menu":{path:"simple_menu.js",requires:["aui-base","aui-template-deprecated","event-outside","event-touch","widget-modality","widget-position","widget-position-align","widget-position-constrain","widget-stack","widget-stdmod"]},"liferay-calendar-util":{path:"calendar_util.js",requires:["aui-datatype","aui-io","aui-scheduler","aui-toolbar","autocomplete","autocomplete-highlighters"]},"liferay-scheduler":{path:"scheduler.js",requires:["async-queue","aui-datatype","aui-scheduler","dd-plugin","liferay-calendar-a11y","liferay-calendar-message-util","liferay-calendar-recurrence-converter","liferay-calendar-recurrence-util","liferay-calendar-util","liferay-scheduler-event-recorder","liferay-scheduler-models","promise","resize-plugin"]},"liferay-scheduler-event-recorder":{path:"scheduler_event_recorder.js",requires:["dd-plugin","liferay-calendar-util","resize-plugin"]},"liferay-scheduler-models":{path:"scheduler_models.js",requires:["aui-datatype","dd-plugin","liferay-calendar-util"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-workflow-task-web@5.0.35/index';var MODULE_PATH='/o/portal-workflow-task-web';AUI().applyConfig({groups:{workflowtasks:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-workflow-tasks":{path:"main.js",requires:["liferay-util-window"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='exportimport-web@5.0.39/index';var MODULE_PATH='/o/exportimport-web';AUI().applyConfig({groups:{exportimportweb:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-export-import-export-import":{path:"js/main.js",requires:["aui-datatype","aui-dialog-iframe-deprecated","aui-modal","aui-parse-content","aui-toggler","aui-tree-view","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='journal-web@5.0.85/index';var MODULE_PATH='/o/journal-web';AUI().applyConfig({groups:{journal:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-journal-navigation":{path:"navigation.js",requires:["aui-component","liferay-portlet-base","liferay-search-container"]},"liferay-portlet-journal":{path:"main.js",requires:["aui-base","aui-dialog-iframe-deprecated","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-state-web@1.0.13/index';var MODULE_PATH='/o/frontend-js-state-web';AUI().applyConfig({groups:{state:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-react-web@5.0.21/index';var MODULE_PATH='/o/frontend-js-react-web';AUI().applyConfig({groups:{react:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-js-components-web@2.0.36/index';var MODULE_PATH='/o/frontend-js-components-web';AUI().applyConfig({groups:{components:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/document-library-web@6.0.97/document_library/js/index';var MODULE_PATH='/o/document-library-web';AUI().applyConfig({groups:{dl:{base:MODULE_PATH+"/document_library/js/legacy/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"document-library-upload":{path:"upload.js",requires:["aui-component","aui-data-set-deprecated","aui-overlay-manager-deprecated","aui-overlay-mask-deprecated","aui-parse-content","aui-progressbar","aui-template-deprecated","aui-tooltip","liferay-history-manager","liferay-search-container","querystring-parse-simple","uploader"]},"liferay-document-library":{path:"main.js",requires:["document-library-upload","liferay-portlet-base"]}},root:MODULE_PATH+"/document_library/js/legacy/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='product-navigation-simulation-device@6.0.21/index';var MODULE_PATH='/o/product-navigation-simulation-device';AUI().applyConfig({groups:{"navigation-simulation-device":{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-product-navigation-simulation-device":{path:"product_navigation_simulation_device.js",requires:["aui-dialog-iframe-deprecated","aui-event-input","aui-modal","liferay-portlet-base","liferay-product-navigation-control-menu","liferay-util-window","liferay-widget-size-animation-plugin"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-search-web@6.0.59/index';var MODULE_PATH='/o/portal-search-web';AUI().applyConfig({groups:{search:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-search-bar":{path:"search_bar.js",requires:[]},"liferay-search-custom-filter":{path:"custom_filter.js",requires:[]},"liferay-search-facet-util":{path:"facet_util.js",requires:[]},"liferay-search-modified-facet":{path:"modified_facet.js",requires:["aui-form-validator","liferay-search-facet-util"]},"liferay-search-modified-facet-configuration":{path:"modified_facet_configuration.js",requires:["aui-node"]},"liferay-search-sort-configuration":{path:"sort_configuration.js",requires:["aui-node"]},"liferay-search-sort-util":{path:"sort_util.js",requires:[]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='segments-simulation-web@3.0.16/index';var MODULE_PATH='/o/segments-simulation-web';AUI().applyConfig({groups:{segmentssimulation:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-portlet-segments-simulation":{path:"main.js",requires:["aui-base","liferay-portlet-base"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-taglib@7.0.15/index';var MODULE_PATH='/o/frontend-taglib';AUI().applyConfig({groups:{"frontend-taglib":{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-management-bar":{path:"management_bar/js/management_bar.js",requires:["aui-component","liferay-portlet-base"]},"liferay-sidebar-panel":{path:"sidebar_panel/js/sidebar_panel.js",requires:["aui-base","aui-debounce","aui-parse-content","liferay-portlet-base"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='staging-taglib@7.0.21/index';var MODULE_PATH='/o/staging-taglib';AUI().applyConfig({groups:{stagingTaglib:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-export-import-management-bar-button":{path:"export_import_entity_management_bar_button/js/main.js",requires:["aui-component","liferay-search-container","liferay-search-container-select"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='dynamic-data-mapping-web@5.0.53/index';var MODULE_PATH='/o/dynamic-data-mapping-web';!function(){const a=Liferay.AUI;AUI().applyConfig({groups:{ddm:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:a.getFilterConfig(),modules:{"liferay-ddm-form":{path:"ddm_form.js",requires:["aui-base","aui-datatable","aui-datatype","aui-image-viewer","aui-parse-content","aui-set","aui-sortable-list","json","liferay-form","liferay-layouts-tree","liferay-layouts-tree-radio","liferay-layouts-tree-selectable","liferay-map-base","liferay-translation-manager","liferay-util-window"]},"liferay-portlet-dynamic-data-mapping":{condition:{trigger:"liferay-document-library"},path:"main.js",requires:["arraysort","aui-form-builder-deprecated","aui-form-validator","aui-map","aui-text-unicode","json","liferay-menu","liferay-translation-manager","liferay-util-window","text"]},"liferay-portlet-dynamic-data-mapping-custom-fields":{condition:{trigger:"liferay-document-library"},path:"custom_fields.js",requires:["liferay-portlet-dynamic-data-mapping"]}},root:MODULE_PATH+"/js/"}}})}();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-editor-alloyeditor-web@5.0.28/index';var MODULE_PATH='/o/frontend-editor-alloyeditor-web';AUI().applyConfig({groups:{alloyeditor:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-alloy-editor":{path:"alloyeditor.js",requires:["aui-component","liferay-portlet-base","timers"]},"liferay-alloy-editor-source":{path:"alloyeditor_source.js",requires:["aui-debounce","liferay-fullscreen-source-editor","liferay-source-editor","plugin"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-workflow-kaleo-designer-web@5.0.69/index';var MODULE_PATH='/o/portal-workflow-kaleo-designer-web';AUI().applyConfig({groups:{"kaleo-designer":{base:MODULE_PATH+"/designer/js/legacy/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-kaleo-designer-autocomplete-util":{path:"autocomplete_util.js",requires:["autocomplete","autocomplete-highlighters"]},"liferay-kaleo-designer-definition-diagram-controller":{path:"definition_diagram_controller.js",requires:["liferay-kaleo-designer-field-normalizer","liferay-kaleo-designer-utils"]},"liferay-kaleo-designer-dialogs":{path:"dialogs.js",requires:["liferay-util-window"]},"liferay-kaleo-designer-editors":{path:"editors.js",requires:["aui-ace-editor","aui-ace-editor-mode-xml","aui-base","aui-datatype","aui-node","liferay-kaleo-designer-autocomplete-util","liferay-kaleo-designer-utils"]},"liferay-kaleo-designer-field-normalizer":{path:"field_normalizer.js",requires:["liferay-kaleo-designer-remote-services"]},"liferay-kaleo-designer-nodes":{path:"nodes.js",requires:["aui-datatable","aui-datatype","aui-diagram-builder","liferay-kaleo-designer-editors","liferay-kaleo-designer-utils"]},"liferay-kaleo-designer-remote-services":{path:"remote_services.js",requires:["aui-io","liferay-portlet-url"]},"liferay-kaleo-designer-templates":{path:"templates.js",requires:["aui-tpl-snippets-deprecated"]},"liferay-kaleo-designer-utils":{path:"utils.js",requires:[]},"liferay-kaleo-designer-xml-definition":{path:"xml_definition.js",requires:["aui-base","aui-component","dataschema-xml","datatype-xml"]},"liferay-kaleo-designer-xml-definition-serializer":{path:"xml_definition_serializer.js",requires:["escape","liferay-kaleo-designer-xml-util"]},"liferay-kaleo-designer-xml-util":{path:"xml_util.js",requires:["aui-base"]},"liferay-portlet-kaleo-designer":{path:"main.js",requires:["aui-ace-editor","aui-ace-editor-mode-xml","aui-tpl-snippets-deprecated","dataschema-xml","datasource","datatype-xml","event-valuechange","io-form","liferay-kaleo-designer-autocomplete-util","liferay-kaleo-designer-editors","liferay-kaleo-designer-nodes","liferay-kaleo-designer-remote-services","liferay-kaleo-designer-utils","liferay-kaleo-designer-xml-util","liferay-util-window"]}},root:MODULE_PATH+"/designer/js/legacy/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='commerce-product-content-web@4.0.57/index';var MODULE_PATH='/o/commerce-product-content-web';AUI().applyConfig({groups:{productcontent:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),modules:{"liferay-commerce-product-content":{path:"product_content.js",requires:["aui-base","aui-io-request","aui-parse-content","liferay-portlet-base","liferay-portlet-url"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='commerce-frontend-impl@4.0.26/index';var MODULE_PATH='/o/commerce-frontend-impl';AUI().applyConfig({groups:{commercefrontend:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),modules:{"liferay-commerce-frontend-asset-categories-selector":{path:"liferay_commerce_frontend_asset_categories_selector.js",requires:["aui-tree","liferay-commerce-frontend-asset-tag-selector"]},"liferay-commerce-frontend-asset-tag-selector":{path:"liferay_commerce_frontend_asset_tag_selector.js",requires:["aui-io-plugin-deprecated","aui-live-search-deprecated","aui-template-deprecated","aui-textboxlist-deprecated","datasource-cache","liferay-service-datasource"]},"liferay-commerce-frontend-management-bar-state":{condition:{trigger:"liferay-management-bar"},path:"management_bar_state.js",requires:["liferay-management-bar"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='item-selector-taglib@5.2.12/index.es';var MODULE_PATH='/o/item-selector-taglib';AUI().applyConfig({groups:{"item-selector-taglib":{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-image-selector":{path:"image_selector/js/image_selector.js",requires:["aui-base","liferay-item-selector-dialog","liferay-portlet-base","uploader"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='product-navigation-taglib@6.0.28/index';var MODULE_PATH='/o/product-navigation-taglib';AUI().applyConfig({groups:{controlmenu:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-product-navigation-control-menu":{path:"control_menu/js/product_navigation_control_menu.js",requires:["aui-node","event-touch"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}</script>
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		
+			
+				
+		
+
+		
+
+		
+	// ]]>
+</script>
+
+
+
+
+
+	
+		
+
+			
+
+			
+		
+		
+
+
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://licindia.in/o/lic-theme/css/main.css?browserId=chrome&amp;themeId=lictheme_WAR_lictheme&amp;minifierType=css&amp;languageId=en_US&amp;t=1779169468000" id="liferayThemeCSS" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+	</style>
+
+
+<link href="/o/commerce-frontend-js/styles/main.css" rel="stylesheet" type="text/css"><style data-senna-track="temporary" type="text/css">
+</style>
+<script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('@liferay/frontend-js-state-web@1.0.13', function(_liferayFrontendJsStateWeb1013) {
+try {
+(function() {
+var FrontendJsState = _liferayFrontendJsStateWeb1013;
+
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('frontend-js-spa-web@5.0.28/init', function(frontendJsSpaWeb5028Init) {
+try {
+(function() {
+var frontendJsSpaWebInit = frontendJsSpaWeb5028Init;
+frontendJsSpaWebInit.default({"navigationExceptionSelectors":":not([target=\"_blank\"]):not([data-senna-off]):not([data-resource-href]):not([data-cke-saved-href]):not([data-cke-saved-href])","cacheExpirationTime":-1,"clearScreensCache":false,"portletsBlacklist":["com_liferay_account_admin_web_internal_portlet_AccountUsersAdminPortlet","com_liferay_account_admin_web_internal_portlet_AccountEntriesAdminPortlet","com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet","com_liferay_site_navigation_directory_web_portlet_SitesDirectoryPortlet","com_liferay_questions_web_internal_portlet_QuestionsPortlet","com_liferay_account_admin_web_internal_portlet_AccountEntriesManagementPortlet","com_liferay_portal_language_override_web_internal_portlet_PLOPortlet","com_liferay_login_web_portlet_LoginPortlet","com_liferay_login_web_portlet_FastLoginPortlet"],"validStatusCodes":[221,490,494,499,491,492,493,495,220],"debugEnabled":false,"loginRedirect":"","excludedPaths":["/c/document_library","/documents","/image"],"userNotification":{"message":"It looks like this is taking longer than expected.","title":"Oops","timeout":30000},"requestTimeout":0})
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+// ]]>
+</script><link data-senna-track="temporary" href="/o/layout-common-styles/main.css?plid=463&amp;segmentsExperienceId=79823&amp;t=1677142941051" rel="stylesheet" type="text/css">
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+Liferay.on(
+	'ddmFieldBlur', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldBlurred',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					focusDuration: event.focusDuration,
+					formId: event.formId,
+					page: event.page
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFieldFocus', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldFocused',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					formId: event.formId,
+					page: event.page
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormPageShow', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'pageViewed',
+				'Form',
+				{
+					formId: event.formId,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormSubmit', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formSubmitted',
+				'Form',
+				{
+					formId: event.formId
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormView', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formViewed',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	if (window.Analytics) {
+		window._com_liferay_document_library_analytics_isViewFileEntry = false;
+	}
+</script>
+
+
+
+
+
+
+
+
+
+<script src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.13/index.js" type="module"></script><script src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/aop/AOP.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/autosize/autosize.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/cookie.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/debounce/debounce.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/delegate/delegate.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/is_object.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/form/object_to_form_data.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/form/get_form_element.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/form/set_form_values.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/form/post_form.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/breakpoints.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/status_code.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/zIndex.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/PortletBase.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/DefaultEventHandler.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/events/Disposable.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/events/EventHandle.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/events/EventEmitter.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/events/EventHandler.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/modal/Modal.scss.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/html_util.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/navigate.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/modal/Modal.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/fetch.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/modal/components/SimpleInputModal.es.js"></script><script src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/modal/commands/OpenSimpleInputModal.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/get_portlet_namespace.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/portlet_url/create_portlet_url.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/portlet_url/create_action_url.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/portlet_url/create_render_url.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/portlet_url/create_resource_url.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/align.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/session.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/build_fragment.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/css/notification.scss.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/toast/commands/OpenToast.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/throttle.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/add_params.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/get_dom.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/get_element.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/in_browser_view.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/focus_form_field.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/get_portlet_id.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/get_top.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/get_opener.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/get_window.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/is_phone.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/is_tablet.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/get_selected_option_values.js"></script><script src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/normalize_friendly_url.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/open_window.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/toggle_disabled.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/remove_entity_selection.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/show_caps_lock.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/run_scripts_in_element.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/select_folder.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/sub.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/toggle_boxes.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/get_lexicon_icon.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/toggle_controls.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/toggle_radio.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/toggle_select_box.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/liferay/util/get_checkboxes.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/index.es.js&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/surface/Surface.js&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/util/utils.js&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/util/pathParser.js&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/route/Route.js&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/cacheable/Cacheable.js&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/screen/Screen.js&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/app/App.js&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/app/LiferayApp.js&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/screen/RequestScreen.js&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/screen/HtmlScreen.js&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/screen/EventScreen.js"></script><script src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/screen/ActionURLScreen.js&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/screen/RenderURLScreen.js&amp;/o/js/resolved-module/frontend-js-spa-web@5.0.28/init.js"></script><script src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/js/resolved-module/@frontend-taglib-clay$clayui/button@3.65.0/index.js&amp;/o/js/resolved-module/@frontend-taglib-clay$clayui/loading-indicator@3.60.0/index.js&amp;/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.67.0/index.js&amp;/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.21/index.js&amp;/o/js/resolved-module/liferay!frontend-js-react-web$classnames@2.3.1/index.js&amp;/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/index.js&amp;/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/index.js&amp;/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/index.js&amp;/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.65.1/index.js&amp;/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.67.0/index.js&amp;/o/js/resolved-module/@frontend-taglib-clay$clayui/icon@3.56.0/index.js" type="module"></script><script src="https://lic.corover.ai/sdk/chatbotlib.min.js" type="text/javascript"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-122267849-1');</script><script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" async="" type="text/javascript"></script><style>@media only screen and (max-width:840px) and (orientation:landscape){#corover-chatbox{height:100%!important;height:calc(100% - 20px)!important;top:20px!important;right:0!important}}@media only screen and (max-width:640px) and (orientation:portrait){#corover-chatbox{width:100%!important;height:93%!important;right:0!important;left:0!important;bottom:0!important}}
+.coroverAvtr {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+</style><script src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/js/resolved-module/frontend-js-web@5.0.50/bridge/frontend-js-web/liferay/delegate/delegate.es.js&amp;/o/js/resolved-module/frontend-js-web@5.0.50/bridge/frontend-js-web/liferay/toast/commands/OpenToast.es.js"></script><script src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/js/resolved-module/frontend-js-tabs-support-web@2.0.11/TabsProvider.js&amp;/o/js/resolved-module/frontend-js-tabs-support-web@2.0.11/index.js"></script><script src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/js/resolved-module/frontend-js-alert-support-web@2.0.9/index.js"></script><script src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/js/resolved-module/frontend-js-collapse-support-web@2.0.11/CollapseProvider.js&amp;/o/js/resolved-module/frontend-js-collapse-support-web@2.0.11/index.js"></script><script src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/js/resolved-module/frontend-js-tooltip-support-web@4.0.16/index.js"></script><script src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.67.0/index.js" type="module"></script><script src="/combo/?browserId=chrome&amp;minifierType=&amp;languageId=en_US&amp;t=1779169429957&amp;/o/js/resolved-module/frontend-js-dropdown-support-web$dom-align@1.10.4/dist-node/index.js&amp;/o/js/resolved-module/frontend-js-dropdown-support-web@2.0.9/DropdownProvider.js&amp;/o/js/resolved-module/frontend-js-dropdown-support-web@2.0.9/index.js"></script><link rel="stylesheet" type="text/css" href="/o/frontend-js-web/liferay/modal/Modal.css"><link rel="stylesheet" type="text/css" href="/o/frontend-js-web/css/notification.css"><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202605190101/pubads_impl.js" async=""></script><link href="https://securepubads.g.doubleclick.net/pagead/managed/dict/m202605210101/gpt" rel="compression-dictionary"><style type="text/css">
+@keyframes shift-rightwards {
+	0% {
+		transform: translateX(-100%);
+	}
+	40% {
+		transform: translateX(0%);
+	}
+	60% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+.lfr-spa-loading-bar {
+	background: var(--primary);
+	display: none;
+	height: 2px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	transform: translateX(100%);
+	z-index: 2000;
+
+	.lfr-spa-loading & {
+		animation: shift-rightwards 1s ease-in-out infinite;
+		animation-delay: 0.4s;
+		display: block;
+	}
+}</style><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/431424345/?random=1779782947770&amp;cv=11&amp;fst=1779782947770&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be65k1h1v888380378z8837671993za20gzb837671993zd837671993xea&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=0~115938465~115938468~116701382&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Flicindia.in%2Fpublic-disclosure&amp;rcb=9&amp;frm=0&amp;tiba=Public%20Disclosure%20%7C%20Official%20website%20of%20Life%20Insurance%20Corporation%20of%20India.&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=1342690390.1779782947&amp;uaa=x86&amp;uab=64&amp;uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=14.0.0&amp;uaw=0&amp;_tu=CA&amp;rfmt=3&amp;fmt=4"></script></head>
+
+<body class="chrome mobile controls-visible default yui3-skin-sam guest-site signed-out public-page site" data-new-gr-c-s-check-loaded="14.1296.0" data-gr-ext-installed="" id="senna_surface1"><div id="senna_surface1-default" class="flipped" style="display: block;">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WNBT5G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="Quick Links" class="bg-dark d-none d-xl-block quick-access-nav text-center text-white" id="ynsy_quickAccessNav">
+		<h1 class="sr-only">Navigation</h1>
+
+		<ul class="list-unstyled mb-0">
+			
+				<li>
+					<a class="d-block p-2 sr-only sr-only-focusable text-reset" href="#main-content">
+						Skip to Content
+					</a>
+				</li>
+			
+
+			
+		</ul>
+	</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid mt-0 pt-0 px-0" id="wrapper">
+	<section id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		<div class="layout-content portlet-layout" id="main-content" role="main">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style data-senna-track="temporary" type="text/css">
+.portlet-borderless .portlet-content {padding: 0;}</style>
+
+
+
+
+	
+
+		
+
+		
+
+		<div class="lfr-layout-structure-item-com-liferay-site-navigation-menu-web-portlet-sitenavigationmenuportlet lfr-layout-structure-item-55154097-4016-68f5-6628-c7d1a49a333a " style="">
+ <div id="fragment-0-zqpq">
+  <div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-decorate portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_zqpq_"><span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_zqpq"></span>
+   <section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_zqpq">
+    <div class="portlet-content">
+     <div class="autofit-float autofit-row portlet-header">
+      <div class="autofit-col autofit-col-expand">
+       <h2 class="portlet-title-text">Menu Display</h2>
+      </div>
+      <div class="autofit-col autofit-col-end">
+       <div class="autofit-section">
+       </div>
+      </div>
+     </div>
+     <div class=" portlet-content-container">
+      <div class="portlet-body">
+       <style>
+	
+  	 @media all and (max-width:1367px){
+   body.mobile {
+   display: block !important;
+   }
+
+   .nav-section .col-lg-10{
+   padding-left:0px
+   }
+   .top-bar>ul>li{    
+   padding: 0 2px;border-right:0px
+   }
+   }
+   @media all and (max-width:1150px){
+   .nav-section .col-lg-2, .nav-section .col-lg-10, .buyOnline .col-md-9, .buyOnline .col-md-3, .catagory-search .col-md-9, .catagory-search .col-md-3, .why-lic .col-md-6, .why-lic .col-md-10, .calculate .col-md-5, .Agent .col-md-3, .Agent .col-md-5, .Agent .col-md-4, .lfr-layout-structure-item-06dbed9e-9e10-4af4-e5f4-25aeb1025bc4 .col-lg-2, .lfr-layout-structure-item-06dbed9e-9e10-4af4-e5f4-25aeb1025bc4 .col-lg-3, .bima .col-sm-12 {
+   width: 100%;
+   }
+   .homeform .col-md-6 {
+   margin: 8px 0;
+   min-width: 300px;
+   transform: translate(-50%, 0);
+   margin-left: 50%;
+   }
+   .right-padding
+   {
+   padding-right:15px
+   }	
+   .ft-mid .row.py-5 {
+   padding:0px !important;
+   }
+   .ft-mid.py-5 {
+   padding:0px !important;
+   }	
+   .container, .container-md, .container-sm {
+   max-width: 100%;
+   padding: 0 25px;
+   }
+   .socialmedia1 {
+   margin-top: 12px;
+   padding: 15px 25px;
+   }
+   h2.portlet-title-text1 {
+   margin-top: 25px;
+   margin-bottom: 10px;
+   }
+   section.bg-yl {
+   background-position: -1900% -1000%;
+   }	
+   }
+</style>
+       <style>
+   .test a {
+   display: block;
+   }
+   
+   @media (max-width: 768px) {
+   .test a br {
+   display: none;
+   }
+   .siteNav > ul > li {
+   position: relative;
+   margin-right: 0 !important;
+   line-height: 1.5 !important;
+   }
+   }
+  	li:has(.my-drop) ul {   
+    left: inherit !important;
+    right: 100% !important;
+}
+</style>
+       <style>
+	@media all and  (min-width:1921px) {
+ .nav-section {
+    justify-content: space-between;
+}
+		 body .contentwidth{
+max-width:95%;
+		 }
+.site-nav>ul>li:has(.my-drop) > i{
+display:none;
+		}
+	}
+	
+   @media all and (min-width:991px){
+		
+   .logo-part {
+   width: 200px;
+   }
+ 
+   .top-bar>ul>li {
+   border-right: 1px solid #dedede;
+   padding: 0 4px;
+   }
+   .nav-section{
+   padding:0px !important;
+   }
+   header {
+   padding-top:0; padding-bottom:15px
+   }
+   .header-right {
+   margin-top: 20px;
+   }
+   .top-bar {
+   padding-top: 10px;
+   }
+   .why-lic, .buyOnline, .catagory-search, .why-lic, .calculate {
+   padding: 15px 0;
+   }
+   .overlap-wrapper {
+   bottom: -12px;
+   }
+   }
+   .dr-lang select {
+   border: 0;
+   }
+</style>
+       <style>
+   .ft-footer  ul {
+   list-style: none!important;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 0;
+   margin: 0;
+   }
+   .ft-footer ul li a {
+   font-size: 0.9rem;
+   }
+   .ft-footer ul li::before {
+   position: relative;
+   content: '|';
+   padding: 2px;
+   color: #80808070;
+   }
+   .ft-footer ul li a {
+   font-size: 0.8rem;
+   }
+   .ft-footer ul li:first-child::before {
+   content: '';
+   }
+	.socialmedia1{
+		display: none;
+	}
+	.social-md {
+    margin-right: 8px;
+}
+	
+	#backToTop {
+    position: fixed;
+    bottom: 40px;
+    left: 30px;
+    z-index: 1000;
+    font-size: 13px;
+    background-color: #00417c;
+    color: #fff;
+    border-radius: 50%;
+    padding: 9px 12px;
+    cursor: pointer;
+    line-height: 1;
+    display: none;
+    animation: horizontal-shaking 1s infinite 2s;
+    transition: .3s ;
+    border: 1px solid #ffcb08;
+}
+#backToTop:hover {
+    background-color: #f9c83f;
+    color: #114e85;
+}
+@keyframes horizontal-shaking {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(5px); }
+  50% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+	li.has-sub:not(:has(ul)) .fa {
+    display:none;
+}
+.back-btn {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border:2px solid #ffffff;
+    outline:2px solid #002978;
+    border-radius:10px;
+    font-weight:600;    
+    background: linear-gradient(180deg,rgb(239 185 0) 0%, rgb(255 229 154) 48%, rgb(255 190 1) 100%);
+    transition:.3s
+}
+.back-btn:hover{
+  background: linear-gradient(180deg,rgb(0 65 124) 0%, rgb(0 65 124) 48%, rgb(0 65 124) 100%);
+    color:white;
+}
+
+/* Hide submenu by default */
+.icon .gigw {
+  display: none;
+  position: absolute;
+}
+ 
+/* Show submenu on hover (mouse) */
+.icon:hover .gigw {
+  display: block;
+}
+ 
+/* Show submenu on focus (keyboard) */
+.icon:focus-within .gigw {
+  display: block;
+}
+ 
+/* Make focus visible */
+.senior-citizen:focus {
+  outline: 2px solid #000; /* Optional for better visibility */
+}
+	
+	
+.menu-part{
+margin-left:30px;
+}
+	
+	.site-nav>ul>li:has(a.btn.btn-default.my-drop[title="Login"]) i {
+    display:none;
+}
+	
+	body.dark-mode .mobClick span, body.dark-mode .mobClick1 span {
+  background: white;
+}
+	
+	a.cyber-div {
+    height: unset !important;
+    padding: 35px;
+}
+	#bTp:hover {
+    background: linear-gradient(180deg, rgb(239 185 0) 0%, rgb(255 229 154) 48%, rgb(255 190 1) 100%);
+    color: unset;
+}
+	
+/*new search css*/
+	
+	fieldset {
+		border-width: 0;
+		margin: 0;
+		padding: 0;
+	}
+ 
+.search {
+    max-width: 240px;
+}
+ 
+.menu-search-box input{
+    border-radius:  100px 0 0 100px!important;
+    background: transparent;
+    border: 1px solid #c4c4c4;
+    padding: 0 12px;
+    font-size: 15px;
+    width: 65%;
+}
+.menu-search-box button , 
+.voice-search {
+    cursor: pointer;
+    background: #ededed;
+    color: #00417c;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid gainsboro;
+    padding: 0px 11px;
+    font-size: 15px;
+}
+ 
+ 
+.menu-search-box form {
+    display: flex;
+} 
+.menu-search-box form .voice-search{
+	border-radius:0;
+}
+	
+@media (max-width: 992px) {
+    .site-nav > ul > li ul {
+        transition: none;
+        left: 0 !important;
+    }
+}
+	
+	
+header.header.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 2px gray;
+}
+	
+ 
+</style>
+       <nav aria-label="navigation" id="navigation">
+        <header class="header" role="banner">
+         <div class="nav-section d-flex contentwidth pb-2">
+          <div class="logo-part d-flex align-items-center">
+           <div class="logo">
+            <div class="mobClick1"><span></span><span></span><span></span>
+            </div><a href="/home"><img src="/documents/d/guest/lic_log_updated" alt="Life Insurance Corporation of India" aria-hidden="true" width="200" height="97"></a>
+            <div class="mobClick"><span></span><span></span><span></span>
+            </div>
+           </div>
+          </div>
+          <div class="menu-part">
+           <div class="top-bar">
+            <ul class="list-group list-group-horizontal list-unstyled justify-content-end align-items-center">
+             <div class="social-md">
+              <ul>
+               <li><a href="javascript:void(0)" onclick="ExternalLink('https://www.instagram.com/licindiaforever/?hl=en');"><img src="https://licindia.in/o/lic-theme/images/instagram.svg" role="complementary" alt="Instagram"></a><a href="javascript:void(0)" onclick="ExternalLink('https://www.facebook.com/LICIndiaForever/');"><img src="https://licindia.in/o/lic-theme/images/facebook-original.svg" alt="Facebook"></a><a href="javascript:void(0)" onclick="ExternalLink('https://www.linkedin.com/company/lic/');"><img src="https://licindia.in/o/lic-theme/images/linkedin-original.svg" alt="Linkedin"></a><a href="javascript:void(0)" onclick="ExternalLink('https://www.twitter.com/licindiaforever/');"><img src="/documents/d/guest/twitternew" alt="X"></a><a href="javascript:void(0)" onclick="ExternalLink('https://www.youtube.com/user/licindiaforever');"><img src="https://licindia.in/o/lic-theme/images/youtube-original-1.svg" role="complementary" alt="Youtube"></a></li>
+              </ul>
+             </div>
+             <li>
+              <div class="input-group search"><!-- Voice Search Button -->
+               <div class="menu-search-box">
+                <form action="https://licindia.in/web/guest/search" method="get">
+                 <input type="text" name="q" placeholder="Search..." class="menu-search-input" value="">
+                 <div class="voice-search" onclick="runSpeechRecognition()" title="Voice Search" style="display: block;"><i class="fa fa-microphone" aria-label="Voice Search"></i>
+                 </div><button type="submit" class="menu-search-btn"> <i class="icon-search" aria-label="Search"></i> </button>
+                </form>
+               </div>
+              </div></li>
+             <li><a href="#maincontent" title="Skip to main content">Skip to main content</a></li>
+             <li class="fontDrop"><a href="#" id="whatsappBtn" aria-label="Connect via WhatsApp" aria-controls="whatsModal" aria-expanded="true" aria-describedby="whatsTooltip"> <img src="https://licindia.in/o/lic-theme/images/whatsapp.svg" alt="whatsapp" aria-hidden="true"> <span>8976862090</span> </a>
+              <div id="whatsModal" class="hover-image" tabindex="-1" aria-hidden="false"></div></li>
+             <li><a href="/phone-help-line" title="+91-22-68276827"><img src="https://licindia.in/o/lic-theme/images/phone-1.svg" alt="phone-no"> +91-22-68276827</a></li>
+             <li><a href="/branch"><img src="https://licindia.in/o/lic-theme/images/map-ico.svg" alt="Branch Locator"> Branch Locator</a></li>
+             <li class="dr-lang">
+              <div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_  portlet-static portlet-static-end portlet-decorate portlet-language " id="p_p_id_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_"><span id="p_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet"></span>
+               <section class="portlet" id="portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet">
+                <div class="portlet-content">
+                 <div class="autofit-float autofit-row portlet-header">
+                  <div class="autofit-col autofit-col-expand">
+                   <h2 class="portlet-title-text">Language Selector</h2>
+                  </div>
+                  <div class="autofit-col autofit-col-end">
+                   <div class="autofit-section">
+                   </div>
+                  </div>
+                 </div>
+                 <div class=" portlet-content-container">
+                  <div class="portlet-body">
+                   <style>
+		.taglib-language-option {
+			background: none no-repeat 5px center;
+			padding-left: 25px;
+		}
+
+			.taglib-language-option-en-US {
+				background-image: url(https://licindia.in/o/lic-theme/images/language/en_US.png);
+			}
+			.taglib-language-option-hi-IN {
+				background-image: url(https://licindia.in/o/lic-theme/images/language/hi_IN.png);
+			}
+			.taglib-language-option-mr-IN {
+				background-image: url(https://licindia.in/o/lic-theme/images/language/mr_IN.png);
+			}
+	</style>
+                   <form action="/c/portal/update_language?p_l_id=463&amp;redirect=%2Fpublic-disclosure" class="form  " data-fm-namespace="" id="_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_fm" method="post" name="_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_fm" aria-label="Select Language">
+                    <input class="field form-control" id="formDate" name="formDate" type="hidden" value="1779643789881">
+                    <div class="form-group input-select-wrapper"><select class="form-control" id="_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_fm" name="languageId" onchange="_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_changeLanguage();" title="Language (Changing the value of this field reloads the page.)" aria-label="Select Language" aria-expanded="false"> <option class="taglib-language-option taglib-language-option-en-US" selected="" value="en_US" lang="en-US" style="display: none;">भाषा</option> <option class="taglib-language-option taglib-language-option-hi-IN" value="hi_IN" lang="hi-IN" style="display: block;">हिन्दी</option> <option class="taglib-language-option taglib-language-option-mr-IN" value="mr_IN" lang="mr-IN" style="display: block;"> मराठी </option> </select>
+                    </div>
+                   </form>
+                   <script type="text/javascript">
+// <![CDATA[
+AUI().use('liferay-form', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+	Liferay.Form.register(
+		{
+			id: '_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_fm'
+
+			
+				, fieldRules: [
+
+					
+
+				]
+			
+
+			
+
+			, validateOnBlur: true
+		}
+	);
+
+	var onDestroyPortlet = function(event) {
+		if (event.portletId === 'com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet') {
+			delete Liferay.Form._INSTANCES['_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_fm'];
+		}
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	
+
+	Liferay.fire(
+		'_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_formReady',
+		{
+			formName: '_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_fm'
+		}
+	);
+})();});
+// ]]>
+</script>
+                   <script type="text/javascript">
+// <![CDATA[
+		function _com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_changeLanguage() {
+			languagepopup();
+		}
+		
+		function languagepopup(){
+var lanValue =$('#_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_fm option:selected').val();
+if (lanValue=='hi_IN') {
+var areYouSure = confirm('Do you want to change website language in Hindi?');			
+}	else if (lanValue=='mr_IN') {
+var areYouSure = confirm('Do you want to change website language in Marathi?');		
+}	  
+if (areYouSure) {
+       submitForm(document._com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_fm);
+    } else {
+    }
+}
+	
+
+// ]]>
+</script>
+                  </div>
+                 </div>
+                </div>
+               </section>
+              </div></li>
+             <li class="icon link font-size"><span class="senior-citizen"> <img src="https://licindia.in/o/lic-theme/images/wheelchair.svg" alt="disabled - friendly"></span>
+              <ul class="gigw">
+               <li><a href="javascript:void(0);" id="max" onclick="set_font_size('increase')">A+</a></li>
+               <li><a href="javascript:void(0);" id="normal" onclick="set_font_size('')">A</a></li>
+               <li><a href="javascript:void(0);" id="min" onclick="set_font_size('decrease')">A-</a></li>
+               <li><a id="lightmode" href="javascript:void(0)" class="theme-item theme-1 light">A</a></li>
+               <li><a id="darkmode" href="javascript:void(0)" class="theme-item theme-2 dark">A</a></li>
+              </ul></li>
+            </ul>
+           </div>
+           <div class="header-right">
+            <div class="site-nav clearfix">
+             <ul class="clearfix">
+              <li class=""><a href="/home" class="nav-link"> <i class="fa-solid fa-house"></i></a></li>
+              <li class="  has-sub" id="layout_329004" role="presentation"><a class="nav-link" href="https://licindia.in/web/guest/about-us" tabindex="0" title="About Us" role="menuitem"><span> About Us</span></a><i class="fa fa-chevron-down"></i> 
+               <ul class="child-menu" role="menu">
+                <li class=" has-sub" id="layout_351036 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/history" title="History" role="menuitem">History</a> </li>
+                <li class=" has-sub" id="layout_352125 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/objectives-of-lic" title="Objectives Of LIC" role="menuitem">Objectives Of LIC</a> </li>
+                <li class=" has-sub" id="layout_352126 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/mission/vision" title="Mission/Vision" role="menuitem">Mission/Vision</a> </li>
+                <li class=" has-sub" id="layout_357176 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/who-s-who" title="Who’s who" role="menuitem">Who’s who</a> </li>
+                <li class=" has-sub" id="layout_357902 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/operations" title="Operations" role="menuitem">Operations</a> </li>
+                <li class=" has-sub" id="layout_352479 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/know-your-life-insurance" title="Know About Your Life Insurance" role="menuitem">Know About Your Life Insurance</a> </li>
+                <li class=" has-sub" id="layout_357943 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/help-us-to-serve-you-better" title="Help us to serve you better" role="menuitem">Help us to serve you better</a> </li>
+                <li class=" has-sub" id="layout_355338 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/information-technology-and-lic" title="Information Technology and LIC" role="menuitem">Information Technology and LIC</a> </li>
+                <li class=" has-sub" id="layout_358239 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/awards" title="Awards" role="menuitem">Awards</a> </li>
+                <li class=" has-sub" id="layout_1670419 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/archive-awards-and-achievements" title="Archive Awards and Achievements" role="menuitem">Archive Awards and Achievements</a> </li>
+               </ul></li>
+              <li class="  has-sub" id="layout_45634" role="presentation"><a class="nav-link" href="https://licindia.in/web/guest/products" tabindex="0" title="Products" role="menuitem"><span> Products</span></a><i class="fa fa-chevron-down"></i> 
+               <ul class="child-menu" role="menu">
+                <li class=" has-sub" id="layout_53300 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/insurance-plan" title="Insurance  Plans" role="menuitem">Insurance Plans</a> 
+                 <ul class="child-menu" role="menu">
+                  <li class="" id="layout_709723 layout_709723" role="presentation"><a href="https://licindia.in/web/guest/endowment-plans" title="Endowment Plans" role="menuitem">Endowment Plans</a></li>
+                  <li class="" id="layout_709727 layout_709723" role="presentation"><a href="https://licindia.in/web/guest/whole-life-plans" title="Whole Life Plans" role="menuitem">Whole Life Plans</a></li>
+                  <li class="" id="layout_709726 layout_709723" role="presentation"><a href="https://licindia.in/web/guest/money-back-plans" title="Money Back Plans" role="menuitem">Money Back Plans</a></li>
+                  <li class="" id="layout_709725 layout_709723" role="presentation"><a href="https://licindia.in/web/guest/term-assurance-plans" title="Term Assurance Plans" role="menuitem">Term Assurance Plans</a></li>
+                  <li class="" id="layout_709724 layout_709723" role="presentation"><a href="https://licindia.in/web/guest/riders" title="Riders" role="menuitem">Riders</a></li>
+                 </ul></li>
+                <li class=" has-sub" id="layout_53301 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/pension-plan" title="Pension Plans" role="menuitem">Pension Plans</a> </li>
+                <li class=" has-sub" id="layout_53302 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/unit-linked-plans" title="Unit Linked Plans" role="menuitem">Unit Linked Plans</a> </li>
+                <li class=" has-sub" id="layout_53303 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/micro-insurance-plans" title="Micro Insurance Plans" role="menuitem">Micro Insurance Plans</a> </li>
+                <li class=" has-sub" id="layout_53304 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/withdrawn-plans" title="Withdrawn Plans" role="menuitem">Withdrawn Plans</a> </li>
+               </ul></li>
+              <li class="  has-sub" id="layout_45635" role="presentation"><a class="nav-link" href="https://licindia.in/web/guest/group-schemes" tabindex="0" title="Group Business" role="menuitem"><span> Group Business</span></a><i class="fa fa-chevron-down"></i> 
+               <ul class="child-menu" role="menu">
+                <li class=" has-sub" id="layout_53852 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/contact-for-group-insurance-scheme" title="Contact for Group Insurance Scheme" role="menuitem">Contact for Group Insurance Scheme</a> </li>
+                <li class=" has-sub" id="layout_1655023 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://ebiz.licindia.in/D2CPM/#Login" title="Group Customer/Annuitant Login" role="menuitem">Group Customer/Annuitant Login</a> </li>
+                <li class=" has-sub" id="layout_1293213 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/87a-declaration-for-group-annuity" title="87A Declaration for Group Annuity" role="menuitem">87A Declaration for Group Annuity</a> </li>
+                <li class=" has-sub" id="layout_1293241 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/pension-group-schemes-new-product" title="Pension &amp; Group Schemes New Product" role="menuitem">Pension &amp; Group Schemes New Product</a> </li>
+                <li class=" has-sub" id="layout_1571522 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/pension-group-schemes-withdrawn-products" title="Pension &amp; Group Schemes Withdrawn Products" role="menuitem">Pension &amp; Group Schemes Withdrawn Products</a> </li>
+                <li class=" has-sub" id="layout_53855 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/gratuity-plus-nav" title="Gratuity Plus NAV" role="menuitem">Gratuity Plus NAV</a> </li>
+               </ul></li>
+              <li class="  has-sub" id="layout_45636" role="presentation"><a class="nav-link" href="https://licindia.in/web/guest/customer-services" tabindex="0" title="Customer Services" role="menuitem"><span> Customer Services</span></a><i class="fa fa-chevron-down"></i> 
+               <ul class="child-menu" role="menu">
+                <li class=" has-sub" id="layout_1511338 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/customers-corner" title="Customers Corner" role="menuitem">Customers Corner</a> </li>
+                <li class=" has-sub" id="layout_54328 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/claims-settlement-requirements" title="Claims settlement requirements" role="menuitem">Claims settlement requirements</a> </li>
+                <li class=" has-sub" id="layout_599110 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/premium-payment" title="Premium Payment" role="menuitem">Premium Payment</a> 
+                 <ul class="child-menu" role="menu">
+                  <li class="" id="layout_599111 layout_709723" role="presentation"><a href="https://licindia.in/web/guest/payment-at-cash-counter" title="Payment at Cash Counter" role="menuitem">Payment at Cash Counter</a></li>
+                  <li class="" id="layout_599112 layout_709723" role="presentation"><a href="https://licindia.in/web/guest/payment-through-alternate-channels" title="Payment Through Alternate Channels" role="menuitem">Payment Through Alternate Channels</a></li>
+                  <li class="" id="layout_599113 layout_709723" role="presentation"><a href="https://licindia.in/web/guest/lic-portal" title="LIC Portal" role="menuitem">LIC Portal</a></li>
+                  <li class="" id="layout_1669304 layout_709723" role="presentation"><a href="https://licindia.in/web/guest/pay-premium-through-lic-credit-card1" title="Pay Premium Through LIC Credit Card" role="menuitem">Pay Premium Through LIC Credit Card</a></li>
+                  <li class="" id="layout_1671063 layout_709723" role="presentation"><a href="https://licindia.in/web/guest/premium-point" title="Premium Point" role="menuitem">Premium Point</a></li>
+                 </ul></li>
+                <li class=" has-sub" id="layout_54329 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/spurious-calls" title="Spurious Calls" role="menuitem">Spurious Calls</a> </li>
+                <li class=" has-sub" id="layout_54330 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/update-your-contact-details-offline" title="Update Your Contact details – Offline" role="menuitem">Update Your Contact details – Offline</a> </li>
+                <li class=" has-sub" id="layout_1669433 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/unclaimed-amounts-of-policyholders3" title="Unclaimed Amounts of Policyholders" role="menuitem">Unclaimed Amounts of Policyholders</a> </li>
+                <li class=" has-sub" id="layout_1069918 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/satarkata-shikayat-dwar" title="Satarkata Shikayat Dwar" role="menuitem">Satarkata Shikayat Dwar</a> </li>
+                <li class=" has-sub" id="layout_56109 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/policy-status" title="Policy Status" role="menuitem">Policy Status</a> </li>
+                <li class=" has-sub" id="layout_56112 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/insurance-selector" title="Insurance Selector" role="menuitem">Insurance Selector</a> </li>
+                <li class=" has-sub" id="layout_56113 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/policy-guidelines-helpline" title="Policy Guidelines &amp; Helpline" role="menuitem">Policy Guidelines &amp; Helpline</a> </li>
+                <li class=" has-sub" id="layout_56114 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/tax-benefit" title="Tax Benefit" role="menuitem">Tax Benefit</a> </li>
+               </ul></li>
+              <li class="  has-sub" id="layout_45492" role="presentation"><a class="nav-link" href="https://licindia.in/web/guest/investor-relations" tabindex="0" title="Investor Relations" role="menuitem"><span> Investor Relations</span></a><i class="fa fa-chevron-down"></i> </li>
+              <li class="  has-sub" id="layout_1727143" role="presentation"><a class="nav-link" href="https://licindia.in/web/guest/iio-gift-city" tabindex="0" title="IIO GIFT City" role="menuitem"><span> IIO GIFT City</span></a><i class="fa fa-chevron-down"></i> </li>
+              <li class="  has-sub" id="layout_1545807" role="presentation"><a class="nav-link" href="https://licindia.in/c/portal/layout?p_v_l_s_g_id=0&amp;groupId=20121&amp;privateLayout=false&amp;layoutId=6191" tabindex="0" title="NRI" role="menuitem"><span> NRI</span></a><i class="fa fa-chevron-down"></i> 
+               <ul class="child-menu" role="menu">
+                <li class=" has-sub" id="layout_1671043 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/nri-centre2" title="NRI Centre" role="menuitem">NRI Centre</a> </li>
+                <li class=" has-sub" id="layout_1668990 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/nri-customers1" title="NRI Customers" role="menuitem">NRI Customers</a> </li>
+                <li class=" has-sub" id="layout_1668996 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/quickpay-premium1" title="Quickpay Premium" role="menuitem">Quickpay Premium</a> </li>
+                <li class=" has-sub" id="layout_618924 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/fatca-crs" title="FATCA/CRS" role="menuitem">FATCA/CRS</a> </li>
+                <li class=" has-sub" id="layout_1208850 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/access-country-list" title="Access Country List" role="menuitem">Access Country List</a> </li>
+               </ul></li>
+              <li class="  has-sub" id="layout_1349726" role="presentation"><a class="nav-link" href="https://licindia.in/web/guest/nps-subscriber-corner" tabindex="0" title="NPS" role="menuitem"><span> NPS</span></a><i class="fa fa-chevron-down"></i> 
+               <ul class="child-menu" role="menu">
+                <li class=" has-sub" id="layout_1614494 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/nps-subscriber-corner" title="NPS Subscriber Corner" role="menuitem">NPS Subscriber Corner</a> </li>
+                <li class=" has-sub" id="layout_1614502 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/documents/d/guest/certificate-of-registration-pop" target="_blank" title="Certificate of Registration (PoP) with PFRDA" role="menuitem">Certificate of Registration (PoP) with PFRDA</a> </li>
+                <li class=" has-sub" id="layout_1727286 layout_53300" role="presentation"><span class="subDropAlt"></span><a href="https://licindia.in/web/guest/notices" title="Notices" role="menuitem">Notices</a> </li>
+               </ul></li>
+              <li class="has-sub"><a class="btn btn-default" href="https://ebiz.licindia.in/D2CPM/#DirectPay"> Pay Premium </a></li>
+              <li class="has-sub"><a class="btn btn-default my-drop" href="javascript:void(0)" onclick="ExternalLink('https://ebiz.licindia.in/D2CPM');" title="Login"> <i class="icon-icon-6"></i> Login </a><i class="fa fa-chevron-down"></i>
+               <ul class="child-menu">
+                <li><a href="https://ebiz.licindia.in/D2CPM/?_ga=2.72703123.1272923387.1677050657-120722208.1677050657#Login" title="Customer Portal">Customer Portal</a></li>
+                <li><a href="https://nriebiz.licindia.in/D2CPM/#Login" title="NRI Customer Portal">NRI Customer Portal</a></li><!-- <li>
+                           <a href="https://mbiz.licindia.in/AgentPortal/#Login"  title="Agent Portal">Agent Portal</a>
+                        </li> -->
+                <li><a href="https://agencycareer.licindia.in/agt_req/index1.php?_ga=2.132252684.382589343.1685778008-998430420.1685778008&amp;_gac=1.91017576.1685872184.Cj0KCQjw7PCjBhDwARIsANo7Cgnay0YVbEoO5MslMzNkmXXG6Ra5XrDaHLDJKjFV-6L6dFlvzbQ0PDAaAi9pEALw_wcB" title="Want to be an LIC Agent">Want to be an LIC Agent</a></li>
+                <li><a href="https://merchant.licindia.in/merchant/?_ga=2.108944258.1272923387.1677050657-120722208.1677050657" title="Merchant Portal"> Merchant Portal </a></li>
+                <li><a href="/employee-s-corner" title="Employee Portal"> Employee Portal </a></li>
+                <li><a href="https://ebiz.licindia.in/D2CPM/#Login" title="Group Customer/Annuitant Login"> Group Customer/Annuitant Login </a></li>
+                <li><a href="https://ebiz.licindia.in/OrgPortal/#Login" title="Group MasterPolicyholder Portal">Group MasterPolicyholder Portal</a></li>
+                <li><a href="https://rep.licindia.in/penport/login?_ga=2.131348047.1319024671.1679223847-1480379755.1666842318" title="Retired Employees Portal"> Retired Employees Portal </a></li>
+               </ul></li><a id="buyonlineimage" class="fxBtn" href="/buy-online"> <img src="/documents/d/guest/button-1" alt="buyonlineimage"></a> 
+             </ul>
+            </div>
+           </div>
+          </div>
+         </div>
+        </header><button id="backToTop" title="Go to top"> <i class="fas fa-arrow-up"></i> </button>
+        <style>
+
+.whatsapp-link {
+  position: relative;
+}
+ 
+.hover-image {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+   color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+ 
+.whatsapp-link:hover .hover-image,
+.whatsapp-link:focus-within .hover-image {
+  display: block;
+}
+
+body:has(.bannersection) #buyonlineimage2 {
+display:inline-block!important;
+}
+#buyonlineimage2 {
+	display:none;
+    top: calc(25% + 44px);
+}
+   .fxBtn {
+	    top: 25%;
+    transform: translateY(-75%);
+   right:0;
+   position: fixed;
+   <!--animation: shake 5s;-->
+   animation-iteration-count: infinite;
+   }
+ 
+   @media only screen and (max-width: 460px){
+   
+   }	
+   @media only screen and (min-width: 1070px) and (max-width: 1605px)
+   { 
+  
+   .top-bar>ul>li {
+   font-size:0.7em;
+   }
+   }	
+   @keyframes shake {
+   0% { transform: translate(1px, 1px) rotate(0deg); }
+   5% { transform: translate(-1px, -2px) rotate(-1deg); }
+   10% { transform: translate(-3px, 0px) rotate(1deg); }
+   15% { transform: translate(3px, 2px) rotate(0deg); }
+   20% { transform: translate(1px, -1px) rotate(1deg); }
+   25% { transform: translate(-1px, 2px) rotate(-1deg); }
+   30% { transform: translate(-3px, 1px) rotate(0deg); }
+   35% { transform: translate(3px, 1px) rotate(-1deg); }
+   40% { transform: translate(-1px, -1px) rotate(1deg); }
+   45% { transform: translate(1px, 2px) rotate(0deg); }
+   50% { transform: translate(1px, -2px) rotate(-1deg); }
+   100% { transform: translate(0); }
+   }
+</style>
+        <style>
+   .gg-n{
+   opacity: 0!important;
+   width: 0!important;
+   }
+   .has-sub i{
+     position: absolute;
+		 top: 45%;
+		 right: -6px;		 
+		 border-radius: 100px;
+		 line-height: 1;
+		 font-size: 0.5em;
+   }
+   .act .has-sub a.btn.btn-default { 
+   width:auto;
+   border:none ;
+   margin-left:0;
+   }
+   @media (max-width: 992px){
+   .site-nav {
+   max-width: 76%;
+   }
+   .act a>i {
+   display:none!important;
+   }
+   ul.gigw {
+   display: flex;
+   transition: none;
+   }
+   .seinior-citizen {
+   background-color: #fff;
+   }
+   li.icon.link.font-size {
+   background: #40a9ff5e;
+   border-radius: 12px;
+   padding: 9px;
+   }
+   .has-sub i {
+   float: right;
+   border: 1px solid #72808d8f;
+   padding: 5px;
+   color: #00529c;
+   transition:all .3s ease-in-out;
+   margin-top: 5px;
+   }
+   .has-sub.active i {
+   rotate: -180deg;
+   }
+   .site-nav>ul>li ul{
+   transition:none;
+   }
+   .site-nav > ul > li ul{
+   transition:none;
+   }
+   .has-sub i{
+   display:block;
+   }
+   }
+	
+	
+	@media (min-width:1150px) and (max-width:1260px) {
+    .social-md ul li a {
+    padding-left: 3px;
+    }
+}
+
+@media (max-width:1230px) and (min-width:1150px) {
+    body .social-md ul li a img {
+    height: 20px;
+    }
+
+    body .logo img {}
+
+    .menu-part {
+    width: 100%;
+    }
+
+    .logo-part {
+        max-width: 153px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:1150px) {
+    
+    .mobClick {
+    top: auto;
+    }
+
+}
+	
+	 @media (max-width:1201px) {
+        .voice-search {
+            right: 17% !important;
+        }
+
+        .portlet-search .search-input-group .form-group-item {
+            width: 330px !important;
+        }
+    }
+
+    @media (max-width:1150px) {
+        body .desktop-vissible {
+            display: none;
+        }
+
+        body .mobile-vissible {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        body .mobile-search-form .input-group.search {
+            display: flex !important;
+        }
+
+    }
+
+    @media (max-width:1360px) {
+        .input-group-inset-item.input-group-inset-item-after {
+            height: 52px;
+            margin-top: 1px;
+        }
+
+        .portlet-search .search-input-group .form-group-item {
+            width: 300px !important;
+        }
+
+        .voice-search {
+            right: 29% !important;
+        }
+    }
+	.sarthi-app-text{
+		    width: max-content
+	}
+
+    @media (max-width:1350px) {
+        .sarthi-app-text {
+            display: none !important;
+        }
+    }
+
+    i.bi.bi-chevron-down.toggle-dropdown {
+        background-color: transparent;
+        font-size: 17px;
+        font-weight: 700 !important;
+    }
+
+    @media (max-width: 768px) {
+        .voice-search {
+            right: 22% !important;
+        }
+    }
+
+    @media (max-width: 920px) {
+        .voice-search {
+            right: 23% !important;
+        }
+    }
+
+    @media (max-width: 870px) {
+        .voice-search {
+            right: 20% !important;
+        }
+    }
+
+    @media (max-width: 570px) {
+        .voice-search {
+            right: 34% !important;
+        }
+    }
+
+ 
+
+    @media (max-width: 500px) {
+        .voice-search {
+            right: 31% !important;
+            bottom: 0 !important;
+        }
+    }
+	
+    @media (max-width: 370px) {
+        .voice-search {
+            right: -12% !important;
+        }
+			.portlet-search .search-input-group .form-group-item{
+			width:270px !important;	
+			}
+    }
+	
+</style>
+        <script>
+	
+   $(document).ready(function(){
+      document.querySelectorAll(".input-group-text").forEach(el => {
+      el.setAttribute("tabindex", "0"); // keeps natural tab order
+    });
+		   
+		 
+		 var langPortlet = document.getElementById("_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_fm");
+
+if (langPortlet) {
+
+  // Exact selector using name
+  var toggle = langPortlet.querySelector('[name="languageId"]');
+
+  if (toggle) {
+    toggle.setAttribute("aria-label", "Select Language");
+    toggle.setAttribute("aria-expanded", "false");
+
+    toggle.addEventListener("click", function () {
+      var expanded = this.getAttribute("aria-expanded") === "true";
+      this.setAttribute("aria-expanded", (!expanded).toString());
+    });
+  }
+}
+
+    var langSelect = document.getElementById("_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_fm");
+    if (langSelect) {
+      langSelect.setAttribute("aria-label", "Select Language"); 
+    }
+
+   if (window.matchMedia('(max-width: 992px)').matches)
+   {
+   $(".gigw").slideUp();
+   $('.seinior-citizen').click(function(){
+      $(".gigw").slideToggle();
+   });
+       $('.has-sub').click(function(){
+            $(this).toggleClass('active');
+            $(this).find('.child-menu').slideToggle();
+        });    
+       $(document).click(function(e) {
+            var container = $(".has-sub");
+            if (!container.is(e.target) && container.has(e.target).length === 0) {
+                container.removeClass('active');
+                container.find('.child-menu').slideUp();
+            }
+       });   
+   } 
+		 
+	
+
+   if (window.location.pathname !== '/') {
+    var backText = "Back to Previous";
+
+    var button = document.createElement("button");
+    button.type = "button";
+    button.id = "bTp";
+    button.className = "back-btn";
+    button.textContent = backText;
+
+    // Add click handler
+    button.addEventListener("click", function () {
+        window.history.back();
+    });
+
+    // Append to section.Internal
+    var container = document.querySelector("section.Internal");
+    if (container) {
+        container.appendChild(button);
+    }
+}
+
+
+   } );
+	
+	
+	window.onscroll = function () {
+  const btn = document.getElementById("backToTop");
+  btn.style.display = (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100)
+    ? "block"
+    : "none";
+};
+ 
+// Smooth scroll to top on click
+document.getElementById("backToTop").addEventListener("click", function () {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+	/*$('<button type="button" id="bTp" class="back-btn">Back to Previous</button>').prependTo('section.Internal');
+$('#bTp').on('click', function() {
+        window.history.back();
+    }).appendTo('section.Internal');*/
+	
+	
+
+  window.addEventListener("scroll", () => {
+    const header = document.querySelector(".header");
+ 
+    if (window.scrollY > 50) {
+        header.classList.add("active");
+    } else {
+        header.classList.remove("active");
+    }
+});
+
+
+</script>
+       </nav>
+      </div>
+     </div>
+    </div>
+   </section>
+  </div>
+ </div>
+</div>
+<div class="lfr-layout-structure-item-3e975ba5-1afc-fdd4-846a-f6eada148683 lfr-layout-structure-item-row body-color" style="">
+ <div class="container-fluid p-0">
+  <div class="row align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row">
+   <div class="col col-lg-12 col-sm-12 col-12 col-md-12">
+    <div class="lfr-layout-structure-item-com-liferay-journal-content-web-portlet-journalcontentportlet lfr-layout-structure-item-b52813af-f519-fc84-97ae-cef534c3aea5 " style="">
+     <div id="fragment-0-duol">
+      <div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_duol_"><span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_duol"></span>
+       <section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_duol">
+        <div class="portlet-content">
+         <div class="autofit-float autofit-row portlet-header">
+          <div class="autofit-col autofit-col-expand">
+           <h2 class="portlet-title-text">Public Disclosure</h2>
+          </div>
+          <div class="autofit-col autofit-col-end">
+           <div class="autofit-section">
+            <div class="visible-interaction">
+            </div> 
+           </div>
+          </div>
+         </div>
+         <div class=" portlet-content-container">
+          <div class="portlet-body">
+           <div class="" data-fragments-editor-item-id="20132-79984" data-fragments-editor-item-type="fragments-editor-mapped-item">
+            <div class="journal-content-article " data-analytics-asset-id="79982" data-analytics-asset-title="Public Disclosure" data-analytics-asset-type="web-content">
+             <style>
+ol.breadcrumb {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+		font-size:0.9em;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "\002F";
+    top: 6px;
+    margin-left: 2px;
+    background: none;
+}
+.breadcrumb-item {
+    margin-right: 0em;
+}
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 0.7rem;
+}
+.footer-top {
+    margin-top: 0;
+}
+.pageTitle {
+    height: 110px;
+}
+.h1, h1 {
+    font-size: 2rem;
+}
+.titleWrap {
+    margin-bottom: 16px;
+}
+.body-color{
+ background:white;
+}
+.breadcrumb-item.active, .breadcrumb-item .active {
+    color: #fdcc08;
+    font-weight: 700;
+    font-family: "Gilroy-Bold";
+}
+.breadcrumb-text-truncate:hover{
+ color: #fdcc08;
+ font-weight: 700;
+ font-family: "Gilroy-Bold";
+} 
+.Internal a {
+    color: black;
+}
+</style>
+             <script type="text/javascript">
+const units = ['bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+function FormatSize(x){
+  let l = 0, n = parseInt(x, 10) || 0;
+  while(n >= 1024 && ++l){
+      n = n/1024;
+  }  
+  return(n.toFixed(n < 10 && l > 0 ? 1 : 0) + ' ' + units[l]);
+}
+</script>
+             <main>
+              <section class="breadcurmb-container">
+               <nav aria-label="breadcrumb" class="contentwidth">
+                <div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_  portlet-static portlet-static-end portlet-decorate portlet-breadcrumb " id="p_p_id_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_"><span id="p_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet"></span>
+                 <section class="portlet" id="portlet_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet">
+                  <div class="portlet-content">
+                   <div class="autofit-float autofit-row portlet-header">
+                    <div class="autofit-col autofit-col-expand">
+                     <h2 class="portlet-title-text">Breadcrumb</h2>
+                    </div>
+                    <div class="autofit-col autofit-col-end">
+                     <div class="autofit-section">
+                     </div>
+                    </div>
+                   </div>
+                   <div class=" portlet-content-container">
+                    <div class="portlet-body">
+                     <nav aria-label="Breadcrumb" id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_breadcrumbs-defaultScreen">
+                      <ol class="breadcrumb">
+                       <li class="breadcrumb-item"><a class="breadcrumb-link" href="https://licindia.in/web/guest/home" title="Home"> <span class="breadcrumb-text-truncate">Home</span> </a></li>
+                       <li class="breadcrumb-item"><a class="breadcrumb-link" href="https://licindia.in/web/guest/investor-relations" title="Investor Relations"> <span class="breadcrumb-text-truncate">Investor Relations</span> </a></li>
+                       <li class="breadcrumb-item"><a class="breadcrumb-link" href="https://licindia.in/web/guest/public-disclosure-irdai-s-" title="Public Disclosure (IRDAI's)"> <span class="breadcrumb-text-truncate">Public Disclosure (IRDAI's)</span> </a></li>
+                       <li class="breadcrumb-item"><span class="active breadcrumb-text-truncate">Public Disclosure</span></li>
+                      </ol>
+                     </nav>
+                    </div>
+                   </div>
+                  </div>
+                 </section>
+                </div>
+               </nav> 
+              </section>
+              <section class="Internal contentwidth" id="maincontent">
+               <div tabindex="0">
+                <h1 class="internal-header"> Public Disclosure </h1>
+                <h5></h5>
+                <ul style="list-style:disc; padding-left:30px;">
+                 <li><a data-senna-off="true" href="/web/guest/public-disclosure-2025-26" style="text-decoration: none;"> 2025 - 2026 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/public-disclosure-2024-25" style="text-decoration: none;"> 2024 - 2025 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/public-disclosure-2023-241" style="text-decoration: none;"> 2023 - 2024 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2022-2023" style="text-decoration: none;"> 2022 - 2023 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2021-2022" style="text-decoration: none;"> 2021 - 2022 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2020-2021" style="text-decoration: none;"> 2020 - 2021 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2019-2020" style="text-decoration: none;"> 2019 - 2020 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2018-2019" style="text-decoration: none;"> 2018 - 2019 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2017-2018" style="text-decoration: none;"> 2017 - 2018 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2016-2017" style="text-decoration: none;"> 2016 - 2017 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2015-2016" style="text-decoration: none;"> 2015 - 2016 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2014-2015" style="text-decoration: none;"> 2014 - 2015 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2013-2014" style="text-decoration: none;"> 2013 - 2014 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2012-2013" style="text-decoration: none;"> 2012 - 2013 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2011-2012" style="text-decoration: none;"> 2011 - 2012 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2010-2011" style="text-decoration: none;"> 2010 - 2011 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2009-2010" style="text-decoration: none;"> 2009-2010 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2008-2009" style="text-decoration: none;"> 2008 - 2009 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2007-2008" style="text-decoration: none;"> 2007 - 2008 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2006-2007" style="text-decoration: none;"> 2006 - 2007 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2005-2006" style="text-decoration: none;"> 2005 - 2006 </a></li>
+                 <script type="text/javascript">
+</script>
+                </ul>
+                <div style="text-align: right; font-size:20px;" class="updatedate">
+                 <br><strong>Last modified date : </strong><strong><span id="date-output">18/4/2026</span></strong>
+                 <input type="hidden" id="date-input" value="Sat, 18 Apr 2026 10:19:55 +0000">
+                </div>
+                <script>
+$( document ).ready(function() {
+   const dateString = $("#date-input").val();
+//const date = new Date(dateString);
+
+const englishDateString = convertHindiDateToEnglish(dateString);
+const date = new Date(englishDateString);
+
+const day = date.getDate();
+const month = date.getMonth() + 1;
+const year = date.getFullYear();
+const formattedDate =day+"/"+month+"/"+year;
+console.log(formattedDate);
+$("#date-output").html(formattedDate);
+});
+
+
+// Function to convert Hindi date string to English
+function convertHindiDateToEnglish(hindiDate) {
+   
+	  // Hindi to English mappings for days and months
+const hindiToEnglishDays = {
+    "रवि": "Sun",
+    "सोम": "Mon",
+    "मंगल": "Tue",
+    "बुध": "Wed",
+    "गुरु": "Thu",
+    "शुक्र": "Fri",
+    "शनि": "Sat"
+};
+
+const hindiToEnglishMonths = {
+    "जनवरी": "January",
+    "फ़रवरी": "February",
+    "मार्च": "March",
+    "अप्रैल": "April",
+    "मई": "May",
+    "जून": "June",
+    "जुलाई": "July",
+    "अगस्त": "August",
+    "सितंबर": "September",
+    "अक्&zwj;तूबर": "October",
+    "नवंबर": "November",
+    "दिसंबर": "December"
+};
+	  
+    // Replace Hindi day names with English
+    Object.keys(hindiToEnglishDays).forEach(hindiDay => {
+        hindiDate = hindiDate.replace(hindiDay, hindiToEnglishDays[hindiDay]);
+    });
+    
+    // Replace Hindi month names with English
+    Object.keys(hindiToEnglishMonths).forEach(hindiMonth => {
+        hindiDate = hindiDate.replace(hindiMonth, hindiToEnglishMonths[hindiMonth]);
+    });
+
+    // Return the modified English date string
+    return hindiDate;
+}
+</script>
+               </div>
+              <button type="button" id="bTp" class="back-btn">Back to Previous</button></section>
+             </main>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </section>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<div class="lfr-layout-structure-item-com-liferay-site-navigation-menu-web-portlet-sitenavigationmenuportlet lfr-layout-structure-item-055b686c-3430-432a-ec54-0b67d20bc18c " style="">
+ <div id="fragment-0-qull">
+  <div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-decorate portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_qull_"><span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_qull"></span>
+   <section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_qull">
+    <div class="portlet-content">
+     <div class="autofit-float autofit-row portlet-header">
+      <div class="autofit-col autofit-col-expand">
+       <h2 class="portlet-title-text">Menu Display</h2>
+      </div>
+      <div class="autofit-col autofit-col-end">
+       <div class="autofit-section">
+       </div>
+      </div>
+     </div>
+     <div class=" portlet-content-container">
+      <div class="portlet-body">
+       <div class="container-fluid " style="background-color: #dedede">
+        <div class="ft-up contentwidth">
+         <ul>
+          <li><a href="/plan-nav1" title="Plan NAV"> Plan NAV </a></li>
+          <div class="dropdown" style="position: relative;"><button type="button" class="dropbtn" onclick="toggleDropdown('foreignUnitsDropdown', this)" aria-expanded="false" aria-controls="foreignUnitsDropdown" style="min-height: 30px;"> Foreign Units <i class="fa-solid fa-chevron-down"></i> </button>
+           <div id="foreignUnitsDropdown" class="dropdown-content" style="min-height: 100px; max-height: 200px; overflow-y: auto;"><a href="//www.liciuk.com">1. UK</a><a href="//www.liclanka.com">2. SriLanka</a><a href="//www.licifiji.com">3. Fiji</a><a href="https://lici.mu/">4. Mauritius</a><a href="//www.licinternational.com">5. Bahrain</a><a href="//www.licnepal.com.np">6. Nepal</a><a href="//www.kenindia.com">7. Kenindia Assurance</a><a href="#">8. SICCI</a><a href="//www.licsingapore.com/">9. Singapore</a><a href="//www.licbangladesh.com">10. Bangladesh</a>
+           </div>
+          </div>
+          <div class="dropdown"><button type="button" class="dropbtn" onclick="toggleDropdown('associateDropdown', this)" aria-expanded="false" aria-controls="associateDropdown"> LIC Associates &amp; Subsidiaries <i class="fa-solid fa-chevron-down"></i> </button>
+           <div id="associateDropdown" class="dropdown-content"><a href="/lic-associate-companies">1. Associate Companies</a><a href="/lic-subsidiary-companies">2. Subsidiaries Companies</a>
+           </div>
+          </div>
+          <li><a href="/lic-product-ads-informative-videos" title="LIC Quick Tips"> LIC Quick Tips </a></li>
+         </ul>
+        </div>
+       </div>
+       <div class="container-fluid " style="background-color: #00417c;">
+        <div class="ft-up-1 contentwidth">
+         <ul>
+          <li><a href="/know-your-life-insurance" title="Things you must know"> Things you must know </a></li>
+          <li><a href="/know-your-life-insurance" title="Why Life Insurance"> Why Life Insurance </a></li>
+          <li><a href="/know-your-life-insurance" title="Why Invest"> Why Invest </a></li>
+          <li><a href="javascript:void(0)" onclick="ExternalLink('https://merchant.licindia.in/LICMobile/?_ga=2.257081293.779533903.1679467140-2111666286.1675769094&amp;_gac=1.262326142.1677730924.CjwKCAiAjPyfBhBMEiwAB2CCIowEOH5pAABnnZHmZdIAwX8z7lOhI1mWoFA8-r1fGB_0aDKaI1HwHxoC0X4QAvD_BwE');" title="Go Mobile"> Go Mobile </a></li>
+          <li><span>Page Last Update Date : 23/02/2023</span></li>
+         </ul>
+        </div>
+       </div>
+       <style>
+      .ft-up-1 ul li span {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--white);
+}
+  .dropbtn {
+    background-color: #dedede;
+    color: #00417c;
+    padding: 0px 0;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover,
+  .dropbtn:focus {
+    background-color: #dedede;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #dedede;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 17px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #dedede;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .ft-up ul,
+  .ft-up-1 ul {
+    display: flex !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    .dropdown-content {
+      min-width: 100%;
+      box-shadow: none;
+    }
+
+    .dropdown-content a {
+      padding: 10px 15px;
+    }
+  }
+
+  @media all and (min-width:1000px) {
+    .scnd-img .col-sm-12 {
+      padding: 0 !important
+    }
+  }
+
+  @media all and (max-width:1100px) {
+
+    .ft-up .dropdown,
+    .ft-up ul,
+    .ft-up-1 ul {
+      display: block !important
+    }
+  }
+</style>
+       <script>
+ function toggleDropdown(dropdownId, button) {
+
+    const dropdown = document.getElementById(dropdownId);
+    const isExpanded = button.getAttribute("aria-expanded") === "true";
+
+    // Close all dropdowns
+    document.querySelectorAll(".dropdown-content").forEach(function(dd){
+        dd.classList.remove("show");
+    });
+
+    document.querySelectorAll(".dropbtn").forEach(function(btn){
+        btn.setAttribute("aria-expanded", "false");
+    });
+
+    if (!isExpanded) {
+        dropdown.classList.add("show");
+        button.setAttribute("aria-expanded", "true");
+    }
+}
+
+// Close when clicking outside
+window.addEventListener("click", function(event) {
+
+    if (!event.target.closest(".dropdown")) {
+
+        document.querySelectorAll(".dropdown-content").forEach(function(dd){
+            dd.classList.remove("show");
+        });
+
+        document.querySelectorAll(".dropbtn").forEach(function(btn){
+            btn.setAttribute("aria-expanded", "false");
+        });
+    }
+});
+
+</script>
+      </div>
+     </div>
+    </div>
+   </section>
+  </div>
+ </div>
+</div>
+<div class="lfr-layout-structure-item-81db44a6-21f9-2bb7-8108-10844494b941 lfr-layout-structure-item-row " style="">
+ <div class="container-fluid p-0">
+  <div class="row align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row">
+   <div class="col col-lg-1 col-sm-12 col-12 col-md-1"></div>
+   <div class="col col-lg-2 col-sm-12 col-12 col-md-2">
+    <div class="lfr-layout-structure-item-com-liferay-site-navigation-menu-web-portlet-sitenavigationmenuportlet lfr-layout-structure-item-d9245f41-7298-5b1f-69f3-20cace68a4f9 " style="">
+     <div id="fragment-0-boef">
+      <div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-decorate portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_boef_"><span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_boef"></span>
+       <section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_boef">
+        <div class="portlet-content">
+         <div class="autofit-float autofit-row portlet-header">
+          <div class="autofit-col autofit-col-expand">
+           <h2 class="portlet-title-text">Menu Display</h2>
+          </div>
+          <div class="autofit-col autofit-col-end">
+           <div class="autofit-section">
+           </div>
+          </div>
+         </div>
+         <div class=" portlet-content-container">
+          <div class="portlet-body">
+           <div class="ft-mid contentwidth custom-container row py-5">
+            <div class="row py-5">
+             <div class="col-md-12">
+              <div class="row justify-content-between align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row">
+               <section>
+                <div class="footer-nav footer-collapse" tabindex="0">
+                 <div class="container" tabindex="0">
+                  <div class="row" tabindex="0">
+                   <div class="footer-mid-single p-0 chetan" tabindex="0">
+                    <ul>
+                     <div class="tp-link d-block d-lg-none d-md-none">
+                      <ul>
+                       <li><a href="/contact-us"><i class="fa fa-address-book" aria-hidden="true" style="font-size:1.3rem; color: #114e85;"></i> Contact Us</a></li>
+                       <li><a href="/phone-help-line"><img src="https://licindia.in/o/lic-theme/images/phone-ico.svg" style="max-width: 25px;" alt="whatsapp"> +91-22-68276827</a></li>
+                       <li><a href="javascript:void(0);" title="8976862090"><img src="https://licindia.in/o/lic-theme/images/whatsapp.svg" style="max-width: 25px;" alt="whatsapp"> +91-8976862090</a></li>
+                       <li><a href="/branch"><img src="https://licindia.in/o/lic-theme/images/map-ico.svg" style="max-width: 25px;" alt=" Branch Locator"> Branch Locator</a></li>
+                      </ul>
+                     </div>
+                     <div>
+                      <h2 class="portlet-title-text1"><a href="/contact-us"><i class="fa fa-address-book" aria-hidden="true" style="font-size:1.3rem; color: #114e85;"></i>Contact Us</a></h2>
+                     </div>
+                     <li><a href="https://licindia.in/web/guest/aap-ki-punji-aap-ka-adhikari" title="Aap ki punji aap ka Adhikar" class="Aap_ki_punji_aap_ka_Adhikar">Aap ki punji aap ka Adhikar</a></li>
+                     <li><a href="https://licindia.in/web/guest/anti-bribery-and-anti-corruption-policy" title="Anti-Bribery And Anti-Corruption Policy" class="Anti-Bribery_And_Anti-Corruption_Policy">Anti-Bribery And Anti-Corruption Policy</a></li>
+                     <li><a href="https://licindia.in/web/guest/anti-fraud-policy" title="Anti Fraud Policy" class="Anti_Fraud_Policy">Anti Fraud Policy</a></li>
+                     <li><a href="https://licindia.in/web/guest/bima-bharosa1" title="Bima Bharosa" class="Bima_Bharosa">Bima Bharosa</a></li>
+                     <li><a href="https://licindia.in/web/guest/careers" title="Careers" class="Careers">Careers</a></li>
+                     <li><a href="https://licindia.in/web/guest/citizens-charter" title="Citizens Charter" class="Citizens_Charter">Citizens Charter</a></li>
+                     <li><a href="https://licindia.in/web/guest/copyright-policy" title="Copyright Policy" class="Copyright_Policy">Copyright Policy</a></li>
+                     <li><a href="https://licindia.in/web/guest/customer-education" title="Customer Education" class="Customer_Education">Customer Education</a></li>
+                     <li><a href="https://pledge.cvc.nic.in/" title="Central Vigilance Commission Website Link" class="Central_Vigilance_Commission_Website_Link">Central Vigilance Commission Website Link</a></li>
+                     <li><a href="https://licindia.in/web/guest/download-forms" title="Download Forms" class="Download_Forms">Download Forms</a></li>
+                     <li><a style="color:#00417c" href="https://licindia.in/web/guest/view-our-ads" title="View our Ads">View our Ads</a></li>
+                    </ul>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </section>
+              </div>
+             </div>
+            </div>
+           </div>
+           <style>
+a.Aap_ki_punji_aap_ka_Adhikar {
+    color: #000000;
+    position: relative;
+    padding-left: 48px;
+}
+
+a.Aap_ki_punji_aap_ka_Adhikar::before {
+    content: "NEW";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 5px;
+    color: #ffffff;
+    background-color: #00417c;
+    animation: blinkNewBg 1s infinite;
+}
+
+@keyframes blinkNewBg {
+    0%, 100% {
+        background-color: #00417c; /* Default dark blue */
+    }
+    50% {
+        background-color: #ffc107; /* Blink to yellow */
+    }
+}
+
+	
+	
+	
+	
+	
+   .hidden {
+   display: none;
+   }
+   .lfr-layout-structure-item-81db44a6-21f9-2bb7-8108-10844494b941 {
+   background-color: #fefefe;
+   }
+   .lfr-layout-structure-item-06dbed9e-9e10-4af4-e5f4-25aeb1025bc4{
+   background-color: #fefefe;
+   }
+   .social-md {
+   margin-bottom:0;}
+   .socialmedia1{
+   margin-top:12px;}
+   h2.fontDrop {
+   position: relative; 
+   }
+   h2.fontDrop:hover .hover-image {
+   display: block; 
+   }
+   @media (max-width: 768px) {
+   .hover-image {
+   width: 80%; 
+   max-width: 400px; 
+   }
+   }
+   @media (max-width: 480px) { 
+   .hover-image {
+   width: 90%; 
+   max-width: 300px; 
+   }
+   }
+   .contentwidth {
+   width: 100% !important;    
+   }
+   .txt{
+   font-size: larger;
+   }
+   .py-5 {
+   padding-bottom: 1rem !important;
+   padding-top: 1rem !important;
+   }
+   @media only screen and (max-width:767px){
+   h2.portlet-title-text1 {
+   visibility: hidden;
+   margin: 0;
+   overflow: hidden;
+   }
+		  .socialmedia1 {
+   display: none;
+   }
+  
+   .tp-link ul {
+   margin: 12px auto !important;
+   display: flex;
+   justify-content: space-around;
+   align-items: end;
+   background: #dedede;
+   width: 93%;
+   flex-wrap: wrap;
+   min-width: 268px;
+   margin: 0 auto;
+   padding: 7px 0;
+   border-radius: 10px;
+   }
+   .tp-link ul li {
+   min-width: 152px;
+   margin-bottom: 3px !important;
+   text-align: left;
+   }
+   .tp-link ul li a {
+   font-size: 0.9rem;
+   font-weight: 600;
+   }
+   .tp-link {
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   }
+   .socialmedia-mob .social-md ul{
+   list-style: none;
+   }
+   }
+</style>
+          </div>
+         </div>
+        </div>
+       </section>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="col col-lg-2 col-sm-12 col-12 col-md-2">
+    <div class="lfr-layout-structure-item-com-liferay-site-navigation-menu-web-portlet-sitenavigationmenuportlet lfr-layout-structure-item-d831ba91-5f40-4295-acf3-e8ea061466bc " style="">
+     <div id="fragment-0-ipxv">
+      <div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-decorate portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ipxv_"><span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ipxv"></span>
+       <section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ipxv">
+        <div class="portlet-content">
+         <div class="autofit-float autofit-row portlet-header">
+          <div class="autofit-col autofit-col-expand">
+           <h2 class="portlet-title-text">Menu Display</h2>
+          </div>
+          <div class="autofit-col autofit-col-end">
+           <div class="autofit-section">
+           </div>
+          </div>
+         </div>
+         <div class=" portlet-content-container">
+          <div class="portlet-body">
+           <div class="ft-mid contentwidth custom-container row py-5">
+            <div class="row py-5">
+             <div class="col-md-12">
+              <div class="row justify-content-between align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row">
+               <section>
+                <div class="footer-nav footer-collapse" tabindex="0">
+                 <div class="container" tabindex="0">
+                  <div class="row" tabindex="0">
+                   <div class="footer-mid-single p-0 chetan" tabindex="0">
+                    <ul>
+                     <div>
+                      <h2 class="portlet-title-text1"><img src="https://licindia.in/o/lic-theme/images/phone-ico.svg" alt="phone"><a href="/phone-help-line">+91-22-68276827</a></h2>
+                     </div>
+                     <li><a href="https://licindia.in/web/guest/employee-s-corner" title="Employees Corner" class="Employees_Corner">Employees Corner</a></li>
+                     <li><a href="https://licindia.in/web/guest/enquiry-of-outstanding-claims-for-the-current-year1" title="Enquiry of Outstanding Claims for the Current Year" class="Enquiry_of_Outstanding_Claims_for_the_Current_Year">Enquiry of Outstanding Claims for the Current Year</a></li>
+                     <li><a href="https://licindia.in/web/guest/environmental-social-and-governance" title="Environmental, Social, and Governance" class="Environmental,_Social,_and_Governance">Environmental, Social, and Governance</a></li>
+                     <li><a href="https://licindia.in/web/guest/equal-opportunity-policy" title="Equal Opportunity Policy" class="Equal_Opportunity_Policy">Equal Opportunity Policy</a></li>
+                     <li><a href="https://licindia.in/web/guest/faqs" title="Frequently Asked Questions" class="Frequently_Asked_Questions">Frequently Asked Questions</a></li>
+                     <li><a href="https://licindia.in/web/guest/feedback" title="Feedback" class="Feedback">Feedback</a></li>
+                     <li><a href="https://licindia.in/web/guest/glossary" title="Glossary" class="Glossary">Glossary</a></li>
+                     <li><a href="https://licindia.in/web/guest/golden-jubilee-foundation" title="Golden Jubilee Foundation - Community Development" class="Golden_Jubilee_Foundation_-_Community_Development">Golden Jubilee Foundation - Community Development</a></li>
+                     <li><a href="https://licindia.in/web/guest/grievances" title="Grievance Redressal" class="Grievance_Redressal">Grievance Redressal</a></li>
+                     <li><a href="https://licindia.in/web/guest/help" title="Help" class="Help">Help</a></li>
+                    </ul>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </section>
+              </div>
+             </div>
+            </div>
+           </div>
+           <style>
+a.Aap_ki_punji_aap_ka_Adhikar {
+    color: #000000;
+    position: relative;
+    padding-left: 48px;
+}
+
+a.Aap_ki_punji_aap_ka_Adhikar::before {
+    content: "NEW";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 5px;
+    color: #ffffff;
+    background-color: #00417c;
+    animation: blinkNewBg 1s infinite;
+}
+
+@keyframes blinkNewBg {
+    0%, 100% {
+        background-color: #00417c; /* Default dark blue */
+    }
+    50% {
+        background-color: #ffc107; /* Blink to yellow */
+    }
+}
+
+	
+	
+	
+	
+	
+   .hidden {
+   display: none;
+   }
+   .lfr-layout-structure-item-81db44a6-21f9-2bb7-8108-10844494b941 {
+   background-color: #fefefe;
+   }
+   .lfr-layout-structure-item-06dbed9e-9e10-4af4-e5f4-25aeb1025bc4{
+   background-color: #fefefe;
+   }
+   .social-md {
+   margin-bottom:0;}
+   .socialmedia1{
+   margin-top:12px;}
+   h2.fontDrop {
+   position: relative; 
+   }
+   h2.fontDrop:hover .hover-image {
+   display: block; 
+   }
+   @media (max-width: 768px) {
+   .hover-image {
+   width: 80%; 
+   max-width: 400px; 
+   }
+   }
+   @media (max-width: 480px) { 
+   .hover-image {
+   width: 90%; 
+   max-width: 300px; 
+   }
+   }
+   .contentwidth {
+   width: 100% !important;    
+   }
+   .txt{
+   font-size: larger;
+   }
+   .py-5 {
+   padding-bottom: 1rem !important;
+   padding-top: 1rem !important;
+   }
+   @media only screen and (max-width:767px){
+   h2.portlet-title-text1 {
+   visibility: hidden;
+   margin: 0;
+   overflow: hidden;
+   }
+		  .socialmedia1 {
+   display: none;
+   }
+  
+   .tp-link ul {
+   margin: 12px auto !important;
+   display: flex;
+   justify-content: space-around;
+   align-items: end;
+   background: #dedede;
+   width: 93%;
+   flex-wrap: wrap;
+   min-width: 268px;
+   margin: 0 auto;
+   padding: 7px 0;
+   border-radius: 10px;
+   }
+   .tp-link ul li {
+   min-width: 152px;
+   margin-bottom: 3px !important;
+   text-align: left;
+   }
+   .tp-link ul li a {
+   font-size: 0.9rem;
+   font-weight: 600;
+   }
+   .tp-link {
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   }
+   .socialmedia-mob .social-md ul{
+   list-style: none;
+   }
+   }
+</style>
+          </div>
+         </div>
+        </div>
+       </section>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="col col-lg-2 col-sm-12 col-12 col-md-2">
+    <div class="lfr-layout-structure-item-com-liferay-site-navigation-menu-web-portlet-sitenavigationmenuportlet lfr-layout-structure-item-a20c36ab-97ea-9b67-ec79-44b67148a25a " style="">
+     <div id="fragment-0-bsbi">
+      <div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-decorate portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_bsbi_"><span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_bsbi"></span>
+       <section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_bsbi">
+        <div class="portlet-content">
+         <div class="autofit-float autofit-row portlet-header">
+          <div class="autofit-col autofit-col-expand">
+           <h2 class="portlet-title-text">Menu Display</h2>
+          </div>
+          <div class="autofit-col autofit-col-end">
+           <div class="autofit-section">
+           </div>
+          </div>
+         </div>
+         <div class=" portlet-content-container">
+          <div class="portlet-body">
+           <div class="ft-mid contentwidth custom-container row py-5">
+            <div class="row py-5">
+             <div class="socialmedia">
+              <div class="row justify-content-between align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row">
+               <section>
+                <div class="footer-nav footer-collapse" tabindex="0">
+                 <div class="container" tabindex="0">
+                  <div class="row" tabindex="0">
+                   <div class="footer-mid-single p-0 chetan" tabindex="0">
+                    <ul>
+                     <div>
+                      <h2 class="portlet-title-text1 fontDrop"><a href="javascript:void(0);" title="8976862090"> <img src="https://licindia.in/o/lic-theme/images/whatsapp.svg" alt=""> <span>+91-8976862090</span> <span class="hover-image" aria-label="whatsapp"></span></a></h2>
+                     </div>
+                     <li> <a href="https://licindia.in/web/guest/health-insurance" title="Health Insurance">Health Insurance</a> </li>
+                     <li> <a href="https://licindia.in/web/guest/hyperlink-policy" title="Hyperlink Policy">Hyperlink Policy</a> </li>
+                     <li> <a href="https://licindia.in/web/guest/international-operations-associates" title="International Operations">International Operations</a> </li>
+                     <li> <a href="https://licindia.in/web/guest/investee-amrit" title="Investee-AMRIT">Investee-AMRIT</a> </li>
+                     <li> <a href="https://policyholder.gov.in/" title="IRDAI Consumer Education">IRDAI Consumer Education</a> </li>
+                     <li> <a href="https://licindia.in/web/guest/join-our-team" title="Join Our Team">Join Our Team</a> </li>
+                     <li> <a href="https://licindia.in/web/guest/lic-act" title="LIC Act">LIC Act</a> </li>
+                     <li> <a href="https://licindia.in/web/guest/news" title="News">News</a> </li>
+                     <li> <a href="https://licindia.in/web/guest/nri-centre1" title="NRI Centre">NRI Centre</a> </li>
+                    </ul>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </section>
+              </div>
+             </div>
+             <div class="socialmedia1">
+              <p class="txt"><strong>LIC on Social Media</strong></p>
+              <div class="social-md">
+               <ul>
+                <li><a href="javascript:void(0)" onclick="ExternalLink('https://www.instagram.com/licindiaforever/?hl=en');"><img src="https://licindia.in/o/lic-theme/images/instagram.svg" alt=""></a><a href="javascript:void(0)" onclick="ExternalLink('https://www.facebook.com/LICIndiaForever/');"><img src="https://licindia.in/o/lic-theme/images/facebook-original.svg" alt=""></a><a href="javascript:void(0)" onclick="ExternalLink('https://www.linkedin.com/company/lic/');"><img src="https://licindia.in/o/lic-theme/images/linkedin-original.svg" alt=""></a><a href="javascript:void(0)" onclick="ExternalLink('https://www.twitter.com/licindiaforever/');"><img src="/documents/d/guest/twitternew" alt=""></a><a href="javascript:void(0)" onclick="ExternalLink('https://www.youtube.com/user/licindiaforever');"><img src="https://licindia.in/o/lic-theme/images/youtube-original-1.svg" alt=""></a></li>
+               </ul>
+              </div>
+             </div>
+            </div>
+           </div>
+           <style>
+a.Aap_ki_punji_aap_ka_Adhikar {
+    color: #000000;
+    position: relative;
+    padding-left: 48px;
+}
+
+a.Aap_ki_punji_aap_ka_Adhikar::before {
+    content: "NEW";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 5px;
+    color: #ffffff;
+    background-color: #00417c;
+    animation: blinkNewBg 1s infinite;
+}
+
+@keyframes blinkNewBg {
+    0%, 100% {
+        background-color: #00417c; /* Default dark blue */
+    }
+    50% {
+        background-color: #ffc107; /* Blink to yellow */
+    }
+}
+
+	
+	
+	
+	
+	
+   .hidden {
+   display: none;
+   }
+   .lfr-layout-structure-item-81db44a6-21f9-2bb7-8108-10844494b941 {
+   background-color: #fefefe;
+   }
+   .lfr-layout-structure-item-06dbed9e-9e10-4af4-e5f4-25aeb1025bc4{
+   background-color: #fefefe;
+   }
+   .social-md {
+   margin-bottom:0;}
+   .socialmedia1{
+   margin-top:12px;}
+   h2.fontDrop {
+   position: relative; 
+   }
+   h2.fontDrop:hover .hover-image {
+   display: block; 
+   }
+   @media (max-width: 768px) {
+   .hover-image {
+   width: 80%; 
+   max-width: 400px; 
+   }
+   }
+   @media (max-width: 480px) { 
+   .hover-image {
+   width: 90%; 
+   max-width: 300px; 
+   }
+   }
+   .contentwidth {
+   width: 100% !important;    
+   }
+   .txt{
+   font-size: larger;
+   }
+   .py-5 {
+   padding-bottom: 1rem !important;
+   padding-top: 1rem !important;
+   }
+   @media only screen and (max-width:767px){
+   h2.portlet-title-text1 {
+   visibility: hidden;
+   margin: 0;
+   overflow: hidden;
+   }
+		  .socialmedia1 {
+   display: none;
+   }
+  
+   .tp-link ul {
+   margin: 12px auto !important;
+   display: flex;
+   justify-content: space-around;
+   align-items: end;
+   background: #dedede;
+   width: 93%;
+   flex-wrap: wrap;
+   min-width: 268px;
+   margin: 0 auto;
+   padding: 7px 0;
+   border-radius: 10px;
+   }
+   .tp-link ul li {
+   min-width: 152px;
+   margin-bottom: 3px !important;
+   text-align: left;
+   }
+   .tp-link ul li a {
+   font-size: 0.9rem;
+   font-weight: 600;
+   }
+   .tp-link {
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   }
+   .socialmedia-mob .social-md ul{
+   list-style: none;
+   }
+   }
+</style>
+          </div>
+         </div>
+        </div>
+       </section>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="col col-lg-2 col-sm-12 col-12 col-md-2">
+    <div class="lfr-layout-structure-item-com-liferay-site-navigation-menu-web-portlet-sitenavigationmenuportlet lfr-layout-structure-item-f2be1526-9d00-218d-a4c7-9fa8fa5a6b34 " style="">
+     <div id="fragment-0-ezex">
+      <div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-decorate portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ezex_"><span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ezex"></span>
+       <section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ezex">
+        <div class="portlet-content">
+         <div class="autofit-float autofit-row portlet-header">
+          <div class="autofit-col autofit-col-expand">
+           <h2 class="portlet-title-text">Menu Display</h2>
+          </div>
+          <div class="autofit-col autofit-col-end">
+           <div class="autofit-section">
+           </div>
+          </div>
+         </div>
+         <div class=" portlet-content-container">
+          <div class="portlet-body">
+           <div class="ft-mid contentwidth custom-container row py-5">
+            <div class="row py-5">
+             <div class="col-md-12">
+              <div class="row justify-content-between align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row">
+               <section>
+                <div class="footer-nav footer-collapse" tabindex="0">
+                 <div class="container" tabindex="0">
+                  <div class="row" tabindex="0">
+                   <div class="footer-mid-single p-0 chetan" tabindex="0">
+                    <ul>
+                     <div>
+                      <h2 class="portlet-title-text1"><img src="https://licindia.in/o/lic-theme/images/map-ico.svg" alt="localor"> <a href="/branch">Branch Locator</a></h2>
+                     </div>
+                     <li><a href="https://licindia.in/web/guest/photo-gallery" title="Photo Gallery" class="Photo_Gallery">Photo Gallery</a></li>
+                     <li><a href="https://licindia.in/web/guest/policy-for-protection-of-interests-of-policyholders" title="Policy for protection of interests of policyholders" class="Policy_for_protection_of_interests_of_policyholders">Policy for protection of interests of policyholders</a></li>
+                     <li><a href="https://licindia.in/web/guest/press-release" title="Press-Release" class="Press-Release">Press-Release</a></li>
+                     <li><a href="https://licindia.in/web/guest/privacy-policy" title="Privacy Policy" class="Privacy_Policy">Privacy Policy</a></li>
+                     <li><a href="https://licindia.in/web/guest/property" title="Property" class="Property">Property</a></li>
+                     <li><a href="https://licindia.in/web/guest/rajbhasha-patrika-new" title="Rajbhasha Patrika" class="Rajbhasha_Patrika">Rajbhasha Patrika</a></li>
+                     <li><a href="https://licindia.in/web/guest/retired-employees-portal1" title="Retired Employees Portal" class="Retired_Employees_Portal">Retired Employees Portal</a></li>
+                     <li><a href="https://licindia.in/web/guest/rti-center" title="RTI Center" class="RTI_Center">RTI Center</a></li>
+                     <li><a href="https://licindia.in/web/guest/stewardship-policy-disclosure" title="Stewardship Policy &amp; Disclosure" class="Stewardship_Policy_&amp;_Disclosure">Stewardship Policy &amp; Disclosure</a></li>
+                    </ul>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </section>
+              </div>
+             </div>
+            </div>
+           </div>
+           <style>
+a.Aap_ki_punji_aap_ka_Adhikar {
+    color: #000000;
+    position: relative;
+    padding-left: 48px;
+}
+
+a.Aap_ki_punji_aap_ka_Adhikar::before {
+    content: "NEW";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 5px;
+    color: #ffffff;
+    background-color: #00417c;
+    animation: blinkNewBg 1s infinite;
+}
+
+@keyframes blinkNewBg {
+    0%, 100% {
+        background-color: #00417c; /* Default dark blue */
+    }
+    50% {
+        background-color: #ffc107; /* Blink to yellow */
+    }
+}
+
+	
+	
+	
+	
+	
+   .hidden {
+   display: none;
+   }
+   .lfr-layout-structure-item-81db44a6-21f9-2bb7-8108-10844494b941 {
+   background-color: #fefefe;
+   }
+   .lfr-layout-structure-item-06dbed9e-9e10-4af4-e5f4-25aeb1025bc4{
+   background-color: #fefefe;
+   }
+   .social-md {
+   margin-bottom:0;}
+   .socialmedia1{
+   margin-top:12px;}
+   h2.fontDrop {
+   position: relative; 
+   }
+   h2.fontDrop:hover .hover-image {
+   display: block; 
+   }
+   @media (max-width: 768px) {
+   .hover-image {
+   width: 80%; 
+   max-width: 400px; 
+   }
+   }
+   @media (max-width: 480px) { 
+   .hover-image {
+   width: 90%; 
+   max-width: 300px; 
+   }
+   }
+   .contentwidth {
+   width: 100% !important;    
+   }
+   .txt{
+   font-size: larger;
+   }
+   .py-5 {
+   padding-bottom: 1rem !important;
+   padding-top: 1rem !important;
+   }
+   @media only screen and (max-width:767px){
+   h2.portlet-title-text1 {
+   visibility: hidden;
+   margin: 0;
+   overflow: hidden;
+   }
+		  .socialmedia1 {
+   display: none;
+   }
+  
+   .tp-link ul {
+   margin: 12px auto !important;
+   display: flex;
+   justify-content: space-around;
+   align-items: end;
+   background: #dedede;
+   width: 93%;
+   flex-wrap: wrap;
+   min-width: 268px;
+   margin: 0 auto;
+   padding: 7px 0;
+   border-radius: 10px;
+   }
+   .tp-link ul li {
+   min-width: 152px;
+   margin-bottom: 3px !important;
+   text-align: left;
+   }
+   .tp-link ul li a {
+   font-size: 0.9rem;
+   font-weight: 600;
+   }
+   .tp-link {
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   }
+   .socialmedia-mob .social-md ul{
+   list-style: none;
+   }
+   }
+</style>
+          </div>
+         </div>
+        </div>
+       </section>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="col col-lg-3 col-sm-12 col-12 col-md-3">
+    <div class="lfr-layout-structure-item-com-liferay-site-navigation-menu-web-portlet-sitenavigationmenuportlet lfr-layout-structure-item-3b81b8e0-8a53-06b5-0263-9cd7f7dd420d " style="">
+     <div id="fragment-0-nuek">
+      <div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-decorate portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_nuek_"><span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_nuek"></span>
+       <section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_nuek">
+        <div class="portlet-content">
+         <div class="autofit-float autofit-row portlet-header">
+          <div class="autofit-col autofit-col-expand">
+           <h2 class="portlet-title-text">Menu Display</h2>
+          </div>
+          <div class="autofit-col autofit-col-end">
+           <div class="autofit-section">
+           </div>
+          </div>
+         </div>
+         <div class=" portlet-content-container">
+          <div class="portlet-body">
+           <div class="ft-mid contentwidth custom-container row py-5">
+            <div class="row py-5">
+             <div class="col-md-12">
+              <div class="row justify-content-between align-items-lg-start align-items-sm-start align-items-start align-items-md-start flex-lg-row flex-sm-row flex-row flex-md-row">
+               <section>
+                <div class="footer-nav footer-collapse" tabindex="0">
+                 <div class="container" tabindex="0">
+                  <div class="row" tabindex="0">
+                   <div class="footer-mid-single p-0 chetan" tabindex="0">
+                    <ul>
+                     <div>
+                      <h2 class="portlet-title-text1">&nbsp;</h2>
+                     </div>
+                     <li><a href="https://licindia.in/web/guest/swachh-bharat-campaign" title="Swachh Bharat Campaign" class="Swachh_Bharat_Campaign">Swachh Bharat Campaign</a></li>
+                     <li><a href="https://licindia.in/web/guest/swavalamban" title="Swavalamban" class="Swavalamban">Swavalamban</a></li>
+                     <li><a href="https://licindia.in/web/guest/tender-award" title="Tender –Award" class="Tender_–Award">Tender –Award</a></li>
+                     <li><a href="https://licindia.in/web/guest/tenders" title="Tenders" class="Tenders">Tenders</a></li>
+                     <li><a href="https://licindia.in/web/guest/terms-conditions" title="Terms &amp; Conditions" class="Terms_&amp;_Conditions">Terms &amp; Conditions</a></li>
+                     <li><a href="https://licindia.in/web/guest/unclaimed-amounts-of-policyholders2" title="Unclaimed Amounts of Policyholders" class="Unclaimed_Amounts_of_Policyholders">Unclaimed Amounts of Policyholders</a></li>
+                     <li><a href="https://licindia.in/web/guest/underwriting-philosophy" title="Underwriting Philosophy" class="Underwriting_Philosophy">Underwriting Philosophy</a></li>
+                     <li><a href="https://licindia.in/web/guest/welcome-kit" title="Welcome Kit" class="Welcome_Kit">Welcome Kit</a></li>
+                     <li><a href="https://licindia.in/web/guest/lic-pension-fund-limited" title="LIC Pension Fund Limited" class="LIC_Pension_Fund_Limited">LIC Pension Fund Limited</a></li>
+                     <li><a href="https://licindia.in/web/guest/lic-cards-services-limited" title="LIC Cards Services Limited" class="LIC_Cards_Services_Limited">LIC Cards Services Limited</a></li>
+                     <li><a href="https://licindia.in/web/guest/lic-mutual-fund-trustee-private-limited" title="LIC Mutual Fund Trustee Private Limited" class="LIC_Mutual_Fund_Trustee_Private_Limited">LIC Mutual Fund Trustee Private Limited</a></li>
+                     <li><a href="https://licindia.in/web/guest/lic-mutual-fund-asset-management-limited" title="LIC Mutual Fund Asset Management Limited" class="LIC_Mutual_Fund_Asset_Management_Limited">LIC Mutual Fund Asset Management Limited</a></li>
+                     <li><a href="https://licindia.in/web/guest/lic-housing-finance-limited" title="LIC Housing Finance Limited" class="LIC_Housing_Finance_Limited">LIC Housing Finance Limited</a></li>
+                     <li><a href="https://licindia.in/web/guest/lichfl-asset-management-company-limited" title="LICHFL Asset Management Company Limited" class="LICHFL_Asset_Management_Company_Limited">LICHFL Asset Management Company Limited</a></li>
+                    </ul>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </section>
+              </div>
+             </div>
+            </div>
+           </div>
+           <style>
+a.Aap_ki_punji_aap_ka_Adhikar {
+    color: #000000;
+    position: relative;
+    padding-left: 48px;
+}
+
+a.Aap_ki_punji_aap_ka_Adhikar::before {
+    content: "NEW";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 5px;
+    color: #ffffff;
+    background-color: #00417c;
+    animation: blinkNewBg 1s infinite;
+}
+
+@keyframes blinkNewBg {
+    0%, 100% {
+        background-color: #00417c; /* Default dark blue */
+    }
+    50% {
+        background-color: #ffc107; /* Blink to yellow */
+    }
+}
+
+	
+	
+	
+	
+	
+   .hidden {
+   display: none;
+   }
+   .lfr-layout-structure-item-81db44a6-21f9-2bb7-8108-10844494b941 {
+   background-color: #fefefe;
+   }
+   .lfr-layout-structure-item-06dbed9e-9e10-4af4-e5f4-25aeb1025bc4{
+   background-color: #fefefe;
+   }
+   .social-md {
+   margin-bottom:0;}
+   .socialmedia1{
+   margin-top:12px;}
+   h2.fontDrop {
+   position: relative; 
+   }
+   h2.fontDrop:hover .hover-image {
+   display: block; 
+   }
+   @media (max-width: 768px) {
+   .hover-image {
+   width: 80%; 
+   max-width: 400px; 
+   }
+   }
+   @media (max-width: 480px) { 
+   .hover-image {
+   width: 90%; 
+   max-width: 300px; 
+   }
+   }
+   .contentwidth {
+   width: 100% !important;    
+   }
+   .txt{
+   font-size: larger;
+   }
+   .py-5 {
+   padding-bottom: 1rem !important;
+   padding-top: 1rem !important;
+   }
+   @media only screen and (max-width:767px){
+   h2.portlet-title-text1 {
+   visibility: hidden;
+   margin: 0;
+   overflow: hidden;
+   }
+		  .socialmedia1 {
+   display: none;
+   }
+  
+   .tp-link ul {
+   margin: 12px auto !important;
+   display: flex;
+   justify-content: space-around;
+   align-items: end;
+   background: #dedede;
+   width: 93%;
+   flex-wrap: wrap;
+   min-width: 268px;
+   margin: 0 auto;
+   padding: 7px 0;
+   border-radius: 10px;
+   }
+   .tp-link ul li {
+   min-width: 152px;
+   margin-bottom: 3px !important;
+   text-align: left;
+   }
+   .tp-link ul li a {
+   font-size: 0.9rem;
+   font-weight: 600;
+   }
+   .tp-link {
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   }
+   .socialmedia-mob .social-md ul{
+   list-style: none;
+   }
+   }
+</style>
+          </div>
+         </div>
+        </div>
+       </section>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+
+	
+
+
+
+
+		</div>
+	
+
+
+<form action="#" aria-hidden="true" class="hide" id="hrefFm" method="post" name="hrefFm"><span></span><button hidden="" type="submit">Hidden</button></form>
+
+	
+	</section>
+<footer>
+    <div class="container-fluid ">
+	
+	
+		<div class="ft-btm container-fluid">
+        <div class="contentwidth">
+          <div class="row">		  	  
+<div class="col-md-6 col-sm-12 col-lg-6">
+              <p>
+			  For any grievances, email at<br>  <b><span class="LicMail">co_complaints[at]licindia[dot]com</span></b>
+			  <br><br></p>
+			 
+</div>
+<div class="col-md-6 col-sm-12 col-lg-6">
+              <p>
+                <b> Corporate Office</b> : Life Insurance Corporation of India 
+				'Yogakshema' , Jeevan Bima Marg, P.O. Box No19953, 
+				Mumbai – 400 021. IRDAI Reg No- 512
+				<br><br>
+				 For any query regarding this website, please contact the Web Information Manager
+<br>
+<b>Smt. Himali Ashish Manjrekar</b>, Administrative Officer, <b><span class="LicMail">co_cc[at]licindia[dot]com </span></b>
+<br><br>
+Content on this website is published and managed by Life Insurance Corporation of India.</p>		  
+<ul class="text-end pt-3 d-flex justify-content-end related-logos">
+  <li class="Visitor-li">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_lic_visitor_count_web_LicVisitorCountWebPortlet_  portlet-static portlet-static-end portlet-decorate  " id="p_p_id_lic_visitor_count_web_LicVisitorCountWebPortlet_INSTANCE_10758_">
+		<span id="p_lic_visitor_count_web_LicVisitorCountWebPortlet_INSTANCE_10758"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_lic_visitor_count_web_LicVisitorCountWebPortlet_INSTANCE_10758">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">VisitorCount</h2>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        <p class="Visitors">Site Visitors: 211439861</p> 
+    
+
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+  </li>
+	<li><a class="geo" href="http://india.gov.in/" target="_blank"><img alt="Image of Government of India" height="30" src="https://licindia.in/o/lic-theme/images/footer-icon-1.png" title="Government of India"></a></li>
+	<li><a class="geo" href="https://www.geotrust.com" target="_blank"><img alt="Image of GeoTrust " height="30" src="https://licindia.in/o/lic-theme/images/footer-icon-3.png" title="GeoTrust"></a></li>
+	<li><a class="geo" href="https://licindia.in/certificate" target="_blank"><img alt="Image of STQC " height="30" src="https://licindia.in/o/lic-theme/images/itqcr_logo.png" title="STQC"></a></li>
+</ul>
+<p class="text-end pt-3">Powered by <b>PECS</b> on <b>Liferay DXP</b> </p>
+</div>		
+          </div>
+        </div>
+      </div>	  
+		  
+	  <div class="ft-footer container-fluid">
+        <div class="contentwidth">
+          <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-md-6 col-sm-12 col-lg-5">
+              <p class="">Copyright © 2025 - All Rights Reserved - Official Website of Life Insurance Corporation of
+                India.</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-7">
+			  <ul class="">
+                <!--<li><a href="javascript:void(0);" title="Disclaimer">Disclaimer</a></li>
+                <li><a href="javascript:void(0);" title="Disclaimer - Research Disclaimer"> Disclaimer - Research Disclaimer </a></li>
+                <li><a href="javascript:void(0);" title="Disclaimer - Twitter">Disclaimer - Twitter </a></li> -->
+                <li><a href="/terms-conditions" title="Term &amp; Conditions"> Term &amp; Conditions </a></li>
+                <li><a href="/sitemap">Sitemap</a></li>
+                <li><a href="/privacy-policy"> Privacy policy </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>	  	  
+		  
+    </div>
+</footer></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+	
+		
+
+			
+
+			
+		
+	
+
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	// <![CDATA[
+
+		
+
+		Liferay.currentURL = '\x2fpublic-disclosure';
+		Liferay.currentURLEncoded = '\x252Fpublic-disclosure';
+
+	// ]]>
+</script>
+
+
+
+	
+
+	
+
+	<script type="text/javascript">
+		// <![CDATA[
+			
+				
+
+				
+
+				
+			
+		// ]]>
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<script type="text/javascript">
+// <![CDATA[
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onVote = function (event) {
+		if (window.Analytics) {
+			Analytics.send('VOTE', 'Ratings', {
+				className: event.className,
+				classPK: event.classPK,
+				ratingType: event.ratingType,
+				score: event.score,
+				title: event.contentTitle,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('ratings:vote', onVote);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('ratings:vote', onVote);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	var onDestroyPortlet = function () {
+		Liferay.detach('messagePosted', onMessagePosted);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	var onMessagePosted = function (event) {
+		if (window.Analytics) {
+			Analytics.send('posted', 'Comment', {
+				className: event.className,
+				classPK: event.classPK,
+				commentId: event.commentId,
+				text: event.text,
+			});
+		}
+	};
+
+	Liferay.on('messagePosted', onMessagePosted);
+})();
+	function getValueByAttribute(node, attr) {
+		return (
+			node.dataset[attr] ||
+			(node.parentElement && node.parentElement.dataset[attr])
+		);
+	}
+
+	function sendAnalyticsEvent(anchor) {
+		var fileEntryId = getValueByAttribute(anchor, 'analyticsFileEntryId');
+		var title = getValueByAttribute(anchor, 'analyticsFileEntryTitle');
+		var version = getValueByAttribute(anchor, 'analyticsFileEntryVersion');
+
+		if (fileEntryId) {
+			Analytics.send('documentDownloaded', 'Document', {
+				groupId: themeDisplay.getScopeGroupId(),
+				fileEntryId,
+				preview: !!window._com_liferay_document_library_analytics_isViewFileEntry,
+				title,
+				version,
+			});
+		}
+	}
+
+	function handleDownloadClick(event) {
+		if (window.Analytics) {
+			if (event.target.nodeName.toLowerCase() === 'a') {
+				sendAnalyticsEvent(event.target);
+			}
+			else if (
+				event.target.parentNode &&
+				event.target.parentNode.nodeName.toLowerCase() === 'a'
+			) {
+				sendAnalyticsEvent(event.target.parentNode);
+			}
+			else if (
+				event.target.dataset.action === 'download' ||
+				event.target.querySelector('.lexicon-icon-download') ||
+				event.target.classList.contains('lexicon-icon-download') ||
+				(event.target.parentNode &&
+					event.target.parentNode.classList.contains(
+						'lexicon-icon-download'
+					))
+			) {
+				var selectedFiles = document.querySelectorAll(
+					'.portlet-document-library .entry-selector:checked'
+				);
+
+				selectedFiles.forEach(({value}) => {
+					var selectedFile = document.querySelector(
+						'[data-analytics-file-entry-id="' + value + '"]'
+					);
+
+					sendAnalyticsEvent(selectedFile);
+				});
+			}
+		}
+	}
+
+	Liferay.once('destroyPortlet', () => {
+		document.body.removeEventListener('click', handleDownloadClick);
+	});
+
+	Liferay.once('portletReady', () => {
+		document.body.addEventListener('click', handleDownloadClick);
+	});
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onShare = function (data) {
+		if (window.Analytics) {
+			Analytics.send('shared', 'SocialBookmarks', {
+				className: data.className,
+				classPK: data.classPK,
+				type: data.type,
+				url: data.url,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('socialBookmarks:share', onShare);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('socialBookmarks:share', onShare);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();
+	if (window.svg4everybody && Liferay.Data.ICONS_INLINE_SVG) {
+		svg4everybody(
+			{
+				polyfill: true,
+				validate: function (src, svg, use) {
+					return !src || !src.startsWith('#');
+				}
+			}
+		);
+	}
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_',
+			portletId: 'com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d463\x26p_p_id\x3dcom_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpublic-disclosure',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_bsbi');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_bsbi_',
+			portletId: 'com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_bsbi',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d463\x26p_p_id\x3dcom_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_bsbi\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpublic-disclosure',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_zqpq');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_zqpq_',
+			portletId: 'com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_zqpq',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d463\x26p_p_id\x3dcom_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_zqpq\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpublic-disclosure',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_',
+			portletId: 'com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d463\x26p_p_id\x3dcom_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpublic-disclosure',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ipxv');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ipxv_',
+			portletId: 'com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ipxv',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d463\x26p_p_id\x3dcom_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ipxv\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpublic-disclosure',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ezex');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ezex_',
+			portletId: 'com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ezex',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d463\x26p_p_id\x3dcom_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_ezex\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpublic-disclosure',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_qull');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_qull_',
+			portletId: 'com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_qull',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d463\x26p_p_id\x3dcom_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_qull\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpublic-disclosure',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_boef');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_boef_',
+			portletId: 'com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_boef',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d463\x26p_p_id\x3dcom_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_boef\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpublic-disclosure',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('lic_visitor_count_web_LicVisitorCountWebPortlet_INSTANCE_10758');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_lic_visitor_count_web_LicVisitorCountWebPortlet_INSTANCE_10758_',
+			portletId: 'lic_visitor_count_web_LicVisitorCountWebPortlet_INSTANCE_10758',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d463\x26p_p_id\x3dlic_visitor_count_web_LicVisitorCountWebPortlet_INSTANCE_10758\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpublic-disclosure',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_nuek');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_nuek_',
+			portletId: 'com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_nuek',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d463\x26p_p_id\x3dcom_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_nuek\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpublic-disclosure',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_duol');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_duol_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_duol',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d463\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_duol\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpublic-disclosure',
+			refreshURLData: {}
+		}
+	);
+Liferay.Loader.require('frontend-js-web/liferay/delegate/delegate.es', 'frontend-js-web/liferay/toast/commands/OpenToast.es', function(frontendJsWebLiferayDelegateDelegateEs, frontendJsWebLiferayToastCommandsOpenToastEs) {
+try {
+(function() {
+var delegateModule = frontendJsWebLiferayDelegateDelegateEs;
+var $ = AUI.$;var _ = AUI._;
+	var delegate = delegateModule.default;
+
+	delegate(
+		document,
+		'focusin',
+		'.portlet',
+		function(event) {
+			event.delegateTarget.closest('.portlet').classList.add('open');
+		}
+	);
+
+	delegate(
+		document,
+		'focusout',
+		'.portlet',
+		function(event) {
+			event.delegateTarget.closest('.portlet').classList.remove('open');
+		}
+	);
+
+})();
+(function() {
+var toastCommands = frontendJsWebLiferayToastCommandsOpenToastEs;
+var $ = AUI.$;var _ = AUI._;
+		AUI().use(
+			'liferay-session',
+			function() {
+				Liferay.Session = new Liferay.SessionBase(
+					{
+						autoExtend: true,
+						redirectOnExpire: false,
+						redirectUrl: 'https\x3a\x2f\x2flicindia\x2ein\x2fweb\x2fguest',
+						sessionLength: 900,
+						sessionTimeoutOffset: 70,
+						warningLength: 60
+					}
+				);
+
+				
+			}
+		);
+	
+})();
+} catch (err) {
+	console.error(err);
+}
+});AUI().use('liferay-menu', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+	new Liferay.Menu();
+
+	var liferayNotices = Liferay.Data.notices;
+
+	for (var i = 0; i < liferayNotices.length; i++) {
+		Liferay.Util.openToast(liferayNotices[i]);
+	}
+
+})();});
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+<script src="https://licindia.in/o/lic-theme/js/main.js?browserId=chrome&amp;minifierType=js&amp;languageId=en_US&amp;t=1779169468000" type="text/javascript"></script>
+
+
+
+
+<script type="text/javascript">function handleBeforeNavigate(){Liferay.on("beforeNavigate",(()=>{const e=parent.document.getElementsByClassName("lfr-device")[0],a=document.createElement("section");a.classList.add("loading-animation-simulation-device"),a.innerHTML='<span aria-hidden="true" class="loading-animation"></span>',e.parentNode.appendChild(a),e.classList.add("lfr-device--is-navigating")}))}function handleFrameOnLoad(){frameElement.onload=function(){const e=parent.document.getElementsByClassName("loading-animation-simulation-device")[0];e&&e.remove();parent.document.getElementsByClassName("lfr-device")[0].classList.remove("lfr-device--is-navigating")}}function handlePreviewParam(){const e=new URL(frameElement.contentWindow.location.href),a=new URLSearchParams(e.search);a.has("p_l_mode")||(a.append("p_l_mode","preview"),frameElement.contentWindow.location.search=a.toString())}AUI().use("aui-base",(()=>{frameElement&&"simulationDeviceIframe"===frameElement.getAttribute("id")&&(document.body.classList.add("lfr-has-simulation-panel"),handleBeforeNavigate(),handleFrameOnLoad(),handlePreviewParam())}));
+//# sourceMappingURL=simulation_device_dynamic_include.js.map</script><script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('frontend-js-tabs-support-web@2.0.11/index', function(frontendJsTabsSupportWeb2011Index) {
+try {
+(function() {
+var TabsProvider = frontendJsTabsSupportWeb2011Index;
+TabsProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('frontend-js-alert-support-web@2.0.9/index', function(frontendJsAlertSupportWeb209Index) {
+try {
+(function() {
+var AlertProvider = frontendJsAlertSupportWeb209Index;
+AlertProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('frontend-js-collapse-support-web@2.0.11/index', function(frontendJsCollapseSupportWeb2011Index) {
+try {
+(function() {
+var CollapseProvider = frontendJsCollapseSupportWeb2011Index;
+CollapseProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('frontend-js-tooltip-support-web@4.0.16/index', function(frontendJsTooltipSupportWeb4016Index) {
+try {
+(function() {
+var TooltipSupport = frontendJsTooltipSupportWeb4016Index;
+TooltipSupport.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('frontend-js-dropdown-support-web@2.0.9/index', function(frontendJsDropdownSupportWeb209Index) {
+try {
+(function() {
+var DropdownProvider = frontendJsDropdownSupportWeb209Index;
+DropdownProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+// ]]>
+</script>  
+  <!--script section-->
+  <script src="https://licindia.in/o/lic-theme/js/latest_jQuery.js"></script>
+  <!--<script src="https://licindia.in/o/lic-theme/js/internal2.js"></script>-->
+  <script src="https://licindia.in/o/lic-theme/js/bootstrap.bundle.min.js"></script>
+  <script src="https://licindia.in/o/lic-theme/js/wow.js"></script>	
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+			  
+<script>
+
+    new WOW().init();
+
+    $('.mobClick').click(function () {
+      $(this).toggleClass('open');
+      $('.site-nav').toggleClass('act');
+	  $('.mobClick1').removeClass('open');
+	  $('.top-bar').removeClass('act');
+	  
+    });
+    $('.mobClick1').click(function () {
+      $(this).toggleClass('open');
+      $('.top-bar').toggleClass('act');
+	  $('.site-nav').removeClass('act');
+	  $('.mobClick').removeClass('open');
+    });
+	 
+
+var s = document.createElement("script");
+s.src = "https://lic.corover.ai/sdk/chatbotlib.min.js";
+s.type = "text/javascript";
+document.getElementsByTagName("head")[0].appendChild(s);
+
+
+</script>
+
+<script>
+
+function ExternalLink(id){
+var areYouSure = confirm('This is external link, Are you sure you want to continue?');			  
+if (areYouSure === true) {
+     window.open(id,'_blank');
+} else {
+     // do other stuff
+     //return false;
+}
+}	
+function InternalLink(id){
+     window.open(id,'_self	');
+}
+
+$(".footer-nav li a").click(function(event){
+    var url = $(this).attr('href');
+    if(url.includes('https://pledge.cvc.nic.in/') || url.includes('https://policyholder.gov.in/'))
+	{
+	   $(this).css('color', 'white');
+       ExternalLink(url);
+	   event.preventDefault();
+    }
+});
+
+$(".header-nav li a").click(function(event){
+    var url = $(this).attr('href');  
+	if(url.includes('https://bimabharosa.irdai.gov.in/'))
+	{
+       ExternalLink(url);
+	   event.preventDefault();
+    }
+});
+
+$( document ).ready(function() {
+
+    $(".voice-search").prependTo(".input-group-inset-item");
+    $(".voice-search").css({display: "block"});
+	
+	
+	        $('#max').click(function () {  
+                modifyFontSize('increase');  
+            });  
+  
+            $('#min').click(function () {  
+                modifyFontSize('decrease');  
+            });  
+  
+            $('#normal').click(function () {  
+                modifyFontSize('reset');  
+            })  
+  
+            function modifyFontSize(flag) {  
+                				
+                var currentFontSize = parseInt($("body").css('font-size'));
+				
+                console.log(currentFontSize);
+                if (flag == 'increase'){
+                    if (currentFontSize < 20) {				
+                    currentFontSize += 2;  
+					}
+			    }else if (flag == 'decrease'){ 
+                    if (currentFontSize > 12) {						
+                    currentFontSize -= 2;  
+					}
+				}else { 
+                    currentFontSize = 16;  
+                }
+                $('body').css('font-size', currentFontSize);
+			    $('h1').css('font-size', currentFontSize);	
+            }
+
+$('select option:contains("हिन्दी [beta]")').text('हिन्दी');			
+$(".taglib-language-option-en-US").css("display", "none");
+$(".taglib-language-option-hi-IN").css("display", "block");
+$(".taglib-language-option-mr-IN").css("display", "block");	
+$('select option:contains("english")').text('भाषा');	  
+
+});
+
+
+/*voice search*/
+        
+        function runSpeechRecognition() {
+            // get output div reference
+            //var output = document.getElementById("output");
+            //var output = $('#output');
+            var labeltext = document.getElementById("lbl1");
+            // get action element reference
+            var action = document.getElementById("action");
+            // new speech recognition object
+            var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
+            var recognition = new SpeechRecognition();
+            // This runs when the speech recognition service starts
+            recognition.onstart = function () {
+                action.innerHTML = "<small>listening, please speak...</small>";
+            };
+            recognition.onspeechend = function () {
+                action.innerHTML = "<button type='submit' class='btn btn-primary'>Go</Button>";
+                recognition.stop();
+            }
+            // This runs when the speech recognition service returns result
+            recognition.onresult = function (event) {
+                var transcript = event.results[0][0].transcript;
+                var confidence = event.results[0][0].confidence;
+                //output.innerHTML = "<b>Text:</b> " + transcript + "<br/> <b>Confidence:</b> " + confidence * 100 + "%";
+                //output.innerHTML = transcript;
+                $('#_com_liferay_portal_search_web_portlet_SearchPortlet_keywords').val(transcript);
+                //labeltext.innerHTML = "<b>" + "Confidence level :" + "</b>" + Math.round(confidence * 100) + "%";
+                //output.innerText = "<b>Text:</b> " + transcript + "<br/> <b>Confidence:</b> " + confidence * 100 + "%";
+                output.classList.remove("hide");
+                //labeltext.classList.remove("hide");
+            };
+            // start recognition
+            recognition.start();
+        }
+        /*voice search*/
+</script>
+
+<script>
+function darkmode(){
+    $('body').addClass('dark-mode');
+    localStorage.setItem("mode", "dark");
+}
+function nodark(){
+	$('body').removeClass('dark-mode');
+	localStorage.setItem("mode", "light");
+}
+
+if(localStorage.getItem("mode")=="dark")
+	darkmode();
+else
+    nodark();
+	
+$('#darkmode').click(function(){
+    darkmode();
+});
+
+$('#lightmode').click(function(){
+    nodark();
+});
+</script>
+
+
+
+		
+	
+
+<div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div><div id="corover-cb-widget" style="width: 100px; height: 100px; position: fixed; bottom: 62px; right: 18px; background-image: url(&quot;https://cdn.corover.ai/lic_assets/LIC_3.gif&quot;); background-repeat: no-repeat; background-size: contain; background-position: 0px 0px; transition: transform 0.2s; cursor: pointer; transform-origin: 50% 50%; z-index: 9999; border-radius: 50% 50% 0%; box-shadow: rgba(1, 1, 1, 0.35) 1px 4px 5px; background-color: white;" class="coroverAvtr"><div id="corover-close-btn" style="background: url(&quot;https://s3.ap-south-1.amazonaws.com/chatbot-res/irctc/res/NPCI/closebtn.svg&quot;) 0px 0px / contain no-repeat; position: absolute; top: -50px; z-index: 99999999; right: 13px; width: 18px; height: 18px; display: none;"></div><div id="corover-max-btn" style="background: url(&quot;https://s3.ap-south-1.amazonaws.com/chatbot-res/irctc/res/NPCI/plusbtn.svg&quot;) 0px 0px / contain no-repeat; position: absolute; top: 0px; left: -30px; width: 30px; height: 30px; display: none;"></div><div class="corover-dialog" style="z-index: 999999; display: none; position: absolute; right: 1px; bottom: 115px;"><div style="display:flex;flex-direction:row;gap:5px;width:296px;max-height:120px;background-color:#fff;padding:15px 10px;border-radius:10px;box-shadow:1px 4px 15px rgba(1,1,1,.35)"><div><img style="border-radius:50%" src="https://cdn.corover.ai/lic_assets/LIC_3.gif" width="40px"></div><div><div style="width:122px;font-weight:600;color:#00529c;letter-spacing:1px;font-family:sans-serif"><div>एल आई सी मित्र</div><div style="font-size:12px">LIC MITRA</div></div><div style="color:#00529c;margin-top:10px;font-family:sans-serif;font-size:12px;letter-spacing:1px"><div>आप अपने प्रश्न मुझसे पूछ सकते हैं</div><div style="margin-top:0px">Got questions? Please ask me!!</div></div></div><div style="width:20px;height:20px;background-image:url(https://s3.ap-south-1.amazonaws.com/chatbot-res/irctc/res/NPCI/closebtn.svg);background-repeat:no-repeat;cursor:pointer"></div></div></div><div class="corover-close-dialog" style="z-index: 999999; display: none; position: absolute; border: 1px solid rgb(58, 150, 240); background: rgb(188, 209, 231); color: rgb(18, 34, 71); font-family: sans-serif; padding: 7px 17px; width: 196px; height: 46px; text-align: left; right: 10px; bottom: 150px; box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(95, 71, 71, 0.24) 0px 1px 4px; border-radius: 10px; font-size: 12px; line-height: 16px !important;"><span><strong>Bye !!</strong></span><br><span>You can call me any time with</span><br><span style="color: #c13339;"><strong>ctrl + shift + B</strong></span></div><div id="corover-cob-widget" style="z-index: 999999; position: absolute; right: 0px; top: 109px;"><div style="width: 248px;height:32px;background-color: #fff; padding: 6px 6px; border-radius: 10px 0px 10px 10px; box-shadow: 1px 4px 15px rgba(1, 1, 1, 0.35);"><div style="display:flex;color:#131313; font-family: sans-serif; font-size: 10px; letter-spacing: 1px;"><div style="margin-top: 4px;">Hi! I am Your&nbsp;</div><div style="margin-top: 4px;color:#054496; font-weight:600">Virtual Assistant LIC MITRA</div></div></div></div></div><img><div id="corover-chatbox" style="font-family: Arial, Helvetica, sans-serif; color: white; display: none; width: 405px; height: calc(var(--vh, 1vh) * 84); position: fixed; bottom: 0px; right: 15px; background: white; border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(39, 42, 43) rgb(39, 42, 43) currentcolor; border-image: initial; border-radius: 32px; box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px; z-index: 2147483647 !important;"><div id="corover-title-bar" style="background-color: rgb(39, 42, 43); border-radius: 10px 10px 0px 0px; color: white;"><div id="corover-close-cb-btn" style="width: 53px; height: 26px; border-radius: 25px; display: flex; align-content: center; align-items: center; background-position: center center; background-color: rgb(0, 82, 156); background-image: url(&quot;https://cdn.corover.ai/lic_assets/close1.svg&quot;); position: absolute; top: -32px; right: 2px; cursor: pointer; background-size: 12px 25px !important; background-repeat: no-repeat !important;"></div></div><div id="corover-frame-body" style="width: 100%; height: 100%; background: rgb(245, 245, 245); border-radius: 32px;"><iframe id="corover-chat-frame" src="https://lic.corover.ai/" frameborder="none" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor" style="width: 100%; height: 100%; border-radius: 32px;"></iframe></div></div></div><div class="lfr-spa-loading-bar"></div><div id="tooltipContainer" class="lfr-tooltip-scope"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration><iframe id="goog_plcm_frame" src="https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Flicindia.in%2Fpublic-disclosure" style="display: none;"></iframe></html>

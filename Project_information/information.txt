@@ -1,0 +1,586 @@
+Follow the SIMBA pipeline architecture documented in:
+-D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\Project_information\CLAUDE.md(full technical context)
+((D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\config.py)
+(D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\extractor.py)
+(D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\file_generator.py)
+(D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\main.py)
+(D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\orchestrator.py)
+(D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\README.md)
+(D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\scraper.py)) so this are the files that make upt the claud.md  read them only if you dont udertand the claude.md file to save tokens
+
+Imanaged to tackle a verry difficult pdf  you can get someideas if you need  to(D:\Projects\SIMBA-RUNBOOKS\OIRS_Runbook\Project_information\Claude.md) (D:\Projects\SIMBA-RUNBOOKS\OIRS_Runbook\scraper.py)
+(D:\Projects\SIMBA-RUNBOOKS\OIRS_Runbook\orchestrator.py)(D:\Projects\SIMBA-RUNBOOKS\OIRS_Runbook\main.py)(D:\Projects\SIMBA-RUNBOOKS\OIRS_Runbook\file_generator.py)
+(D:\Projects\SIMBA-RUNBOOKS\OIRS_Runbook\extractor.py)(D:\Projects\SIMBA-RUNBOOKS\OIRS_Runbook\config.py)
+
+- D:\Projects\SIMBA-RUNBOOKS\Runbook_RELPRCLVLINDX\Project_information\PIPELINE_PROMPT.md (file skeletons + rules)
+
+Same structure: config.py, scraper.py, extractor.py, file_generator.py, orchestrator.py, main.py
+Same output: DATA .xls, META .xls, ZIP, master CSV update, timestamped + latest folders
+Same environment: Windows dev, Docker Linux production, all packages pre-installed, os.path.join() everywhere
+
+now weare getting started on a new runnbook(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\LICIPD_Runbook.xlsx) you can use a script to read xslx  you cant read them directly you lack that ability 
+Here is the xlsx version (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\LICIPD_DATA_20260525.xlsx) of the manual data
+here is the csv version (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\LICIPD_DATA_20260525 - Sheet1.csv)
+Meta  file z(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\LICIPD_META_20260509.xlsx)
+
+analyze them first before we started 
+thistime we will  have the config.py  add the necessary collumns mapinng since the sub headers and headers in the manual data will be exactly the way they are to every output and in the exact arrangemen  since they are absolute unless other wise
+remember they are absolute so store them in the config .py
+(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\LICIPD_DATA_20260525 - Sheet1.csv)  analyze these files verry keenly they are verry important  lets get started
+the file is abit straight forward lets get started
+lets first start with the scraper.py 
+we need to  visit this link using selenium stealth ensure we mimic human clicks   and winreg too ensure it works for linux too other wise if it cant dont use it also ensure also works for headles true too
+lets visit this link
+(https://www.licindia.in/Bottom-Links/Public-disclosure)
+we visit the site it looks like this  (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\image1.png)here is the sample html (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\sample.txt) its a hudge file dint try reading it in full concentrate on what you really require
+we aconcentrate on the  Public disclousure by years  and depending (<section class="Internal contentwidth" id="maincontent">
+               <div tabindex="0">
+                <h1 class="internal-header"> Public Disclosure </h1>
+                <h5></h5>
+                <ul style="list-style:disc; padding-left:30px;">
+                 <li><a data-senna-off="true" href="/web/guest/public-disclosure-2025-26" style="text-decoration: none;"> 2025 - 2026 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/public-disclosure-2024-25" style="text-decoration: none;"> 2024 - 2025 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/public-disclosure-2023-241" style="text-decoration: none;"> 2023 - 2024 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2022-2023" style="text-decoration: none;"> 2022 - 2023 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2021-2022" style="text-decoration: none;"> 2021 - 2022 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2020-2021" style="text-decoration: none;"> 2020 - 2021 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2019-2020" style="text-decoration: none;"> 2019 - 2020 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2018-2019" style="text-decoration: none;"> 2018 - 2019 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2017-2018" style="text-decoration: none;"> 2017 - 2018 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2016-2017" style="text-decoration: none;"> 2016 - 2017 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2015-2016" style="text-decoration: none;"> 2015 - 2016 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2014-2015" style="text-decoration: none;"> 2014 - 2015 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2013-2014" style="text-decoration: none;"> 2013 - 2014 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2012-2013" style="text-decoration: none;"> 2012 - 2013 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2011-2012" style="text-decoration: none;"> 2011 - 2012 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2010-2011" style="text-decoration: none;"> 2010 - 2011 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2009-2010" style="text-decoration: none;"> 2009-2010 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2008-2009" style="text-decoration: none;"> 2008 - 2009 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2007-2008" style="text-decoration: none;"> 2007 - 2008 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2006-2007" style="text-decoration: none;"> 2006 - 2007 </a></li>
+                 <script type="text/javascript">
+</script>
+                 <li><a data-senna-off="true" href="/web/guest/2005-2006" style="text-decoration: none;"> 2005 - 2006 </a></li>
+                 <script type="text/javascript">
+</script>
+                </ul>
+                <div style="text-align: right; font-size:20px;" class="updatedate">
+                 <br><strong>Last modified date : </strong><strong><span id="date-output">18/4/2026</span></strong>
+                 <input type="hidden" id="date-input" value="Sat, 18 Apr 2026 10:19:55 +0000">
+                </div>
+                <script>
+$( document ).ready(function() {
+   const dateString = $("#date-input").val();
+//const date = new Date(dateString);
+
+const englishDateString = convertHindiDateToEnglish(dateString);
+const date = new Date(englishDateString);
+
+const day = date.getDate();
+const month = date.getMonth() + 1;
+const year = date.getFullYear();
+const formattedDate =day+"/"+month+"/"+year;
+console.log(formattedDate);
+$("#date-output").html(formattedDate);
+});
+
+
+// Function to convert Hindi date string to English
+function convertHindiDateToEnglish(hindiDate) {
+   
+	  // Hindi to English mappings for days and months
+const hindiToEnglishDays = {
+    "रवि": "Sun",
+    "सोम": "Mon",
+    "मंगल": "Tue",
+    "बुध": "Wed",
+    "गुरु": "Thu",
+    "शुक्र": "Fri",
+    "शनि": "Sat"
+};
+
+const hindiToEnglishMonths = {
+    "जनवरी": "January",
+    "फ़रवरी": "February",
+    "मार्च": "March",
+    "अप्रैल": "April",
+    "मई": "May",
+    "जून": "June",
+    "जुलाई": "July",
+    "अगस्त": "August",
+    "सितंबर": "September",
+    "अक्&zwj;तूबर": "October",
+    "नवंबर": "November",
+    "दिसंबर": "December"
+};
+	  
+    // Replace Hindi day names with English
+    Object.keys(hindiToEnglishDays).forEach(hindiDay => {
+        hindiDate = hindiDate.replace(hindiDay, hindiToEnglishDays[hindiDay]);
+    });
+    
+    // Replace Hindi month names with English
+    Object.keys(hindiToEnglishMonths).forEach(hindiMonth => {
+        hindiDate = hindiDate.replace(hindiMonth, hindiToEnglishMonths[hindiMonth]);
+    });
+
+    // Return the modified English date string
+    return hindiDate;
+}
+</script>
+               </div>
+              <button type="button" id="bTp" class="back-btn">Back to Previous</button></section>)
+
+you can see the years we need to have a config to be able to set year and if i set to None  it will always look for the latest year in the list then click that  wwhen we click it it will leadus to a page like this (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\2.png)
+
+you can see we have montha listed in the report (<section class="Internal contentwidth" id="maincontent">
+           <h1 class="internal-header"> Public Disclosure 2025-26 </h1>
+           <div>
+            <div class="title-main-conte">
+             <div>
+              <h5></h5>
+              <ul style="list-style:disc; padding-left:30px;">
+               <li><a data-senna-off="true" href="/web/guest/as-at-june-30-20252" style="text-decoration: none;" aria-current="page"> As at June 30, 2025 </a></li>
+               <script type="text/javascript">
+$(document).ready(function() {
+  $('.popup-link').click(function(e) {
+    e.preventDefault();
+
+    var mediaUrl = $(this).attr('href');
+    var mediaType = $(this).data('type');
+
+    if (mediaType === 'audio') {
+      $('.popup-content').html('<audio id="popup-media" controls><source src="' + mediaUrl + '" type="audio/mpeg"></audio>');
+    } else if (mediaType === 'video') {
+      $('.popup-content').html('<video id="popup-media" controls><source src="' + mediaUrl + '" type="video/mp4"></video>');
+    }
+
+    $('.popup-overlay, .popup-container').fadeIn();
+
+    var popupMedia = document.getElementById('popup-media');
+
+    $(popupMedia).on('loadedmetadata', function() {
+      popupMedia.play();
+
+      setTimeout(function() {
+        popupMedia.pause();
+      }, 10000);
+    });
+  });
+
+  $('.popup-close, .popup-overlay').click(function() {
+    var popupMedia = document.getElementById('popup-media');
+    if (popupMedia) {
+      popupMedia.pause();
+    }
+
+    $('.popup-overlay, .popup-container').fadeOut();
+    $('.popup-content').empty();
+  });
+});
+
+
+</script>
+               <li><a data-senna-off="true" href="/web/guest/as-at-september-30-2025" style="text-decoration: none;" aria-current="page"> As at September 30, 2025 </a></li>
+               <script type="text/javascript">
+$(document).ready(function() {
+  $('.popup-link').click(function(e) {
+    e.preventDefault();
+
+    var mediaUrl = $(this).attr('href');
+    var mediaType = $(this).data('type');
+
+    if (mediaType === 'audio') {
+      $('.popup-content').html('<audio id="popup-media" controls><source src="' + mediaUrl + '" type="audio/mpeg"></audio>');
+    } else if (mediaType === 'video') {
+      $('.popup-content').html('<video id="popup-media" controls><source src="' + mediaUrl + '" type="video/mp4"></video>');
+    }
+
+    $('.popup-overlay, .popup-container').fadeIn();
+
+    var popupMedia = document.getElementById('popup-media');
+
+    $(popupMedia).on('loadedmetadata', function() {
+      popupMedia.play();
+
+      setTimeout(function() {
+        popupMedia.pause();
+      }, 10000);
+    });
+  });
+
+  $('.popup-close, .popup-overlay').click(function() {
+    var popupMedia = document.getElementById('popup-media');
+    if (popupMedia) {
+      popupMedia.pause();
+    }
+
+    $('.popup-overlay, .popup-container').fadeOut();
+    $('.popup-content').empty();
+  });
+});
+
+
+</script>
+               <li><a data-senna-off="true" href="/web/guest/as-at-december-31-2025" style="text-decoration: none;" aria-current="page"> As at December 31, 2025 </a></li>
+               <script type="text/javascript">
+$(document).ready(function() {
+  $('.popup-link').click(function(e) {
+    e.preventDefault();
+
+    var mediaUrl = $(this).attr('href');
+    var mediaType = $(this).data('type');
+
+    if (mediaType === 'audio') {
+      $('.popup-content').html('<audio id="popup-media" controls><source src="' + mediaUrl + '" type="audio/mpeg"></audio>');
+    } else if (mediaType === 'video') {
+      $('.popup-content').html('<video id="popup-media" controls><source src="' + mediaUrl + '" type="video/mp4"></video>');
+    }
+
+    $('.popup-overlay, .popup-container').fadeIn();
+
+    var popupMedia = document.getElementById('popup-media');
+
+    $(popupMedia).on('loadedmetadata', function() {
+      popupMedia.play();
+
+      setTimeout(function() {
+        popupMedia.pause();
+      }, 10000);
+    });
+  });
+
+  $('.popup-close, .popup-overlay').click(function() {
+    var popupMedia = document.getElementById('popup-media');
+    if (popupMedia) {
+      popupMedia.pause();
+    }
+
+    $('.popup-overlay, .popup-container').fadeOut();
+    $('.popup-content').empty();
+  });
+});
+
+
+</script>
+               <li><a data-senna-off="true" href="/web/guest/as-at-march-31-2026" style="text-decoration: none;" aria-current="page"> As at March 31, 2026 </a></li>
+               <script type="text/javascript">
+$(document).ready(function() {
+  $('.popup-link').click(function(e) {
+    e.preventDefault();
+
+    var mediaUrl = $(this).attr('href');
+    var mediaType = $(this).data('type');
+
+    if (mediaType === 'audio') {
+      $('.popup-content').html('<audio id="popup-media" controls><source src="' + mediaUrl + '" type="audio/mpeg"></audio>');
+    } else if (mediaType === 'video') {
+      $('.popup-content').html('<video id="popup-media" controls><source src="' + mediaUrl + '" type="video/mp4"></video>');
+    }
+
+    $('.popup-overlay, .popup-container').fadeIn();
+
+    var popupMedia = document.getElementById('popup-media');
+
+    $(popupMedia).on('loadedmetadata', function() {
+      popupMedia.play();
+
+      setTimeout(function() {
+        popupMedia.pause();
+      }, 10000);
+    });
+  });
+
+  $('.popup-close, .popup-overlay').click(function() {
+    var popupMedia = document.getElementById('popup-media');
+    if (popupMedia) {
+      popupMedia.pause();
+    }
+
+    $('.popup-overlay, .popup-container').fadeOut();
+    $('.popup-content').empty();
+  });
+});
+
+
+</script>
+              </ul>
+              <div style="text-align: right; font-size:20px;" class="updatedate"> 
+               <br><strong>Page Last Update Date: </strong><strong><span id="date-output">18/4/2026</span></strong>
+               <input type="hidden" id="date-input" value="Sat, 18 Apr 2026 14:08:21 +0000">
+              </div>
+             </div>
+            </div>
+           </div>
+           <script>
+const dateString = $("#date-input").val();
+//const date = new Date(dateString);
+
+const englishDateString = convertHindiDateToEnglish(dateString);
+const date = new Date(englishDateString);
+
+const day = date.getDate();
+const month = date.getMonth() + 1;
+const year = date.getFullYear();
+const formattedDate =day+"/"+month+"/"+year;
+console.log(formattedDate);
+$("#date-output").html(formattedDate);
+
+
+// Function to convert Hindi date string to English
+function convertHindiDateToEnglish(hindiDate) {
+   
+	  // Hindi to English mappings for days and months
+const hindiToEnglishDays = {
+    "रवि": "Sun",
+    "सोम": "Mon",
+    "मंगल": "Tue",
+    "बुध": "Wed",
+    "गुरु": "Thu",
+    "शुक्र": "Fri",
+    "शनि": "Sat"
+};
+
+const hindiToEnglishMonths = {
+    "जनवरी": "January",
+    "फ़रवरी": "February",
+    "मार्च": "March",
+    "अप्रैल": "April",
+    "मई": "May",
+    "जून": "June",
+    "जुलाई": "July",
+    "अगस्त": "August",
+    "सितंबर": "September",
+    "अक्&zwj;तूबर": "October",
+    "नवंबर": "November",
+    "दिसंबर": "December"
+};
+	  
+    // Replace Hindi day names with English
+    Object.keys(hindiToEnglishDays).forEach(hindiDay => {
+        hindiDate = hindiDate.replace(hindiDay, hindiToEnglishDays[hindiDay]);
+    });
+    
+    // Replace Hindi month names with English
+    Object.keys(hindiToEnglishMonths).forEach(hindiMonth => {
+        hindiDate = hindiDate.replace(hindiMonth, hindiToEnglishMonths[hindiMonth]);
+    });
+
+    // Return the modified English date string
+    return hindiDate;
+}
+</script>
+          <button type="button" id="bTp" class="back-btn">Back to Previous</button></section>) 
+          we also look for the latest month dynamicaly  unless the config specifies a specified date  other wise pic the latest in the list click that 
+for us it would be (As at March 31, 2026)
+it will lead us to apage like this (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\3.png)  here is the sample(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\as of march.txt) this for march 2026  some times you will not the linck opens you can see the list but the pdfs are not still available  that means the data is not full out yet meaning the latest we have to gio back use a previous date
+the first report we need is the (L-3 Balance Sheet	)  you can see we have it at number 6 this time no hardcoding we need to loook for the Balance sheet dynamicalythen  
+you can see we can find it here (<tr>
+                <td style="text-align:center;"><strong> 6 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-3A-+Balance+Sheet+as+on+31.03.2026.pdf/60097514-6380-0828-cb6c-8339386b0dc9?t=1779365560483" style="text-decoration: none;"> L-3A- Balance Sheet as on 31.03.2026 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize5">(244 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size5=FormatSize("249601");
+document.getElementById("docsize5").innerHTML ="("+ size5+")";
+delete size5;
+</script>
+               </tr>0
+               )
+
+               when we click it it will open a pdfviewer page (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\4.png) we triger the download of the pdfsave it in the output folder with timestamped subfolders for every run  and a names sub sub folder for each specific category of pdf here is as ample of balance sheet pdf(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\L-3A- Balance Sheet as on 31.03.2026.pdf)
+                wemove to the next  we look for (L-13 Investments Policyholders	) here it is (<tr>
+                <td style="text-align:center;"><strong> 17 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-13-+Investments+-+Policyholders+as+on+31.03.2026.pdf/53f0c845-1aca-c6a5-4393-748d02bc9e23?t=1779365555280" style="text-decoration: none;"> L-13- Investments- Policyholders as on 31.03.2026 <span id="docsize16">(142 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size16=FormatSize("144933");
+document.getElementById("docsize16").innerHTML ="("+ size16+")";
+delete size16;
+</script>
+               </tr>) we click it it will lead us to a pdf viewer pager (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\5.png) (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\L-14 - Investments - Linked Business as on 31.03.2026.pdf)
+               we triger the downlad same procedure to the other here is a sample of the investments pdf (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\L-13- Investments - Policyholders as on 31.03.2026.pdf)
+               we go back to out list we look for (L-14 Investments(Linked Business)) you can see we found it dynamicaly here it is (<tr>
+                <td style="text-align:center;"><strong> 18 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-14+-+Investments+-+Linked+Business+as+on+31.03.2026.pdf/5b6b7c52-8c51-660a-8383-16d00e041b87?t=1779365554701" style="text-decoration: none;"> L-14- Investments -Linked Business as on 31.03.2026 <span id="docsize17">(141 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size17=FormatSize("144724");
+document.getElementById("docsize17").innerHTML ="("+ size17+")";
+delete size17;
+</script>
+               </tr>) we click it it will lead us to a pdf viewer page (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\6.png)we follow the same procudure triger the download
+               nex we go back and find (L-1 Rev Acc)(L-1 Revenue Account (report file with the latest date):					)  this is where it gets weired  we are interested in (	L-1A - Revenue Account for the period ended ) but as as you see in the list as you see we always or some times have 2 we cant determine the date from outside but from inside the pdf meaning for this wewill have to download both of them (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\7.png)
+               (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\8.png)you can see we have a 2025 pdf and 2026 pdf same structure meaning wewill have to parse it to determine ther  latest 
+
+
+              here they are (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\L-1A- Revenue Account for the period ended 31.03.2025.pdf)(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\L-1A- Revenue Account for the period ended 31.03.2026.pdf) you can determine the latastet from parsing or from the name of the pdf add those 2 measures
+
+              now moving on to the good stufs  the extractor  we are gona use fitz based on the other 2 runbooks fitz workes perfectly we have all these pdfs to process lets go one by one the Balance sheet pdf we are gona use fitz to perfect the table extraction
+              (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\balancemarch.png),(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\balancemarch2.png)
+
+              so the script needs to be as dynamic as possible  remeber that the structure might change so we need to accunt for that like for this instance we have 2 tables in the same pdf  what are we looking for here we need to find the (Shareholders,Policyholders	,Asset Held to Cover Linked Liabilities	) dynamically in the labels of the table  based on the latest headers  we find this (As at March 31, 2026)  we pick the coresponding values to the lables in that column we need to be highly dynamic analyze the extracted table first determine where the headers are and what lable we need before pulling the data we need no hard coding positions or structrue 
+               we save those values to the master to the corespoding year quater wewill have a master file for this file we will be apending the new values to the master file(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Master_Data\Master_LICIPD_DATA.csv) with the new data without interfeering wit the already existing data its an apend job also we ensure we dont duplicate quater data  after apdating with the new q data we copy the master and save it as our new output in xls formart in the output folder with timestamped subfolder for every run and latest subfolder that will always hold the latest files on every run 
+
+               lets get bac to it remebre the data might be in english or hindi  ill shere example
+               the second pdf is the   (	L-13- Investments- Policyholders as on 31.03.2026 (142 KB)) investments Policyholders (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\investmentsph.png)(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\L-13- Investments - Policyholders as on 31.03.2026.pdf)
+               we use fitz to perfec table extraction  be as dynamic as possible then what we require here is that (
+Under (LONG TERM INVESTMENTS)							
+Government securities and Government guaranteed bonds including Treasury Bills							
+Other Approved Securities							
+Equity							
+Preference							
+Mutual Funds							
+Debentures/ Bonds							
+Deposits with Social Security Fund							
+Other Securities & Bonds							
+Initial contribution to UTI II capital							
+Subsidiaries							
+Investment Properties-Real Estate							
+Investments in Infrastructure and Social Sector							
+Other than Approved Investments							
+Provision for Doubtful Investments							
+							
+Under(SHORT TERM INVESTMENTS	)						
+Government securities and Government guaranteed bonds including Treasury Bills							
+Other Approved Securities							
+Equity							
+Preference							
+Mutual Funds							
+Debentures/ Bonds							
+Other Securities							
+Investments in Infrastructure and Social Sector							
+Other than Approved Investments							
+Provision for Doubtful Investments							
+TOTAL							)
+the column based on the latest date there  for use is (As at March 31,2026)
+we need to always determin dynamicaly    weneed to map this to the corresponding subheaders in the master file  the subheaders wand headers in the master will guide youa on the extraction requirements 
+you can see i have maped them arcordingly (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\LICIPD_DATA_20260525 - Sheet1.csv)
+next pdf is the (L-14 Investments(Linked Business))(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\linkedbusiness.png)(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\L-14 - Investments - Linked Business as on 31.03.2026.pdf
+)
+similar we need to perfect the extraction of the full table then determin the headers and the lables dynamicaly without hard coding
+as fro what we need from the table the subheaders in the master will guid you arcordingly (
+  Under(LONG TERM INVESTMENTS	)						
+Government securities and Government guaranteed bonds including Treasury Bills							
+Other Approved Securities							
+Equity							
+Preference							
+Mutual Funds							
+Debentures/ Bonds							
+Other Securities							
+Investments in Infrastructure and Social Sector							
+Other than Approved Investments							
+							
+Under (SHORT TERM INVESTMENTS		)					
+Government securities and Government guaranteed bonds including Treasury Bills							
+Other Approved Securities							
+Mutual Funds							
+Debentures/ Bonds							
+Other Securities							
+Investments in Infrastructure and Social Sector							
+Other than Approved Investments							
+Other Current Assets (Net)							
+TOTAL							
+)
+ the corespoding value on the latest column you can see for us is (As at March
+31, 2026
+) so alwys tyhe script needs to be context aware
+
+now we move to the most important pdf Reevenue account  remember we have downloaded 2 pdfs fost we i dentify the latest by chacking the date on the name of the pdf (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\L-1A- Revenue Account for the period ended 31.03.2025.pdf)(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\L-1A- Revenue Account for the period ended 31.03.2026.pdf) if its not available there them we open the pdf we can determine by parsing the pdf (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\8.png)(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\7.png
+you can see we usualy have a statement to tell us which is latest )(REVENUE ACCOUNT FOR THE PERIOD ENDED MARCH 31, 2026)(REVENUE ACCOUNT FOR THE PERIOD ENDED MARCH, 2025)
+so we can determine it as first as possible since we have that coverst lets move to extraction we (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\revenue accounts.png)can see this is the latest pdf first 
+(L-1 Revenue Account (report file with the latest date):												
+Value from the lates row (Grand Total)												
+•	Premiums earned – net											
+a)	Premium											
+b)	Reinsurance ceded											
+c)	Reinsurance accepted											
+Note: "Premiums earned – net" value is not available in the report, it is the sum of a, b & c above.												
+•	Interest, Dividends & Rent – Gross											
+•	Investment Gain/Loss On Sale/Redemption											
+a)	Profit on sale/redemption of investments											
+b)	(Loss on sale/ redemption of investments)											
+Note: "Investment Gain/Loss On Sale/Redemption" value is not available in the report, it is the sum of a & b above.												
+•	Transfer/Gain on revaluation/change in fair value*											
+•	Other Income											
+•	TOTAL (A)											
+•	TOTAL (B)						16301.19					
+•	Benefits Paid (Net)						105112.82					
+•	Bonuses Paid						1137.54					
+•	Net Income						122551.55					
+Note: "Net Income" value is not available in the report, it is the sum of TOTAL (A), TOTAL (B), Benefits Paid and Bonuses paid above.												)
+
+
+(Calculation (subtract if the value is in parentheses)	Measure	ex.
+(a) Premium + (b) Reinsurance ceded + (c) Reinsurance accepted	Premiums earned – net	9835176.47
+(b) Profit on sale/redemption of investments + (c) (Loss on sale/ redemption of investments) (subtract if the value is in parentheses)	Investment Gain/Loss On Sale/Redemption	507631.89
+TOTAL (A) + TOTAL (B) + Benefits Paid (Net) + Bonuses Paid	Net Income	25540476.4)
+
+
+
+you can se all the calculations  remeberthem and you can confirm and determine by what wehave don in the sampe output also remember (Display values in parentheses from reporting as negative)
+this is alot of in formato we are going to do this step by step before creating the extractlo we ar going to createa test script for each individual pdf pereform the xtraction and perfect it then test is in the backwards pdfs which i will share we see ho dynamic they are   we need a CLAUDE.md this (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\CLAUDE.md) after analyzing every thing we update it with the full context on every step every progress with full technichall delails what has worked and wat hasnot remember we update it in realtime not  just updating after we finishe everyting we need to regularly save our context there every single win imediatly it hapens such that i don have to analyze the files again to get context meanin i chanswitch chats very fast to avoid loosing context
+
+here are your sampe pdfs by dates (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\samplepdfs)
+something to note for the (As at September 30, 2025) for the revenue accound we are missing one for the perioed ended we have half year for this case we need to pich the one for (L-1- Revenue Account for the Half year ended 30.09.2024  (Content is in English) (370 KB)
+2	L-1A- Revenue Account for the quarter ended 30.09.2024  (Content is in English) (375 KB)
+3	L-1A- Revenue Account for the quarter ended 30.09.2025 (2)  (Content is in English) (195 KB)
+4	L-1- Revenue Account for the Half year ended 30.09.2025 (1)  (Content is in English) (194 KB))
+for quaterly (L-1A- Revenue Account for the quarter ended 30.09.2025 (2)  (Content is in English) (195 KB)) but add a config where i kan switch if i want too  so default is period ended then then quater then Half year 
+
+
+something to not too is the short forms like this (17	L-13- Investments PHs as at 30.09.2025  (Content is in English) (142 KB)
+18	L-14- Investments (Linked Busi) as at 30.09.2025  (Content is in English) (141 KB)) this is for policy and linked Business
+
+remember when i told you we have some pdfs in indian (As at June 30, 2025) contais some of it pdfs in indian like this (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\imageindian.png) weneed to acound for that we also need to acound for when the details in the site are in indian just to be safe so our script needs to be context aware as possible 
+
+lets get codding dont waste tokens be efficient no halucinating ensure you test on the pdfs each its individiual test script then perfect it backward then move to the next category pdf blablabla ! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

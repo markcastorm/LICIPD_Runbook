@@ -1,0 +1,914 @@
+lets continue this conversation from where we left of its a hudge converstion (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\conversation.txt)6000 lines look for relevan t stauu we wer testing the next revenue pdfs based on the runbook (D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\CLAUDE.md)(D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\Project_information\information.txt) you can see wehave coverd alot of ground
+(Interesting! ALL 4 L-14 PDFs are in English, including June 2025! The June 2025 L-14 has "Particulars", "LONG TERM INVESTMENTS", "SHORT TERM INVESTMENTS" in English. So the L-14 PDFs happen to be in English for all quarters.
+
+But I still need to make the code Hindi-ready since a future quarter could be in Hindi. The structure is very similar to L-13 with these differences:
+
+L-14 has NO "(e) Other Securities:- / Other Securities & Bonds" sub-row pattern.
+Instead, "(e) Other Securities (to be specified)" IS the actual data row.
+2. L-14 SHORT TERM has an ADDITIONAL row: "6. Other Current Assets (Net)" -> NETCURRASST
+3. L-14 is missing several Long Term fields that L-13 has: Deposits with Social Security Fund, Initial contribution to UTI II capital, and the alternate sub-row pattern.
+4. L-14 SHORT TERM doesn't include EQUITY and PREFERENCE columns in the mapping.
+
+Now I'm checking the INVLINKED_LABELS configuration to see how the short-term investment categories map to their field codes... I'm seeing that short-term investments have 9 fields total, and notably exclude equity and preference categories even though they appear in the PDF with dash values—I'll need to skip those rows during mapping since there are no corresponding column codes. For long-term investments, the structure is different and includes equity and preference fields along with the other security types. I'm noticing that the PDF shows rows (f) and (g) for Subsidiaries and Real Estate with dash values, but these don't have corresponding column codes in the INVLINKED configuration. When building codes from the prefix, I need to verify that each code actually exists in COLUMN_CODES before using it, since some items in the PDF structure don't map to the data schema. L-14 has a different row 6 mapping than L-13—it maps to 'NETCURRASST' only in the SHORT TERM section, whereas L-13 maps row 6 to 'PROVISIONDOUBTFUL'. I'll need to account for this distinction when building the L-14 script. The test file for L-14 will follow the same structure as the L-13 test but with adjusted label configurations.
+
+Now I'm noticing that rows (f) and (g) appear in the PDF with dash values, and while the subitem mapping includes them, they won't match any column codes since they're not part of the L-14 dataset, so I should skip those rows during processing. Checking the SHORT TERM investment codes now, and I see the same pattern—no SUBSIDIARIES or REALESTATE entries here either, so those prefixes will generate codes that don't exist in the column list and need to be skipped. Now I'm setting up the row number mapping for L-14, which includes government securities, approved securities, infrastructure/social sector investments, other non-approved items, and net current assets. Since the validation checks each constructed code against the available column codes, even if I map row 6 to NETCURRASST across both term lengths, the long-term version will naturally be filtered out because it doesn't exist in the configuration.
+
+Next I'm writing the test file for investments linked, which will follow the same structure as the investments PH tests but use the linked-specific configuration labels and code prefixes. I'm considering whether to extract common utility functions from test_investments_ph.py to reuse in the L-14 test script, since functions like clean_label and detect_section_change are general-purpose enough to work across both L-13 and L-14 formats. I'll keep the test scripts separate for now as requested, but import those shared helpers to avoid duplication.
+
+Writing test script...
+
+All 4 L-14 PDFs are in English (even June 2025). The structure is similar to L-13 but with key differences:
+
+No (i) sub-row for OTHSECSBOND - (e) IS the value row directly
+SHORT TERM has row 6 = "Other Current Assets (Net)" (NETCURRASST) instead of PROVISIONDOUBTFUL
+Fewer fields in INVLINKED vs INVPHS (no SUBSIDIARIES, REALESTATE, PROVISIONDOUBTFUL in LT)
+Let me get the expected values from the master CSV and write the script.
+
+Bash Extract INVLINKED expected values from master CSV
+IN
+cd "D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook" && python -c "
+import csv
+with open('Master_Data/Master_LICIPD_DATA.csv', 'r', encoding='utf-8') as f:
+    reader = csv.reader(f)
+    codes = next(reader)
+    descs = next(reader)
+    invl_cols = [(i, codes[i]) for i in range(len(codes)) if 'INVLINKED' in codes[i]]
+    for row in reader:
+        quarter = row[0] if row else ''
+        if quarter in ('2026-Q1', '2025-Q4', '2025-Q3', '2025-Q2'):
+            print(f\"    '{quarter}': {{\")
+            for i, code in invl_cols:
+                val = row[i].replace(',','') if i < len(row) else ''
+                if val and val != 'NA' and val.strip():
+                    print(f\"        '{code}': {val},\")
+            print('    },')
+"
+
+OUT
+    '2025-Q2': {
+        'LICIPD.INVLINKED.LONGTERM.GOVTSECS.Q': 13489.31,
+        'LICIPD.INVLINKED.LONGTERM.OTHAPPRSECS.Q': 0.05,
+        'LICIPD.INVLINKED.LONGTERM.EQUITY.Q': 34744.76,
+        'LICIPD.INVLINKED.LONGTERM.DEBENTBOND.Q': 10.71,
+        'LICIPD.INVLINKED.LONGTERM.INFRASOCIALSECTOR.Q': 2177.8,
+        'LICIPD.INVLINKED.LONGTERM.OTHERNONAPPROVED.Q': 75.4,
+        'LICIPD.INVLINKED.SHORTTERM.GOVTSECS.Q': 1067.49,
+        'LICIPD.INVLINKED.SHORTTERM.MUTUALFUND.Q': 1357.2,
+        'LICIPD.INVLINKED.SHORTTERM.INFRASOCIALSECTOR.Q': 86.49,
+        'LICIPD.INVLINKED.SHORTTERM.NETCURRASST.Q': 713.52,
+        'LICIPD.INVLINKED.SHORTTERM.TOTAL.Q': 53722.73,
+    },
+    '2025-Q3': {
+        'LICIPD.INVLINKED.LONGTERM.GOVTSECS.Q': 14441.65,
+        'LICIPD.INVLINKED.LONGTERM.OTHAPPRSECS.Q': 0.05,
+        'LICIPD.INVLINKED.LONGTERM.EQUITY.Q': 36132.6,
+        'LICIPD.INVLINKED.LONGTERM.DEBENTBOND.Q': 86.58,
+        'LICIPD.INVLINKED.LONGTERM.INFRASOCIALSECTOR.Q': 2491.3,
+        'LICIPD.INVLINKED.LONGTERM.OTHERNONAPPROVED.Q': 69.18,
+        'LICIPD.INVLINKED.SHORTTERM.GOVTSECS.Q': 1329.58,
+        'LICIPD.INVLINKED.SHORTTERM.MUTUALFUND.Q': 1577.57,
+        'LICIPD.INVLINKED.SHORTTERM.INFRASOCIALSECTOR.Q': 117.44,
+        'LICIPD.INVLINKED.SHORTTERM.NETCURRASST.Q': 731.48,
+        'LICIPD.INVLINKED.SHORTTERM.TOTAL.Q': 56977.43,
+    },
+    '2025-Q4': {
+        'LICIPD.INVLINKED.LONGTERM.GOVTSECS.Q': 15566.37,
+        'LICIPD.INVLINKED.LONGTERM.OTHAPPRSECS.Q': 0.05,
+        'LICIPD.INVLINKED.LONGTERM.EQUITY.Q': 40707.69,
+        'LICIPD.INVLINKED.LONGTERM.DEBENTBOND.Q': 162.06,
+        'LICIPD.INVLINKED.LONGTERM.INFRASOCIALSECTOR.Q': 3106.41,
+        'LICIPD.INVLINKED.LONGTERM.OTHERNONAPPROVED.Q': 50.31,
+        'LICIPD.INVLINKED.SHORTTERM.GOVTSECS.Q': 1202.51,
+        'LICIPD.INVLINKED.SHORTTERM.MUTUALFUND.Q': 1681.69,
+        'LICIPD.INVLINKED.SHORTTERM.INFRASOCIALSECTOR.Q': 31,
+        'LICIPD.INVLINKED.SHORTTERM.NETCURRASST.Q': 1018.54,
+        'LICIPD.INVLINKED.SHORTTERM.TOTAL.Q': 63526.63,
+    },
+    '2026-Q1': {
+        'LICIPD.INVLINKED.LONGTERM.GOVTSECS.Q': 15324.59,
+        'LICIPD.INVLINKED.LONGTERM.EQUITY.Q': 37375.37,
+        'LICIPD.INVLINKED.LONGTERM.DEBENTBOND.Q': 278.69,
+        'LICIPD.INVLINKED.LONGTERM.INFRASOCIALSECTOR.Q': 3647.06,
+        'LICIPD.INVLINKED.LONGTERM.OTHERNONAPPROVED.Q': 47.02,
+        'LICIPD.INVLINKED.SHORTTERM.GOVTSECS.Q': 1210.88,
+        'LICIPD.INVLINKED.SHORTTERM.OTHAPPRSECS.Q': 0.05,
+        'LICIPD.INVLINKED.SHORTTERM.MUTUALFUND.Q': 2175.6,
+        'LICIPD.INVLINKED.SHORTTERM.OTHSECSBOND.Q': 150,
+        'LICIPD.INVLINKED.SHORTTERM.INFRASOCIALSECTOR.Q': 30.72,
+        'LICIPD.INVLINKED.SHORTTERM.NETCURRASST.Q': 1656.96,
+        'LICIPD.INVLINKED.SHORTTERM.TOTAL.Q': 61896.94,
+    },
+Now I have all the data I need. Let me write test_investments_linked.py. I'll reuse the multi-strategy approach from test_investments_ph.py, importing the common functions.
+
+Key differences from L-13:
+
+Uses config.INVLINKED_LABELS instead of INVPHS_LABELS
+
+Uses 'LICIPD.INVLINKED' prefix instead of 'LICIPD.INVPHS'
+
+Row 6 -> NETCURRASST (L-13 maps to PROVISIONDOUBTFUL)
+
+No (i) sub-item needed
+
+(e) is the value row directly rather than a header, with fewer expected fields per section overall
+
+All PDFs are currently English but I'll still need to handle Hindi support.
+
+I can import the shared functions from test_investments_ph.py.
+
+Now I have everything needed. Let me write test_investments_linked.py, reusing the multi-strategy approach.
+
+Write D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook\test_investments_linked.py
+341 lines
+"""
+Test script for Investments Linked Business (L-14) PDF extraction using PyMuPDF (fitz).
+Extracts up to 18 fields: 9 LONG TERM + 9 SHORT TERM from the latest date column.
+
+Uses the same multi-strategy label-context-aware extraction as L-13:
+  Strategy 1: English label text matching against config.INVLINKED_LABELS
+  Strategy 2: IRDA sub-item prefix matching (aa=Equity, b=MF, d=Debentures, etc.)
+  Strategy 3: Row number context matching (1=GovtSecs, 2=OthApproved, etc.)
+  Strategy 4: Hindi keyword fragment matching
+
+Key differences from L-13 (Policyholders):
+  - Row 6 maps to NETCURRASST (Other Current Assets), not PROVISIONDOUBTFUL
+  - (e) Other Securities IS the value row (no sub-row pattern)
+  - Fewer mapped fields (no SUBSIDIARIES/REALESTATE/PROVISIONDOUBTFUL in LT,
+    no EQUITY/PREFERENCE in ST)
+  - Code validates against COLUMN_CODES so unmapped prefixes are skipped
+"""
+import sys
+import os
+import re
+import io
+import fitz
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import config
+from test_balance_sheet import (
+    parse_value, parse_date_from_text, detect_date_columns,
+    date_to_quarter, _ensure_utf8_stdout,
+)
+from test_investments_ph import (
+    clean_label, find_label_column, detect_section_change,
+    is_total_row, extract_subitem_prefix, match_hindi_keywords,
+    SUBITEM_TO_FIELD, HINDI_FIELD_KEYWORDS,
+)
+
+# ── L-14 specific row number mapping ─────────────────────────────────────────
+# Same as L-13 except row 6 = NETCURRASST (not PROVISIONDOUBTFUL)
+ROWNUM_TO_FIELD_L14 = {
+    '1': 'GOVTSECS',
+    '2': 'OTHAPPRSECS',
+    '4': 'INFRASOCIALSECTOR',
+    '5': 'OTHERNONAPPROVED',
+    '6': 'NETCURRASST',
+}
+
+CODE_PREFIX = 'LICIPD.INVLINKED'
+
+
+def match_hindi_keywords_linked(label_text, section):
+    """Hindi keyword matching adapted for INVLINKED column codes.
+
+    Builds INVLINKED codes and validates against COLUMN_CODES.
+    """
+    if not label_text:
+        return None
+    section_upper = 'LONGTERM' if section == 'long_term' else 'SHORTTERM'
+
+    for field_suffix, keywords in HINDI_FIELD_KEYWORDS.items():
+        for kw in keywords:
+            if kw in label_text:
+                if field_suffix == 'OTHAPPRSECS' and '\u0905\u0932\u093e\u0935\u093e' in label_text:
+                    continue
+                code = f'{CODE_PREFIX}.{section_upper}.{field_suffix}.Q'
+                if code in config.COLUMN_CODES:
+                    return code
+    return None
+
+
+def extract_investments_linked(pdf_path):
+    """Extract Investments Linked Business values from L-14 PDF.
+
+    Uses four matching strategies (same as L-13):
+      1. English label text matching against config.INVLINKED_LABELS
+      2. IRDA sub-item prefix matching
+      3. Row number context matching (row 6 = NETCURRASST for L-14)
+      4. Hindi keyword fragment matching
+
+    All generated codes are validated against config.COLUMN_CODES.
+    """
+    print(f"\n{'='*70}")
+    print(f"Extracting L-14 from: {os.path.basename(pdf_path)}")
+    print(f"{'='*70}")
+
+    doc = fitz.open(pdf_path)
+    page = doc[0]
+    tables = page.find_tables()
+
+    if not tables.tables:
+        print("ERROR: No tables found!")
+        doc.close()
+        return {}, None
+
+    best_table = max(tables.tables, key=lambda t: len(t.extract()))
+    rows = best_table.extract()
+    num_cols = len(rows[0]) if rows else 0
+    print(f"Table: {len(rows)} rows x {num_cols} cols")
+
+    date_cols = detect_date_columns(rows)
+    print(f"Date columns: {[(c[0], c[1]) for c in date_cols]}")
+
+    if not date_cols:
+        print("ERROR: No date columns detected!")
+        doc.close()
+        return {}, None
+
+    latest = max(date_cols, key=lambda x: x[2])
+    latest_col = latest[0]
+    date_detected = latest[1]
+    print(f"Using latest: col={latest_col}, date='{date_detected}'")
+
+    label_col = find_label_column(rows)
+    print(f"Label column: {label_col}")
+
+    results = {}
+    section = None
+
+    for i, row in enumerate(rows):
+        new_section = detect_section_change(row)
+        if new_section:
+            section = new_section
+            print(f"  [Section: {section.upper().replace('_', ' ')}] row {i}")
+            continue
+
+        if section is None:
+            continue
+
+        raw_label = row[label_col].strip() if label_col < len(row) and row[label_col] else ''
+        if not raw_label:
+            continue
+
+        col0 = row[0].strip() if row[0] else ''
+        row_num_text = col0 if re.match(r'^\d$', col0) else ''
+
+        val_text = row[latest_col] if latest_col < len(row) else None
+        val = parse_value(val_text)
+
+        # TOTAL detection
+        if is_total_row(raw_label):
+            code = f'{CODE_PREFIX}.SHORTTERM.TOTAL.Q'
+            if code not in results or (results[code] == 'NA' and val != 'NA'):
+                results[code] = val
+                print(f"  [TOTAL] TOTAL = {val}")
+            continue
+
+        # Skip sub-headers: (a) Shares, (c)/(c ) Derivative Instruments
+        prefix = extract_subitem_prefix(raw_label)
+        if prefix in ('a', 'c'):
+            continue
+
+        section_upper = 'LONGTERM' if section == 'long_term' else 'SHORTTERM'
+        code = None
+        match_strategy = None
+
+        # ── Strategy 1: English label text matching ──────────────────────
+        cleaned = clean_label(raw_label)
+        if cleaned:
+            key = (section, cleaned)
+            s1_code = config.INVLINKED_LABELS.get(key)
+            if s1_code is None:
+                for config_key, config_code in config.INVLINKED_LABELS.items():
+                    if config_key[0] != section:
+                        continue
+                    if config_key[1] in cleaned or (cleaned in config_key[1] and len(cleaned) > 3):
+                        s1_code = config_code
+                        break
+            if s1_code:
+                code = s1_code
+                match_strategy = 'LABEL'
+
+        # ── Strategy 2: Sub-item prefix matching ────────────────────────
+        if prefix and prefix in SUBITEM_TO_FIELD:
+            field_suffix = SUBITEM_TO_FIELD[prefix]
+            s2_code = f'{CODE_PREFIX}.{section_upper}.{field_suffix}.Q'
+            if s2_code in config.COLUMN_CODES:
+                if code is None:
+                    code = s2_code
+                    match_strategy = 'PREFIX'
+
+        # ── Strategy 3: Row number matching ─────────────────────────────
+        if not code and row_num_text and row_num_text in ROWNUM_TO_FIELD_L14:
+            field_suffix = ROWNUM_TO_FIELD_L14[row_num_text]
+            s3_code = f'{CODE_PREFIX}.{section_upper}.{field_suffix}.Q'
+            if s3_code in config.COLUMN_CODES:
+                code = s3_code
+                match_strategy = 'ROWNUM'
+
+        # ── Strategy 4: Hindi keyword matching ──────────────────────────
+        if not code:
+            s4_code = match_hindi_keywords_linked(raw_label, section)
+            if s4_code:
+                code = s4_code
+                match_strategy = 'HINDI'
+
+        # Store result (override NA with real values)
+        if code:
+            if code not in results or (results[code] == 'NA' and val != 'NA'):
+                results[code] = val
+                short_name = code.split('.')[-2]
+                print(f"  [{match_strategy}] {short_name} = {val}")
+
+    doc.close()
+
+    # Print summary
+    print(f"\n--- RESULTS ({len(results)} fields) ---")
+    expected_lt = [c for c in config.COLUMN_CODES if 'INVLINKED.LONGTERM' in c]
+    expected_st = [c for c in config.COLUMN_CODES if 'INVLINKED.SHORTTERM' in c]
+
+    print("  LONG TERM:")
+    for code in expected_lt:
+        val = results.get(code, 'NA')
+        short = code.split('.')[-2]
+        print(f"    {short}: {val}")
+
+    print("  SHORT TERM:")
+    for code in expected_st:
+        val = results.get(code, 'NA')
+        short = code.split('.')[-2]
+        print(f"    {short}: {val}")
+
+    return results, date_detected
+
+
+# ── Expected values from master CSV for verification ─────────────────────────
+EXPECTED_VALUES = {
+    '2026-Q1': {
+        'LICIPD.INVLINKED.LONGTERM.GOVTSECS.Q': 15324.59,
+        'LICIPD.INVLINKED.LONGTERM.EQUITY.Q': 37375.37,
+        'LICIPD.INVLINKED.LONGTERM.DEBENTBOND.Q': 278.69,
+        'LICIPD.INVLINKED.LONGTERM.INFRASOCIALSECTOR.Q': 3647.06,
+        'LICIPD.INVLINKED.LONGTERM.OTHERNONAPPROVED.Q': 47.02,
+        'LICIPD.INVLINKED.SHORTTERM.GOVTSECS.Q': 1210.88,
+        'LICIPD.INVLINKED.SHORTTERM.OTHAPPRSECS.Q': 0.05,
+        'LICIPD.INVLINKED.SHORTTERM.MUTUALFUND.Q': 2175.6,
+        'LICIPD.INVLINKED.SHORTTERM.OTHSECSBOND.Q': 150.0,
+        'LICIPD.INVLINKED.SHORTTERM.INFRASOCIALSECTOR.Q': 30.72,
+        'LICIPD.INVLINKED.SHORTTERM.NETCURRASST.Q': 1656.96,
+        'LICIPD.INVLINKED.SHORTTERM.TOTAL.Q': 61896.94,
+    },
+    '2025-Q4': {
+        'LICIPD.INVLINKED.LONGTERM.GOVTSECS.Q': 15566.37,
+        'LICIPD.INVLINKED.LONGTERM.OTHAPPRSECS.Q': 0.05,
+        'LICIPD.INVLINKED.LONGTERM.EQUITY.Q': 40707.69,
+        'LICIPD.INVLINKED.LONGTERM.DEBENTBOND.Q': 162.06,
+        'LICIPD.INVLINKED.LONGTERM.INFRASOCIALSECTOR.Q': 3106.41,
+        'LICIPD.INVLINKED.LONGTERM.OTHERNONAPPROVED.Q': 50.31,
+        'LICIPD.INVLINKED.SHORTTERM.GOVTSECS.Q': 1202.51,
+        'LICIPD.INVLINKED.SHORTTERM.MUTUALFUND.Q': 1681.69,
+        'LICIPD.INVLINKED.SHORTTERM.INFRASOCIALSECTOR.Q': 31.0,
+        'LICIPD.INVLINKED.SHORTTERM.NETCURRASST.Q': 1018.54,
+        'LICIPD.INVLINKED.SHORTTERM.TOTAL.Q': 63526.63,
+    },
+    '2025-Q3': {
+        'LICIPD.INVLINKED.LONGTERM.GOVTSECS.Q': 14441.65,
+        'LICIPD.INVLINKED.LONGTERM.OTHAPPRSECS.Q': 0.05,
+        'LICIPD.INVLINKED.LONGTERM.EQUITY.Q': 36132.6,
+        'LICIPD.INVLINKED.LONGTERM.DEBENTBOND.Q': 86.58,
+        'LICIPD.INVLINKED.LONGTERM.INFRASOCIALSECTOR.Q': 2491.3,
+        'LICIPD.INVLINKED.LONGTERM.OTHERNONAPPROVED.Q': 69.18,
+        'LICIPD.INVLINKED.SHORTTERM.GOVTSECS.Q': 1329.58,
+        'LICIPD.INVLINKED.SHORTTERM.MUTUALFUND.Q': 1577.57,
+        'LICIPD.INVLINKED.SHORTTERM.INFRASOCIALSECTOR.Q': 117.44,
+        'LICIPD.INVLINKED.SHORTTERM.NETCURRASST.Q': 731.48,
+        'LICIPD.INVLINKED.SHORTTERM.TOTAL.Q': 56977.43,
+    },
+    '2025-Q2': {
+        'LICIPD.INVLINKED.LONGTERM.GOVTSECS.Q': 13489.31,
+        'LICIPD.INVLINKED.LONGTERM.OTHAPPRSECS.Q': 0.05,
+        'LICIPD.INVLINKED.LONGTERM.EQUITY.Q': 34744.76,
+        'LICIPD.INVLINKED.LONGTERM.DEBENTBOND.Q': 10.71,
+        'LICIPD.INVLINKED.LONGTERM.INFRASOCIALSECTOR.Q': 2177.8,
+        'LICIPD.INVLINKED.LONGTERM.OTHERNONAPPROVED.Q': 75.4,
+        'LICIPD.INVLINKED.SHORTTERM.GOVTSECS.Q': 1067.49,
+        'LICIPD.INVLINKED.SHORTTERM.MUTUALFUND.Q': 1357.2,
+        'LICIPD.INVLINKED.SHORTTERM.INFRASOCIALSECTOR.Q': 86.49,
+        'LICIPD.INVLINKED.SHORTTERM.NETCURRASST.Q': 713.52,
+        'LICIPD.INVLINKED.SHORTTERM.TOTAL.Q': 53722.73,
+    },
+}
+
+
+if __name__ == '__main__':
+    test_pdfs = []
+
+    march = os.path.join(config.BASE_DIR, 'Project_information',
+                         'L-14 - Investments - Linked Business as on 31.03.2026.pdf')
+    if os.path.exists(march):
+        test_pdfs.append(('March 2026', march))
+
+    dec = os.path.join(config.BASE_DIR, 'Project_information', 'samplepdfs',
+                       'As at December 31, 2025',
+                       'L-14- Assets held to cover linked liabilities as at 31.12.2025.pdf')
+    if os.path.exists(dec):
+        test_pdfs.append(('December 2025', dec))
+
+    sep = os.path.join(config.BASE_DIR, 'Project_information', 'samplepdfs',
+                       'As at September 30, 2025',
+                       'L-14- Investments (Linked Busi) as at 30.09.2025.pdf')
+    if os.path.exists(sep):
+        test_pdfs.append(('September 2025', sep))
+
+    jun = os.path.join(config.BASE_DIR, 'Project_information', 'samplepdfs',
+                       'As at June 30, 2025',
+                       'L-14- Investments (Linked Busi) as at 30.06.2025.pdf')
+    if os.path.exists(jun):
+        test_pdfs.append(('June 2025', jun))
+
+    if not test_pdfs:
+        print("No test PDFs found!")
+        sys.exit(1)
+
+    _ensure_utf8_stdout()
+    print(f"Found {len(test_pdfs)} test PDFs")
+    all_pass = True
+
+    for label, pdf_path in test_pdfs:
+        print(f"\n{'#'*70}")
+        print(f"# Testing: {label}")
+        print(f"{'#'*70}")
+        results, date_text = extract_investments_linked(pdf_path)
+        quarter = date_to_quarter(date_text)
+        print(f"\nQuarter: {quarter}, Fields extracted: {len(results)}")
+
+        if quarter and quarter in EXPECTED_VALUES:
+            expected = EXPECTED_VALUES[quarter]
+            for code, exp_val in expected.items():
+                got = results.get(code, 'MISSING')
+                if isinstance(got, (int, float)) and abs(got - exp_val) < 0.01:
+                    pass  # OK
+                else:
+                    print(f"  VERIFY FAIL: {code.split('.')[-2]} = {got} (expected {exp_val})")
+                    all_pass = False
+            print(f"  Verified {len(expected)} values against master CSV")
+        else:
+            if len(results) < 8:
+                print(f"  WARNING: Only {len(results)} fields extracted")
+                all_pass = False
+
+    print(f"\n{'='*70}")
+    print(f"Overall: {'ALL PASS' if all_pass else 'SOME FAILURES'}")
+    print(f"{'='*70}")
+Bash Run L-14 extraction test on all 4 PDFs
+IN
+cd "D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook" && python test_investments_linked.py 2>&1
+
+OUT
+Found 4 test PDFs
+
+######################################################################
+# Testing: March 2026
+######################################################################
+
+======================================================================
+Extracting L-14 from: L-14 - Investments - Linked Business as on 31.03.2026.pdf
+======================================================================
+Table: 31 rows x 4 cols
+Date columns: [(2, 'As at March 31, 2026'), (3, 'As at March 31, 2025')]
+Using latest: col=2, date='As at March 31, 2026'
+Label column: 1
+  [Section: LONG TERM] row 1
+  [LABEL] GOVTSECS = 15324.59
+  [LABEL] OTHAPPRSECS = NA
+  [LABEL] EQUITY = 37375.37
+  [LABEL] PREFERENCE = NA
+  [LABEL] MUTUALFUND = NA
+  [LABEL] DEBENTBOND = 278.69
+  [LABEL] OTHSECSBOND = NA
+  [LABEL] INFRASOCIALSECTOR = 3647.06
+  [LABEL] OTHERNONAPPROVED = 47.02
+  [Section: SHORT TERM] row 15
+  [LABEL] GOVTSECS = 1210.88
+  [LABEL] OTHAPPRSECS = 0.05
+  [LABEL] MUTUALFUND = 2175.6
+  [LABEL] DEBENTBOND = NA
+  [LABEL] OTHSECSBOND = 150.0
+  [LABEL] INFRASOCIALSECTOR = 30.72
+  [LABEL] OTHERNONAPPROVED = NA
+  [LABEL] NETCURRASST = 1656.96
+  [TOTAL] TOTAL = 61896.94
+
+--- RESULTS (18 fields) ---
+  LONG TERM:
+    GOVTSECS: 15324.59
+    OTHAPPRSECS: NA
+    EQUITY: 37375.37
+    PREFERENCE: NA
+    MUTUALFUND: NA
+    DEBENTBOND: 278.69
+    OTHSECSBOND: NA
+    INFRASOCIALSECTOR: 3647.06
+    OTHERNONAPPROVED: 47.02
+  SHORT TERM:
+    GOVTSECS: 1210.88
+    OTHAPPRSECS: 0.05
+    MUTUALFUND: 2175.6
+    DEBENTBOND: NA
+    OTHSECSBOND: 150.0
+    INFRASOCIALSECTOR: 30.72
+    OTHERNONAPPROVED: NA
+    NETCURRASST: 1656.96
+    TOTAL: 61896.94
+
+Quarter: 2026-Q1, Fields extracted: 18
+  Verified 12 values against master CSV
+
+######################################################################
+# Testing: December 2025
+######################################################################
+
+======================================================================
+Extracting L-14 from: L-14- Assets held to cover linked liabilities as at 31.12.2025.pdf
+======================================================================
+Table: 31 rows x 4 cols
+Date columns: [(2, 'As at Dec. 31, 2025'), (3, 'As at Dec. 31, 2024')]
+Using latest: col=2, date='As at Dec. 31, 2025'
+Label column: 1
+  [Section: LONG TERM] row 1
+  [LABEL] GOVTSECS = 15566.37
+  [LABEL] OTHAPPRSECS = 0.05
+  [LABEL] EQUITY = 40707.69
+  [LABEL] PREFERENCE = NA
+  [LABEL] MUTUALFUND = NA
+  [LABEL] DEBENTBOND = 162.06
+  [LABEL] OTHSECSBOND = NA
+  [LABEL] INFRASOCIALSECTOR = 3106.41
+  [LABEL] OTHERNONAPPROVED = 50.31
+  [Section: SHORT TERM] row 15
+  [LABEL] GOVTSECS = 1202.51
+  [LABEL] OTHAPPRSECS = NA
+  [LABEL] MUTUALFUND = 1681.69
+  [LABEL] DEBENTBOND = NA
+  [LABEL] OTHSECSBOND = NA
+  [LABEL] INFRASOCIALSECTOR = 31.0
+  [LABEL] OTHERNONAPPROVED = NA
+  [LABEL] NETCURRASST = 1018.54
+  [TOTAL] TOTAL = 63526.63
+
+--- RESULTS (18 fields) ---
+  LONG TERM:
+    GOVTSECS: 15566.37
+    OTHAPPRSECS: 0.05
+    EQUITY: 40707.69
+    PREFERENCE: NA
+    MUTUALFUND: NA
+    DEBENTBOND: 162.06
+    OTHSECSBOND: NA
+    INFRASOCIALSECTOR: 3106.41
+    OTHERNONAPPROVED: 50.31
+  SHORT TERM:
+    GOVTSECS: 1202.51
+    OTHAPPRSECS: NA
+    MUTUALFUND: 1681.69
+    DEBENTBOND: NA
+    OTHSECSBOND: NA
+    INFRASOCIALSECTOR: 31.0
+    OTHERNONAPPROVED: NA
+    NETCURRASST: 1018.54
+    TOTAL: 63526.63
+
+Quarter: 2025-Q4, Fields extracted: 18
+  Verified 11 values against master CSV
+
+######################################################################
+# Testing: September 2025
+######################################################################
+
+======================================================================
+Extracting L-14 from: L-14- Investments (Linked Busi) as at 30.09.2025.pdf
+======================================================================
+Table: 31 rows x 4 cols
+Date columns: [(2, 'As at Sept. 30, 2025'), (3, 'As at Sept. 30, 2024')]
+Using latest: col=2, date='As at Sept. 30, 2025'
+Label column: 1
+  [Section: LONG TERM] row 1
+  [LABEL] GOVTSECS = 14441.65
+  [LABEL] OTHAPPRSECS = 0.05
+  [LABEL] EQUITY = 36132.6
+  [LABEL] PREFERENCE = NA
+  [LABEL] MUTUALFUND = NA
+  [LABEL] DEBENTBOND = 86.58
+  [LABEL] OTHSECSBOND = NA
+  [LABEL] INFRASOCIALSECTOR = 2491.3
+  [LABEL] OTHERNONAPPROVED = 69.18
+  [Section: SHORT TERM] row 15
+  [LABEL] GOVTSECS = 1329.58
+  [LABEL] OTHAPPRSECS = NA
+  [LABEL] MUTUALFUND = 1577.57
+  [LABEL] DEBENTBOND = NA
+  [LABEL] OTHSECSBOND = NA
+  [LABEL] INFRASOCIALSECTOR = 117.44
+  [LABEL] OTHERNONAPPROVED = NA
+  [LABEL] NETCURRASST = 731.48
+  [TOTAL] TOTAL = 56977.43
+
+--- RESULTS (18 fields) ---
+  LONG TERM:
+    GOVTSECS: 14441.65
+    OTHAPPRSECS: 0.05
+    EQUITY: 36132.6
+    PREFERENCE: NA
+    MUTUALFUND: NA
+    DEBENTBOND: 86.58
+    OTHSECSBOND: NA
+    INFRASOCIALSECTOR: 2491.3
+    OTHERNONAPPROVED: 69.18
+  SHORT TERM:
+    GOVTSECS: 1329.58
+    OTHAPPRSECS: NA
+    MUTUALFUND: 1577.57
+    DEBENTBOND: NA
+    OTHSECSBOND: NA
+    INFRASOCIALSECTOR: 117.44
+    OTHERNONAPPROVED: NA
+    NETCURRASST: 731.48
+    TOTAL: 56977.43
+
+Quarter: 2025-Q3, Fields extracted: 18
+  Verified 11 values against master CSV
+
+######################################################################
+# Testing: June 2025
+######################################################################
+
+======================================================================
+Extracting L-14 from: L-14- Investments (Linked Busi) as at 30.06.2025.pdf
+======================================================================
+Table: 31 rows x 4 cols
+Date columns: [(2, 'As at June 30, 2025'), (3, 'As at June 30, 2024')]
+Using latest: col=2, date='As at June 30, 2025'
+Label column: 1
+  [Section: LONG TERM] row 1
+  [LABEL] GOVTSECS = 13489.31
+  [LABEL] OTHAPPRSECS = 0.05
+  [LABEL] EQUITY = 34744.76
+  [LABEL] PREFERENCE = NA
+  [LABEL] MUTUALFUND = NA
+  [LABEL] DEBENTBOND = 10.71
+  [LABEL] OTHSECSBOND = NA
+  [LABEL] INFRASOCIALSECTOR = 2177.8
+  [LABEL] OTHERNONAPPROVED = 75.4
+  [Section: SHORT TERM] row 15
+  [LABEL] GOVTSECS = 1067.49
+  [LABEL] OTHAPPRSECS = NA
+  [LABEL] MUTUALFUND = 1357.2
+  [LABEL] DEBENTBOND = NA
+  [LABEL] OTHSECSBOND = NA
+  [LABEL] INFRASOCIALSECTOR = 86.49
+  [LABEL] OTHERNONAPPROVED = NA
+  [LABEL] NETCURRASST = 713.52
+  [TOTAL] TOTAL = 53722.73
+
+--- RESULTS (18 fields) ---
+  LONG TERM:
+    GOVTSECS: 13489.31
+    OTHAPPRSECS: 0.05
+    EQUITY: 34744.76
+    PREFERENCE: NA
+    MUTUALFUND: NA
+    DEBENTBOND: 10.71
+    OTHSECSBOND: NA
+    INFRASOCIALSECTOR: 2177.8
+    OTHERNONAPPROVED: 75.4
+  SHORT TERM:
+    GOVTSECS: 1067.49
+    OTHAPPRSECS: NA
+    MUTUALFUND: 1357.2
+    DEBENTBOND: NA
+    OTHSECSBOND: NA
+    INFRASOCIALSECTOR: 86.49
+    OTHERNONAPPROVED: NA
+    NETCURRASST: 713.52
+    TOTAL: 53722.73
+
+Quarter: 2025-Q2, Fields extracted: 18
+  Verified 11 values against master CSV
+
+======================================================================
+Overall: ALL PASS
+======================================================================
+L-14: 4/4 ALL PASS with 45 values verified across all 4 quarters. Strategy 1 (LABEL) handles everything since all L-14 PDFs are currently English, but the PREFIX/ROWNUM/HINDI strategies are ready as fallback.
+
+Update Todos
+
+Analyze CSV data file for column mapping and structure
+
+Read reference CLAUDE.md from AUSFEDGOVCF for pipeline architecture
+
+Read PIPELINE_PROMPT.md for file skeletons and rules
+
+View all screenshot images to understand site navigation flow
+
+Analyze sample PDFs structure for extraction patterns
+
+Catalog sample PDFs by date to understand backward compatibility
+
+Check existing project directory structure
+
+Write comprehensive CLAUDE.md with full technical context
+
+Build config.py with column mappings and all settings
+
+Build test_balance_sheet.py - 4/4 ALL PASS verified
+
+Rewrite test_investments_ph.py - 4/4 ALL PASS (76 values verified)
+
+Build test_investments_linked.py - 4/4 ALL PASS (45 values verified)
+
+Build test_revenue_account.py - test extraction on all sample PDFs
+
+Build scraper.py with Selenium stealth navigation
+
+Build extractor.py with fitz-based dynamic extraction
+
+Build file_generator.py for output generation
+
+Build orchestrator.py and main.py
+Now for the most complex one: test_revenue_account.py (L-1A/L-1). Let me analyze the Revenue Account PDFs - these are landscape, have calculated fields, and the dual-PDF logic.
+
+Globpattern: "**/L-1*"
+Found 16 files
+OK so the Revenue Account PDFs are:
+
+March 2026: L-1A (period ended 31.03.2026) + L-1A (period ended 31.03.2025) - TWO PDFs
+
+December 2025: L-1A (period ended 31.12.2025) + L-1A (period ended 31.12.2024) - TWO PDFs
+
+September 2025: L-1A (quarter ended 30.09.2025 (2)) + L-1A (quarter ended 30.09.2024 (1)) - TWO PDFs, note "(2)" and "(1)" suffixes
+
+June 2025: L-1 (period ended 30.06.2025) + L-1 (period ended 30.06.2024) - TWO PDFs, note "L-1" not "L-1A"
+
+For each quarter, there are TWO Revenue Account PDFs: one for the current period and one for the previous year. We need to extract from the LATEST one (the current period). The dual-PDF logic means I download both but only extract data from the one with the latest date, so in the test script I should process both PDFs and pick the latest.
+
+Now I'm mapping out the table structures.
+
+There are 2 Revenue Account PDFs per quarter (current + previous year). Let me dump the key ones.
+
+Bash Dump March 2026 Revenue Account PDF structure
+IN
+cd "D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook" && python -c "
+import sys, io, fitz
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
+# March 2026
+doc = fitz.open('Project_information/L-1A- Revenue Account for the period ended 31.03.2026.pdf')
+print(f'March 2026: {doc.page_count} pages')
+for pg_idx in range(doc.page_count):
+    page = doc[pg_idx]
+    tables = page.find_tables()
+    if tables.tables:
+        best = max(tables.tables, key=lambda t: len(t.extract()))
+        rows = best.extract()
+        print(f'  Page {pg_idx+1}: {len(rows)} rows x {len(rows[0])} cols')
+        for i, row in enumerate(rows):
+            print(f'  Row {i:2d}: {row[:6]}...' if len(row) > 6 else f'  Row {i:2d}: {row}')
+    else:
+        print(f'  Page {pg_idx+1}: No tables')
+doc.close()
+"
+
+OUT
+March 2026: 1 pages
+  Page 1: 46 rows x 21 cols
+  Row  0: ['PARTICULARS', 'Schedule\nRef. Form\nNo.', 'LINKED BUSINESS', None, None, None]...
+  Row  1: [None, None, None, None, None, None]...
+  Row  2: [None, None, 'LIFE', 'PENSION', 'HEALTH', 'VAR. INS']...
+  Row  3: ['Premiums earned – net', '', '', '', '', '']...
+  Row  4: ['(a) Premium', 'L-4', '20,835.67', '2,103.27', '56.03', '-']...
+  Row  5: ['(b) Reinsurance ceded', '', '(0.94)', '-', '(22.63)', '-']...
+  Row  6: ['(c) Reinsurance accepted', '', '-', '-', '-', '-']...
+  Row  7: ['Income from Investments', '', '', '', '', '']...
+  Row  8: ['(a) Interest, Dividends & Rent – Gross', '', '1,322.66', '292.16', '84.16', '-']...
+  Row  9: ['(b) Profit on sale/redemption of investments', '', '1,854.67', '837.30', '132.88', '-']...
+  Row 10: ['(c) (Loss on sale/ redemption of investments)', '', '(60.15)', '(133.14)', '(0.74)', '-']...
+  Row 11: ['(d)Transfer/Gain on revaluation/change in fair value*', '', '(3,445.35)', '(1,048.91)', '(180.65)', '-']...
+  Row 12: ['(e) Amortisation of Premium / Discount on investments', '', '0.03', '(0.05)', '(0.02)', '-']...
+  Row 13: ['Other Income', '', '(1.07)', '-', '-', '-']...
+  Row 14: ["Contribution from Shareholders' A/c:", '', '', '', '', '']...
+  Row 15: ['(a) Towards Excess Expenses of Management', '', '-', '-', '-', '-']...
+  Row 16: ['(b) Others', '', '-', '-', '-', '']...
+  Row 17: ['TOTAL (A)', '', '20,505.52', '2,050.63', '69.03', '-']...
+  Row 18: ['Commission', 'L-5', '601.55', '57.93', '2.46', '']...
+  Row 19: ['Operating Expenses related to Insurance Business', 'L-6', '1,199.92', '118.66', '11.04', '']...
+  Row 20: ['Provision for doubtful debts', '', '(0.05)', '(78.42)', '-', '']...
+  Row 21: ['Bad debts written off', '', '-', '-', '-', '']...
+  Row 22: ['Provision for Tax (Net)', '', '26.04', '-', '2.76', '']...
+  Row 23: ['Provisions (other than taxation):', '', '', '', '', '']...
+  Row 24: ['(a) For diminution in the value of investments (Net)', '', '(44.59)', '(47.91)', '-', '']...
+  Row 25: ['(b) Others', '', '-', '-', '-', '']...
+  Row 26: ['Goods and Services Tax on ULIP Charges', '', '124.15', '18.79', '5.82', '']...
+  Row 27: ['TOTAL (B)', '', '1,907.02', '69.05', '22.08', '']...
+  Row 28: ['Benefits Paid (Net)', 'L-7', '5,111.63', '1,906.24', '143.88', '']...
+  Row 29: ['Interim Bonuses Paid', '', '-', '-', '-', '']...
+  Row 30: ['Change in valuation of liability in respect of life policies:', '', '', '', '', '']...
+  Row 31: ['(a) Gross **', '', '147.33', '2.69', '14.37', '']...
+  Row 32: ['(b) Amount ceded in Reinsurance', '', '-', '-', '-', '']...
+  Row 33: ['(c) Amount accepted in Reinsurance', '', '-', '-', '-', '']...
+  Row 34: ['(d) Fund Reserve for Linked Policies', '', '13,084.53', '(89.25)', '(130.25)', '']...
+  Row 35: ['(e) Fund for Discontinued Policies', '', '605.95', '113.96', '-', '']...
+  Row 36: ['(f) Fund for Future Appropriations-Linked Business', '', '10.56', '7.86', '-', '']...
+  Row 37: ['TOTAL (C)', '', '18,960.00', '1,941.50', '28.00', '']...
+  Row 38: ['SURPLUS/ (DEFICIT) (D) =(A)-(B)-(C)', '', '(361.50)', '40.08', '18.95', '']...
+  Row 39: ["Amount transferred from Shareholders' Account (Non-technical\nAccount)", '', '5 37.20', '1 7.21', '-', '']...
+  Row 40: ['AMOUNT AVAILABLE FOR APPROPRIATION', '', '175.70', '57.29', '18.95', '']...
+  Row 41: ['APPROPRIATIONS', '', '', '', '', '']...
+  Row 42: ['Transfer to Shareholders’ Account', '', '175.70', '57.29', '18.95', '-']...
+  Row 43: ['Transfer to Other Reserves (to be specified)', '', '-', '-', '-', '']...
+  Row 44: ['Balance being Funds for Future Appropriations', '', '-', '-', '-', '']...
+  Row 45: ['TOTAL', '', '175.70', '57.29', '18.95', '-']...
+Bash Dump June 2025 Revenue Account (possibly Hindi)
+IN
+cd "D:\Projects\SIMBA-RUNBOOKS\LICIPD_Runbook" && python -c "
+import sys, io, fitz
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
+# June 2025 (possibly Hindi)
+doc = fitz.open('Project_information/samplepdfs/As at June 30, 2025/L-1-Revenue Account for the period ended 30.06.2025.pdf')
+print(f'June 2025: {doc.page_count} pages')
+for pg_idx in range(doc.page_count):
+    page = doc[pg_idx]
+    tables = page.find_tables()
+    if tables.tables:
+        best = max(tables.tables, key=lambda t: len(t.extract()))
+        rows = best.extract()
+        print(f'  Page {pg_idx+1}: {len(rows)} rows x {len(rows[0])} cols')
+        for i, row in enumerate(rows):
+            print(f'  Row {i:2d}: {row[:6]}...' if len(row) > 6 else f'  Row {i:2d}: {row}')
+    else:
+        print(f'  Page {pg_idx+1}: No tables')
+doc.close()
+"
+
+OUT
+June 2025: 1 pages
+  Page 1: 46 rows x 21 cols
+  Row  0: ['िववरण', 'अनुसूची\nसंदभŊ Ůपũ\nसंƥा', 'जुड़ा Šआ ʩवसाय', None, None, None]...
+  Row  1: [None, None, None, None, None, None]...
+  Row  2: [None, None, 'जीवन', 'पŐशन', 'ˢा˖', 'पįरवतŊनीय']...
+  Row  3: ['अिजŊत Ůीिमयम - शुȠ', '', '', '', '', '']...
+  Row  4: ['(a) Ůीिमयम', 'एल4', '3,496.02', '376.41', '10.52', '-']...
+  Row  5: ['(b) करवाये गये पुनबŎमा', '', '(0.27)', '-', '(1.50)', '-']...
+  Row  6: ['(c) पुनबŎमा ˢीकृत', '', '-', '-', '-', '-']...
+  Row  7: ['िनवेशो ंसे आय:', '', '-', '-', '-', '-']...
+  Row  8: ['(a) ɯाज, लाभांश और िकराया - सकल', '', '347.68', '92.31', '24.76', '-']...
+  Row  9: ['(b) िनवेशो ं के िवŢय / मोचन पर लाभ', '', '397.15', '198.12', '50.40', '-']...
+  Row 10: ['(c) (िनवेशो ं के िवŢय / मोचन पर नुकसान)', '', '(2.14)', '(1.71)', '(0.45)', '-']...
+  Row 11: ['(d) पुनमूŊʞांकन/उिचत मूʞ मŐ पįरवतŊन पर लाभ/˕ानांतरण*', '', '1,870.91', '331.75', '(3.49)', '-']...
+  Row 12: ['(e) Ůीिमयम का पįरशोधन/ िनवेशो ंपर छूट', '', '-', '-', '-', '-']...
+  Row 13: ['अɊ आय', '', '(0.20)', '-', '-', '-']...
+  Row 14: ['शेयरधारको ंके खाते से अंशदान:', '', '-', '-', '-', '-']...
+  Row 15: ['(a) Ůबंधन के अितįरƅ ʩय', '', '-', '-', '-', '-']...
+  Row 16: ['(b) अɊ', '', '-', '-', '-', '-']...
+  Row 17: ['कुल (A)', '', '6,109.15', '996.88', '80.24', '-']...
+  Row 18: ['कमीशन', 'एल 5', '79.67', '7.95', '0.50', '-']...
+  Row 19: ['बीमा ʩवसाय से संबंिधत पįरचालन ʩय', 'एल 6', '208.61', '22.62', '1.96', '-']...
+  Row 20: ['संिदƭ ऋणो ंके िलए Ůावधान', '', '(0.01)', '-', '-', '-']...
+  Row 21: ['अशोȯ ऋण बǥे खाते मŐ डाले गए', '', '-', '-', '-', '-']...
+  Row 22: ['कर के िलए Ůावधान', '', '11.60', '-', '1.14', '-']...
+  Row 23: ['Ůावधान (कराधान के अलावा) :', '', '-', '-', '-', '-']...
+  Row 24: ['(a) िनवेश(शुȠ) के मूʞ मŐ कमी के िलए', '', '-', '-', '-', '-']...
+  Row 25: ['(b) अɊ के िलए', '', '-', '-', '-', '-']...
+  Row 26: ['यूिलप शुʋ पर वˑु एवं सेवा कर', '', '35.92', '5.56', '2.15', '-']...
+  Row 27: ['कुल (B)', '', '335.79', '36.13', '5.75', '-']...
+  Row 28: ['भुगतान िकए गए लाभ (शुȠ)', 'एल 7', '839.67', '462.61', '39.89', '-']...
+  Row 29: ['भुगतान िकया गया अंतįरम बोनस', '', '-', '-', '-', '-']...
+  Row 30: ['जीवन पॉिलिसयो ंके संबंध मŐ देयता के मूʞांकन मŐ पįरवतŊन', '', '-', '-', '-', '-']...
+  Row 31: ['(a) सकल **', '', '19.13', '0.13', '4.84', '-']...
+  Row 32: ['(b) पुनबŎमा मŐ अंतįरत रािश', '', '-', '-', '-', '-']...
+  Row 33: ['(c) पुनबŎमा मŐ ˢीकृत रािश', '', '-', '-', '-', '-']...
+  Row 34: ['(d) संबȠ देयताओ ं के Ůावधान मŐ अंतरण', '', '4,763.85', '447.10', '21.95', '-']...
+  Row 35: ['(e) बंद करने िनिधयो ंका अंतरण', '', '150.54', '27.30', '-', '-']...
+  Row 36: ['(f) भिवˈ िविनयोजन के िनिधयो ंका अंतरण -संबȠ ʩवसाय', '', '-', '-', '-', '-']...
+  Row 37: ['कुल (C)', '', '5,773.19', '937.14', '66.68', '-']...
+  Row 38: ['अिधशेष/(घाटा) (D) =(A)-(B)-(C)', '', '0.17', '23.61', '7.81', '-']...
+  Row 39: ['शेयरधारको ंके खाते से अंतįरत रािश (गैर-तकनीकी खाता)', '', '79.61', '-', '-', '-']...
+  Row 40: ['िविनयोग के िलए उपलɩ रािश', '', '79.78', '23.61', '7.81', '-']...
+  Row 41: ['िविनयोग', '', '', '', '', '']...
+  Row 42: ['शेयरधारको ंके खाते मŐ अंतरण', '', '79.78', '23.61', '7.81', '-']...
+  Row 43: ['अɊ आरिƗत िनिधयो ंमŐ अंतरण', '', '-', '-', '-', '-']...
+  Row 44: ['भावी िविनयोजनो ंके िलए िनिधयो ं का शेष', '', '', '', '', '']...
+  Row 45: ['कुल', '', '79.78', '23.61', '7.81', '-']...
+This is a wide landscape table with 21 columns! Let me understand the structure:
+
+Row 0: Headers - PARTICULARS, Schedule Ref, LINKED BUSINESS, ... (split into sub-columns: LIFE, PENSION, HEALTH, VAR. INS)
+Row 2: Sub-headers - LIFE, PENSION, HEALTH, VAR. INS (these are product types)
+
+But wait - the columns are 21 wide. Let me look at the full row to understand the column layout. Looking at the header:
+
+Now I'm mapping out the column structure: PARTICULARS in column 0, Schedule Ref in column 1, then LINKED BUSINESS spanning columns 2-5 with the four product types, followed by additional segments. I need to identify which columns contain the revenue data I'm looking for—specifically premiums earned net, interest and dividend income, and investment gains or losses. I need to examine all 21 columns in the table to identify which ones contain the totals or specific business segments I'm looking for.
+
+The Revenue Account is a wide landscape table with 21 columns. Let me see the full column headers.)
+
+
+heres is sample of the conversation lets continue from here 

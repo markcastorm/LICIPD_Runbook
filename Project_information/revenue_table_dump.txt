@@ -1,0 +1,191 @@
+=== March2026 : 46 rows x 21 cols ===
+  Row 0  col0='PARTICULARS'                                                    GT='GRAND TOTAL'
+  Row 1  col0=                                                                 GT=
+  Row 2  col0=                                                                 GT=
+  Row 3  col0='Premiums earned – net'                                          GT=
+  Row 4  col0='(a) Premium'                                                    GT='5,36,748.56'
+  Row 5  col0='(b) Reinsurance ceded'                                          GT='(764.34)'
+  Row 6  col0='(c) Reinsurance accepted'                                       GT='-'
+  Row 7  col0='Income from Investments'                                        GT=
+  Row 8  col0='(a) Interest, Dividends & Rent – Gross'                         GT='3,33,077.09'
+  Row 9  col0='(b) Profit on sale/redemption of investments'                   GT='95,807.27'
+  Row10  col0='(c) (Loss on sale/ redemption of investments)'                  GT='(1,852.62)'
+  Row11  col0='(d)Transfer/Gain on revaluation/change in fair value*'          GT='(4,745.95)'
+  Row12  col0='(e) Amortisation of Premium / Discount on investments'          GT='9,421.89'
+  Row13  col0='Other Income'                                                   GT='2,799.37'
+  Row14  col0="Contribution from Shareholders' A/c:"                           GT=
+  Row15  col0='(a) Towards Excess Expenses of Management'                      GT='2,410.03'
+  Row16  col0='(b) Others'                                                     GT='12.65'
+  Row17  col0='TOTAL (A)'                                                      GT='9,72,913.95'
+  Row18  col0='Commission'                                                     GT='24,439.59'
+  Row19  col0='Operating Expenses related to Insurance Business'               GT='39,509.78'
+  Row20  col0='Provision for doubtful debts'                                   GT='(821.12)'
+  Row21  col0='Bad debts written off'                                          GT='-'
+  Row22  col0='Provision for Tax (Net)'                                        GT='(4,173.41)'
+  Row23  col0='Provisions (other than taxation):'                              GT=
+  Row24  col0='(a) For diminution in the value of investments (Net)'           GT='(475.52)'
+  Row25  col0='(b) Others'                                                     GT='(341.53)'
+  Row26  col0='Goods and Services Tax on ULIP Charges'                         GT='148.76'
+  Row27  col0='TOTAL (B)'                                                      GT='58,286.55'
+  Row28  col0='Benefits Paid (Net)'                                            GT='4,87,747.57'
+  Row29  col0='Interim Bonuses Paid'                                           GT='8,356.71'
+  Row30  col0='Change in valuation of liability in respect of life policie     GT=
+  Row31  col0='(a) Gross **'                                                   GT='3,49,736.08'
+  Row32  col0='(b) Amount ceded in Reinsurance'                                GT='-'
+  Row33  col0='(c) Amount accepted in Reinsurance'                             GT='-'
+  Row34  col0='(d) Fund Reserve for Linked Policies'                           GT='12,865.03'
+  Row35  col0='(e) Fund for Discontinued Policies'                             GT='719.91'
+  Row36  col0='(f) Fund for Future Appropriations-Linked Business'             GT='18.42'
+  Row37  col0='TOTAL (C)'                                                      GT='8,59,443.72'
+  Row38  col0='SURPLUS/ (DEFICIT) (D) =(A)-(B)-(C)'                            GT='55,183.68'
+  Row39  col0="Amount transferred from Shareholders' Account (Non-technica     GT='4 ,216.82'
+  Row40  col0='AMOUNT AVAILABLE FOR APPROPRIATION'                             GT='59,400.50'
+  Row41  col0='APPROPRIATIONS'                                                 GT=
+  Row42  col0='Transfer to Shareholders’ Account'                              GT='58,032.27'
+  Row43  col0='Transfer to Other Reserves (to be specified)'                   GT='-'
+  Row44  col0='Balance being Funds for Future Appropriations'                  GT='1,368.23'
+  Row45  col0='TOTAL'                                                          GT='59,400.50'
+
+=== Dec2025 : 46 rows x 21 cols ===
+  Row 0  col0='PARTICULARS'                                                    GT='GRAND TOTAL'
+  Row 1  col0=                                                                 GT=
+  Row 2  col0=                                                                 GT=
+  Row 3  col0='Premiums earned – net'                                          GT=
+  Row 4  col0='(a) Premium'                                                    GT='3,71,766.79'
+  Row 5  col0='(b) Reinsurance ceded'                                          GT='(473.78)'
+  Row 6  col0='(c) Reinsurance accepted'                                       GT='-'
+  Row 7  col0='Income from Investments'                                        GT=
+  Row 8  col0='(a) Interest, Dividends & Rent – Gross'                         GT='2,49,068.62'
+  Row 9  col0='(b) Profit on sale/redemption of investments'                   GT='73,419.99'
+  Row10  col0='(c) (Loss on sale/ redemption of investments)'                  GT='(1,420.03)'
+  Row11  col0='(d)Transfer/Gain on revaluation/change in fair value*'          GT='2,461.70'
+  Row12  col0='(e) Amortisation of Premium / Discount on investments'          GT='(844.64)'
+  Row13  col0='Other Income'                                                   GT='406.36'
+  Row14  col0="Contribution from Shareholders' A/c:"                           GT=
+  Row15  col0='(a) Towards Excess Expenses of Management'                      GT='1,807.52'
+  Row16  col0='(b) Others'                                                     GT='(0.02)'
+  Row17  col0='TOTAL (A)'                                                      GT='6,96,192.51'
+  Row18  col0='Commission'                                                     GT='16,732.29'
+  Row19  col0='Operating Expenses related to Insurance Business'               GT='26,576.52'
+  Row20  col0='Provision for doubtful debts'                                   GT='(266.93)'
+  Row21  col0='Bad debts written off'                                          GT='-'
+  Row22  col0='Provision for Tax'                                              GT='4,915.45'
+  Row23  col0='Provisions (other than taxation):'                              GT=
+  Row24  col0='(a) For diminution in the value of investments (Net)'           GT='(545.71)'
+  Row25  col0='(b) Others'                                                     GT='(339.55)'
+  Row26  col0='Goods and Services Tax on ULIP Charges'                         GT='148.98'
+  Row27  col0='TOTAL (B)'                                                      GT='47,221.05'
+  Row28  col0='Benefits Paid (Net)'                                            GT='3,12,703.36'
+  Row29  col0='Interim Bonuses Paid'                                           GT='3,886.30'
+  Row30  col0='Change in valuation of liability in respect of life policie     GT=
+  Row31  col0='(a) Gross **'                                                   GT='2,85,113.09'
+  Row32  col0='(b) Amount ceded in Reinsurance'                                GT='-'
+  Row33  col0='(c) Amount accepted in Reinsurance'                             GT='-'
+  Row34  col0='(d) Fund Reserve for Linked Policies'                           GT='14,665.84'
+  Row35  col0='(e) Fund for Discontinued Policies'                             GT='548.80'
+  Row36  col0='(f) Fund for Future Appropriations-Linked Business'             GT='-'
+  Row37  col0='TOTAL (C)'                                                      GT='6,16,917.39'
+  Row38  col0='SURPLUS/ (DEFICIT) (D) =(A)-(B)-(C)'                            GT='32,054.07'
+  Row39  col0="Amount transferred from Shareholders' Account (Non-technica     GT='2 ,025.78'
+  Row40  col0='AMOUNT AVAILABLE FOR APPROPRIATION'                             GT='34,079.85'
+  Row41  col0='APPROPRIATIONS'                                                 GT=
+  Row42  col0='Transfer to Shareholders’ Account'                              GT='33,690.75'
+  Row43  col0='Transfer to Other Reserves (to be specified)'                   GT='-'
+  Row44  col0='Balance being Funds for Future Appropriations'                  GT='389.10'
+  Row45  col0='TOTAL'                                                          GT='34,079.85'
+
+=== Sep2025 : 46 rows x 21 cols ===
+  Row 0  col0='PARTICULARS'                                                    GT='GRAND TOTAL'
+  Row 1  col0=                                                                 GT=
+  Row 2  col0=                                                                 GT=
+  Row 3  col0='Premiums earned – net'                                          GT=
+  Row 4  col0='(a) Premium'                                                    GT='1,26,634.14'
+  Row 5  col0='(b) Reinsurance ceded'                                          GT='(154.88)'
+  Row 6  col0='(c) Reinsurance accepted'                                       GT='-'
+  Row 7  col0='Income from Investments'                                        GT=
+  Row 8  col0='(a) Interest, Dividends & Rent – Gross'                         GT='84,334.21'
+  Row 9  col0='(b) Profit on sale/redemption of investments'                   GT='29,896.63'
+  Row10  col0='(c) (Loss on sale/ redemption of investments)'                  GT='(201.85)'
+  Row11  col0='(d)Transfer/Gain on revaluation/change in fair value*'          GT='(1,599.58)'
+  Row12  col0='(e) Amortisation of Premium / Discount on investments'          GT='(282.25)'
+  Row13  col0='Other Income'                                                   GT='134.23'
+  Row14  col0="Contribution from Shareholders' A/c:"                           GT=
+  Row15  col0='(a) Towards Excess Expenses of Management'                      GT='602.50'
+  Row16  col0='(b) Others'                                                     GT='-'
+  Row17  col0='TOTAL (A)'                                                      GT='2,39,363.15'
+  Row18  col0='Commission'                                                     GT='5,772.15'
+  Row19  col0='Operating Expenses related to Insurance Business'               GT='9,462.22'
+  Row20  col0='Provision for doubtful debts'                                   GT='(156.46)'
+  Row21  col0='Bad debts written off'                                          GT='-'
+  Row22  col0='Provision for Tax'                                              GT='1,386.57'
+  Row23  col0='Provisions (other than taxation):'                              GT=
+  Row24  col0='(a) For diminution in the value of investments (Net)'           GT='(44.40)'
+  Row25  col0='(b) Others'                                                     GT='(200.71)'
+  Row26  col0='Goods and Services Tax on ULIP Charges'                         GT='81.82'
+  Row27  col0='TOTAL (B)'                                                      GT='16,301.19'
+  Row28  col0='Benefits Paid (Net)'                                            GT='1,05,112.82'
+  Row29  col0='Interim Bonuses Paid'                                           GT='1,137.54'
+  Row30  col0='Change in valuation of liability in respect of life policie     GT=
+  Row31  col0='(a) Gross **'                                                   GT='1,04,353.89'
+  Row32  col0='(b) Amount ceded in Reinsurance'                                GT='-'
+  Row33  col0='(c) Amount accepted in Reinsurance'                             GT='-'
+  Row34  col0='(d) Fund Reserve for Linked Policies'                           GT='3,098.62'
+  Row35  col0='(e) Fund for Discontinued Policies'                             GT='156.07'
+  Row36  col0='(f) Fund for Future Appropriations-Linked Business'             GT='-'
+  Row37  col0='TOTAL (C)'                                                      GT='2,13,858.94'
+  Row38  col0='SURPLUS/ (DEFICIT) (D) =(A)-(B)-(C)'                            GT='9,203.02'
+  Row39  col0="Amount transferred from Shareholders' Account (Non-technica     GT='341.20'
+  Row40  col0='AMOUNT AVAILABLE FOR APPROPRIATION'                             GT='9,544.22'
+  Row41  col0='APPROPRIATIONS'                                                 GT=
+  Row42  col0='Transfer to Shareholders’ Account'                              GT='9,504.27'
+  Row43  col0='Transfer to Other Reserves (to be specified)'                   GT='-'
+  Row44  col0='Balance being Funds for Future Appropriations'                  GT='39.95'
+  Row45  col0='TOTAL'                                                          GT='9,544.22'
+
+=== Jun2025 : 46 rows x 21 cols ===
+  Row 0  col0='िववरण'                                                          GT='कुल योग'
+  Row 1  col0=                                                                 GT=
+  Row 2  col0=                                                                 GT=
+  Row 3  col0='अिजŊत Ůीिमयम - शुȠ'                                             GT=
+  Row 4  col0='(a) Ůीिमयम'                                                     GT='1,19,333.04'
+  Row 5  col0='(b) करवाये गये पुनबŎमा'                                         GT='(132.65)'
+  Row 6  col0='(c) पुनबŎमा ˢीकृत'                                              GT='-'
+  Row 7  col0='िनवेशो ंसे आय:'                                                 GT=
+  Row 8  col0='(a) ɯाज, लाभांश और िकराया - सकल'                                GT='82,761.16'
+  Row 9  col0='(b) िनवेशो ं के िवŢय / मोचन पर लाभ'                             GT='18,957.75'
+  Row10  col0='(c) (िनवेशो ं के िवŢय / मोचन पर नुकसान)'                        GT='(703.38)'
+  Row11  col0='(d) पुनमूŊʞांकन/उिचत मूʞ मŐ पįरवतŊन पर लाभ/˕ानांतरण*'           GT='2,194.87'
+  Row12  col0='(e) Ůीिमयम का पįरशोधन/ िनवेशो ंपर छूट'                          GT='(280.20)'
+  Row13  col0='अɊ आय'                                                          GT='130.09'
+  Row14  col0='शेयरधारको ंके खाते से अंशदान:'                                  GT=
+  Row15  col0='(a) Ůबंधन के अितįरƅ ʩय'                                         GT='602.51'
+  Row16  col0='(b) अɊ'                                                         GT='(0.02)'
+  Row17  col0='कुल (A)'                                                        GT='2,22,863.17'
+  Row18  col0='कमीशन'                                                          GT='4,949.57'
+  Row19  col0='बीमा ʩवसाय से संबंिधत पįरचालन ʩय'                               GT='7,549.00'
+  Row20  col0='संिदƭ ऋणो ंके िलए Ůावधान'                                       GT='(26.06)'
+  Row21  col0='अशोȯ ऋण बǥे खाते मŐ डाले गए'                                    GT='-'
+  Row22  col0='कर के िलए Ůावधान'                                               GT='1,583.72'
+  Row23  col0='Ůावधान (कराधान के अलावा) :'                                     GT=
+  Row24  col0='(a) िनवेश(शुȠ) के मूʞ मŐ कमी के िलए'                            GT='(441.56)'
+  Row25  col0='(b) अɊ के िलए'                                                  GT='55.64'
+  Row26  col0='यूिलप शुʋ पर वˑु एवं सेवा कर'                                   GT='43.63'
+  Row27  col0='कुल (B)'                                                        GT='13,713.94'
+  Row28  col0='भुगतान िकए गए लाभ (शुȠ)'                                        GT='96,180.85'
+  Row29  col0='भुगतान िकया गया अंतįरम बोनस'                                    GT='875.26'
+  Row30  col0='जीवन पॉिलिसयो ंके संबंध मŐ देयता के मूʞांकन मŐ पįरवतŊन'         GT=
+  Row31  col0='(a) सकल **'                                                     GT='95,746.93'
+  Row32  col0='(b) पुनबŎमा मŐ अंतįरत रािश'                                     GT='-'
+  Row33  col0='(c) पुनबŎमा मŐ ˢीकृत रािश'                                      GT='-'
+  Row34  col0='(d) संबȠ देयताओ ं के Ůावधान मŐ अंतरण'                           GT='5,232.90'
+  Row35  col0='(e) बंद करने िनिधयो ंका अंतरण'                                  GT='177.84'
+  Row36  col0='(f) भिवˈ िविनयोजन के िनिधयो ंका अंतरण -संबȠ ʩवसाय'              GT='-'
+  Row37  col0='कुल (C)'                                                        GT='1,98,213.78'
+  Row38  col0='अिधशेष/(घाटा) (D) =(A)-(B)-(C)'                                 GT='10,935.45'
+  Row39  col0='शेयरधारको ंके खाते से अंतįरत रािश (गैर-तकनीकी खाता)'            GT='80.05'
+  Row40  col0='िविनयोग के िलए उपलɩ रािश'                                       GT='11,015.50'
+  Row41  col0='िविनयोग'                                                        GT='-'
+  Row42  col0='शेयरधारको ंके खाते मŐ अंतरण'                                    GT='10,871.28'
+  Row43  col0='अɊ आरिƗत िनिधयो ंमŐ अंतरण'                                      GT='-'
+  Row44  col0='भावी िविनयोजनो ंके िलए िनिधयो ं का शेष'                         GT='144.22'
+  Row45  col0='कुल'                                                            GT='11,015.50'

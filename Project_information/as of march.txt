@@ -1,0 +1,628 @@
+<section class="Internal contentwidth" id="maincontent">
+           <h5 class="internal-header"> As at March 31, 2026 </h5>
+           <div tabindex="0">
+            <div class="table-responsive">
+             <table border="0" cellpadding="5" cellspacing="1" class="ten table table-striped table-bordered table-hover">
+              <tbody>
+               <tr>
+                <td style="background: #004e8f; color: white; font-weight: bold; font-size:0.95em; text-align:center;">Sr. No.</td>
+                <td style="background: #004e8f; color: white; font-weight: bold; font-size:0.95em; text-align:center;">Title</td>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 1 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-1A-+Revenue+Account+for+the+period+ended+31.03.2026.pdf/c7e30ab3-02bc-dc5d-ab68-a39b51bf38ad?t=1779365546161" style="text-decoration: none;"> L-1A - Revenue Account for the period ended 31.03.2026 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize0">(280 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size0=FormatSize("286767");
+document.getElementById("docsize0").innerHTML ="("+ size0+")";
+delete size0;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 2 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-1A-+Revenue+Account+for+the+period+ended+31.03.2025.pdf/d870ff4c-019d-2f91-7a54-ac118b552b3b?t=1779365548122" style="text-decoration: none;"> L-1A - Revenue Account for the period ended 31.03.2025 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize1">(202 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size1=FormatSize("206713");
+document.getElementById("docsize1").innerHTML ="("+ size1+")";
+delete size1;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 3 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-1A-+Revenue+Account+for+the+quarter+ended+31.03.2026.pdf/4461ce3c-9d45-262c-41b7-739b2b868ea2?t=1779365545492" style="text-decoration: none;"> L-1A - Revenue Account for the Quarter ended 31.03.2026 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize2">(196 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size2=FormatSize("201118");
+document.getElementById("docsize2").innerHTML ="("+ size2+")";
+delete size2;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 4 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-1A-+Revenue+Account+for+the+quarter+ended+31.03.2025.pdf/55eda32f-4f13-2db6-2082-7a1ccbac66b0?t=1779365547479" style="text-decoration: none;"> L-1A - Revenue Account for the Quarter ended 31.03.2025 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize3">(209 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size3=FormatSize("213564");
+document.getElementById("docsize3").innerHTML ="("+ size3+")";
+delete size3;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 5 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-2A-+Profit+and+Loss+Account+for+the+period+ended+31.03.2026.pdf/1e25f4e5-a505-7174-d98d-8a947568cd5e?t=1779365561111" style="text-decoration: none;"> L-2A- Profit &amp; Loss Account for the period ended 31.03.2026 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize4">(236 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size4=FormatSize("241263");
+document.getElementById("docsize4").innerHTML ="("+ size4+")";
+delete size4;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 6 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-3A-+Balance+Sheet+as+on+31.03.2026.pdf/60097514-6380-0828-cb6c-8339386b0dc9?t=1779365560483" style="text-decoration: none;"> L-3A- Balance Sheet as on 31.03.2026 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize5">(244 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size5=FormatSize("249601");
+document.getElementById("docsize5").innerHTML ="("+ size5+")";
+delete size5;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 7 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-4-+Premiums+up+to+the+quarter+ended+31.03.2026.pdf/74e18736-a082-fb17-6476-0786b39b7e7b?t=1779365559907" style="text-decoration: none;"> L-4-Premiums up to the Quarter ended 31.03.2026 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize6">(134 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size6=FormatSize("137235");
+document.getElementById("docsize6").innerHTML ="("+ size6+")";
+delete size6;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 8 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-5-+Commission+up+to+the+quarter+ended+31.03.2026.pdf/8a96582b-907a-9551-1189-6385f23a430d?t=1779365559316" style="text-decoration: none;"> L-5-Commission up to the Quarter ended 31.03.2026 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize7">(414 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size7=FormatSize("424271");
+document.getElementById("docsize7").innerHTML ="("+ size7+")";
+delete size7;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 9 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-6-+Operating+Esxpenses+up+to+the+quarter+ended+31.03.2026.pdf/d4803df1-b7fd-360d-5d88-5acb97e015d1?t=1779365558738" style="text-decoration: none;"> L-6-Operating Expenses up to the Quarter ended 31.03.2026 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize8">(148 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size8=FormatSize("151495");
+document.getElementById("docsize8").innerHTML ="("+ size8+")";
+delete size8;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 10 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-7-+Benefits+Paid+up+to+the+quarter+ended+31.03.2026.pdf/51078304-800c-8714-d09c-1b8dc0521db3?t=1779365558166" style="text-decoration: none;"> L-7- Benefits Paid up to the Quarter ended 31.03.2026 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize9">(144 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size9=FormatSize("147260");
+document.getElementById("docsize9").innerHTML ="("+ size9+")";
+delete size9;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 11 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-8-+Share+Capital+as+on+31.03.2026.pdf/03662ae0-e9ad-ec6b-3bb8-db663dd213ab?t=1779365557610" style="text-decoration: none;"> L-8- Share Capital as on 31.03.2026 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize10">(224 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size10=FormatSize("229366");
+document.getElementById("docsize10").innerHTML ="("+ size10+")";
+delete size10;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 12 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L9_Pattern+of+Shareholding+Schedule_31032026+%281%29.pdf/319427e9-e73d-552c-b3ed-20aa39cb44a4?t=1777029981637" style="text-decoration: none;"> L-9 Pattern of Shareholding Schedule as on 31.03.2026 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize11">(250 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size11=FormatSize("255856");
+document.getElementById("docsize11").innerHTML ="("+ size11+")";
+delete size11;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 13 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L9A_Shareholding+Pattern_31032026.pdf/ff0c1350-aa99-1db9-56e5-08f90d403136?t=1777029982289" style="text-decoration: none;"> L-9A Shareholding Pattern as on 31.03.2026 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize12">(215 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size12=FormatSize("220107");
+document.getElementById("docsize12").innerHTML ="("+ size12+")";
+delete size12;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 14 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-10-+Reserves+%26+Surplus+as+on+31.03.2026.pdf/62aa8f0e-1e63-dd4c-5dfe-f2ff54a24931?t=1779365557026" style="text-decoration: none;"> L-10- Reservers &amp; Surplus as on 31.03.2026 <img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf"> <span id="docsize13">(225 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size13=FormatSize("230695");
+document.getElementById("docsize13").innerHTML ="("+ size13+")";
+delete size13;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 15 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-11-+Borrowings+as+on+31.03.2026.pdf/3d797357-acd5-0d06-2f2e-58a9d08c3db2?t=1779365556460" style="text-decoration: none;"> L-11- Borrowings as on 31.03.2026 <span id="docsize14">(131 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size14=FormatSize("134000");
+document.getElementById("docsize14").innerHTML ="("+ size14+")";
+delete size14;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 16 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-12-+Investments+-+Shareholders+as+on+31.03.2026.pdf/ba613e09-30d5-2f69-c3cc-09433574d1a6?t=1779365555866" style="text-decoration: none;"> L-12- Investments -Shareholders as on 31.03.2026 <span id="docsize15">(141 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size15=FormatSize("144644");
+document.getElementById("docsize15").innerHTML ="("+ size15+")";
+delete size15;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 17 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-13-+Investments+-+Policyholders+as+on+31.03.2026.pdf/53f0c845-1aca-c6a5-4393-748d02bc9e23?t=1779365555280" style="text-decoration: none;"> L-13- Investments- Policyholders as on 31.03.2026 <span id="docsize16">(142 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size16=FormatSize("144933");
+document.getElementById("docsize16").innerHTML ="("+ size16+")";
+delete size16;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 18 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-14+-+Investments+-+Linked+Business+as+on+31.03.2026.pdf/5b6b7c52-8c51-660a-8383-16d00e041b87?t=1779365554701" style="text-decoration: none;"> L-14- Investments -Linked Business as on 31.03.2026 <span id="docsize17">(141 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size17=FormatSize("144724");
+document.getElementById("docsize17").innerHTML ="("+ size17+")";
+delete size17;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 19 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-14+A-+Investments+Additional+Information+as+on+31.03.2026+%281%29.pdf/bfeff2eb-3102-84df-fb92-b5426cf88972?t=1779371942955" style="text-decoration: none;"> L-14A - Investment Additional Information as on 31.03.2026 <span id="docsize18">(131 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size18=FormatSize("133673");
+document.getElementById("docsize18").innerHTML ="("+ size18+")";
+delete size18;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 20 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-15-+Loans+as+on+31.03.2026.pdf/2ad9f29f-37e9-4410-e80f-9651872a002e?t=1779365553562" style="text-decoration: none;"> L-15-Loans as on 31.03.2026 <span id="docsize19">(148 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size19=FormatSize("151489");
+document.getElementById("docsize19").innerHTML ="("+ size19+")";
+delete size19;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 21 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-16-+Fixed+Assets+as+on+31.03.2026.pdf/da834de5-dbda-e8b5-e0b5-32bf51be7eeb?t=1779365552948" style="text-decoration: none;"> L-16- Fixed Assets as on 31.03.2026 <span id="docsize20">(222 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size20=FormatSize("227407");
+document.getElementById("docsize20").innerHTML ="("+ size20+")";
+delete size20;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 22 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-17-+Cash+and+Bank+Balances+as+on+31.03.2026.pdf/070ee16d-5b32-b33c-bbcc-8b39239ff391?t=1779365552366" style="text-decoration: none;"> L-17- Cash and Bank Balances as on 31.03.2026 <span id="docsize21">(141 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size21=FormatSize("144605");
+document.getElementById("docsize21").innerHTML ="("+ size21+")";
+delete size21;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 23 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-18-+Advances+and+Other+Assets+as+on+31.03.2026.pdf/bb804b39-1841-76ab-1db3-03d56dc09b8e?t=1779365551762" style="text-decoration: none;"> L-18- Advances and Other Assets as on 31.03.2026 <span id="docsize22">(233 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size22=FormatSize("238891");
+document.getElementById("docsize22").innerHTML ="("+ size22+")";
+delete size22;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 24 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-19-+Current+Liabilities+as+on+31.03.2026.pdf/a9c3b556-80fc-808a-5067-4fa972f0510c?t=1779365551154" style="text-decoration: none;"> L-19-Current Liabilities as on 31.03.2026 <span id="docsize23">(229 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size23=FormatSize("234948");
+document.getElementById("docsize23").innerHTML ="("+ size23+")";
+delete size23;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 25 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-20-+Provisions+as+on+31.03.2026.pdf/2f604fce-41f8-4588-cf9c-6b08cefc655f?t=1779365550577" style="text-decoration: none;"> L-20-Provisions as on 31.03.2026 <span id="docsize24">(134 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size24=FormatSize("137192");
+document.getElementById("docsize24").innerHTML ="("+ size24+")";
+delete size24;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 26 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-21-+Misc.+Expenditure+as+on+31.03.2026.pdf/36fc28ee-3f78-0f6a-5bec-b43df2163e42?t=1779365550013" style="text-decoration: none;"> L-21-Misc Expenditure as on 31.03.2026 <span id="docsize25">(132 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size25=FormatSize("134830");
+document.getElementById("docsize25").innerHTML ="("+ size25+")";
+delete size25;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 27 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-22-+Analytical+Ratios+31.03.2026.pdf/d23e95ff-2a16-997c-7872-a1fa4e261a10?t=1779365546858" style="text-decoration: none;"> L-22 Analytical Ratios 31.03.2026 <span id="docsize26">(377 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size26=FormatSize("386001");
+document.getElementById("docsize26").innerHTML ="("+ size26+")";
+delete size26;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 28 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-23-+Receipt+and+Payments+Account++for+the+year+ended+31.03.2026.pdf/ef1af9f6-b36a-abeb-0571-01ffadbaae8b?t=1779365549459" style="text-decoration: none;"> L-23 -Receipt and Payments Account for the year ended 31.03.2026 <span id="docsize27">(293 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size27=FormatSize("300073");
+document.getElementById("docsize27").innerHTML ="("+ size27+")";
+delete size27;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 29 </strong></td> 
+                <td><strong> L-24 Valuation of Net Liabilities as on 31.03.2026 </strong></td>
+                <script type="text/javascript">
+size28=FormatSize("300073");
+document.getElementById("docsize28").innerHTML ="("+ size28+")";
+delete size28;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 30 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-25-i++Geographical+Distribution+of+Business+31.03.2026.pdf/e1fd300d-2109-8939-d50c-70c8da1804db?t=1779370227465" style="text-decoration: none;"> L-25 i - Geographical Distribution of Business - Individual as on 31.03.2026 <span id="docsize29">(245 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size29=FormatSize("250765");
+document.getElementById("docsize29").innerHTML ="("+ size29+")";
+delete size29;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 31 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-25%28ii%29+Geographical+distribution+of+New+Business+%28Group%29.pdf/2a0b322c-c814-3fec-f06c-daf795874409?t=1779367196087" style="text-decoration: none;"> L-25 ii - Geographical distribution of New Business -Group as on 31.03.2026 <span id="docsize30">(554 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size30=FormatSize("567725");
+document.getElementById("docsize30").innerHTML ="("+ size30+")";
+delete size30;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 32 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-26+Investment+Assets+as+on+31.03.2026.pdf/31fbe6db-11b8-c840-23f7-889eeedffdc4?t=1779368274842" style="text-decoration: none;"> L-26 Investment Assets as on 31.03.2026 <span id="docsize31">(463 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size31=FormatSize("473697");
+document.getElementById("docsize31").innerHTML ="("+ size31+")";
+delete size31;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 33 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-27+Investment+Unit+Linked+Business+-SFIN+wise+as+on+31.03.2026.pdf/03f614b1-823e-f331-7c6e-0450ff2c5963?t=1779368275404" style="text-decoration: none;"> L-27 Investment Unit Linked Business -SFIN wise as on 31.03.2026 <span id="docsize32">(549 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size32=FormatSize("562292");
+document.getElementById("docsize32").innerHTML ="("+ size32+")";
+delete size32;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 34 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-28+Statement_of_NAV_of_Segregated_Funds_as_on_31.03.2026.pdf/6ff0075c-b87c-b0fd-f474-370896db4429?t=1779368276105" style="text-decoration: none;"> L-28 Statement_of_NAV_of_Segregated_Funds_as_on_31.03.2026 <span id="docsize33">(211 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size33=FormatSize("216546");
+document.getElementById("docsize33").innerHTML ="("+ size33+")";
+delete size33;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 35 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-29+Debt+Securities+Linked+as+on+31.03.2026.pdf/8716848e-6a41-3610-390e-e9d7ab11ed3f?t=1779368276706" style="text-decoration: none;"> L-29 Debt Securities Linked as on 31.03.2026 <span id="docsize34">(192 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size34=FormatSize("196881");
+document.getElementById("docsize34").innerHTML ="("+ size34+")";
+delete size34;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 36 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-29+Debt+Securities+Non+Linked+as+on+31.03.2026.pdf/3005a3ae-3134-98a4-e38e-8fb6fb88986b?t=1779368277284" style="text-decoration: none;"> L-29 Debt Securities Non Linked as on 31.03.2026 <span id="docsize35">(375 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size35=FormatSize("383948");
+document.getElementById("docsize35").innerHTML ="("+ size35+")";
+delete size35;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 37 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-30-Related+PartyTransaction+31.03.2026.pdf/6c677b44-1331-fd75-d0d0-dd71c7e2f279?t=1779703419711" style="text-decoration: none;"> L-30- Related Party Transaction 31.03.2026 <span id="docsize36">(767 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size36=FormatSize("785209");
+document.getElementById("docsize36").innerHTML ="("+ size36+")";
+delete size36;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 38 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-31_Key_Persons+31.03.2026_New.pdf/f0c8f568-12ad-5b19-556b-876b8c715fa9?t=1779360077980" style="text-decoration: none;"> L-31 Key Persons for the quarter ended 31.03.2026 <span id="docsize37">(259 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size37=FormatSize("265263");
+document.getElementById("docsize37").innerHTML ="("+ size37+")";
+delete size37;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 39 </strong></td> 
+                <td><strong> L-32- Available Solvency Margin and Solvency Ratio as on 31.03.2026 </strong></td>
+                <script type="text/javascript">
+size38=FormatSize("265263");
+document.getElementById("docsize38").innerHTML ="("+ size38+")";
+delete size38;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 40 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-33+NPAs+LIfe+as+on+31.03.2026.pdf/d5054aa8-7084-8368-732b-9db8b390d914?t=1779368277854" style="text-decoration: none;"> L-33 NPAs Life as on 31.03.2026 <span id="docsize39">(596 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size39=FormatSize("610253");
+document.getElementById("docsize39").innerHTML ="("+ size39+")";
+delete size39;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 41 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-33+NPAs+Linked+as+on+31.03.2026.pdf/87b62a79-6662-6e9a-9628-8fcaf764115f?t=1779368278414" style="text-decoration: none;"> L-33 NPAs Linked as on 31.03.2026 <span id="docsize40">(508 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size40=FormatSize("520451");
+document.getElementById("docsize40").innerHTML ="("+ size40+")";
+delete size40;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 42 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-33+NPAs+Pension+as+on+31.03.2026.pdf/3826c0b4-4044-3692-3ad8-4a25563f195e?t=1779368278968" style="text-decoration: none;"> L-33 NPAs Pension as on 31.03.2026 <span id="docsize41">(596 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size41=FormatSize("609939");
+document.getElementById("docsize41").innerHTML ="("+ size41+")";
+delete size41;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 43 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-34+Investment+and+Income+on+Investment+-+Life+as+on+31.03.2026.pdf/e218ec39-3d5b-72b3-3667-4ed0d2624ffb?t=1779368279562" style="text-decoration: none;"> L-34 Investment and Income on Investment - Life as on 31.03.2026 <span id="docsize42">(989 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size42=FormatSize("1012342");
+document.getElementById("docsize42").innerHTML ="("+ size42+")";
+delete size42;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 44 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-34+Investment+and+Income+on+Investment+-+Linked+as+on+31.03.2026.pdf/42e1df9f-9538-10a7-e3f6-88eccc34cdd1?t=1779434604441" style="text-decoration: none;"> L-34 Investment and Income on Investment -Linked as on 31.03.2026 <span id="docsize43">(984 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size43=FormatSize("1007384");
+document.getElementById("docsize43").innerHTML ="("+ size43+")";
+delete size43;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 45 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-34+Investment+and+Income+on+Investment+-+Pension+as+on+31.03.2026.pdf/3a66ce4f-3ce5-4a14-b66c-1398c634d28e?t=1779368272326" style="text-decoration: none;"> L-34 Investment and Income on Investment -Pension as on 31.03.2026 <span id="docsize44">(985 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size44=FormatSize("1008526");
+document.getElementById("docsize44").innerHTML ="("+ size44+")";
+delete size44;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 46 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-35+Down+Graded+Investments+-+Life++as+on+31.03.2026.pdf/77ea1ae2-4e8f-dded-7ed7-0824ec30c081?t=1779368273024" style="text-decoration: none;"> L-35 Down Graded Investments - Life as on 31.03.2026 <span id="docsize45">(383 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size45=FormatSize("391961");
+document.getElementById("docsize45").innerHTML ="("+ size45+")";
+delete size45;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 47 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-35+Down+Graded+Investments+-+Linked++as+on+31.03.2026.pdf/aae00c31-8647-657e-d9bf-0fe0ba906d0f?t=1779368273629" style="text-decoration: none;"> L-35 Down Graded Investments - Linked as on 31.03.2026 <span id="docsize46">(578 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size46=FormatSize("591823");
+document.getElementById("docsize46").innerHTML ="("+ size46+")";
+delete size46;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 48 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-35+Down+Graded+Investments+-+Pension++as+on+31.03.2026.pdf/205382b8-4eac-8e2e-f965-c8316aae1e59?t=1779368274243" style="text-decoration: none;"> L-35 Down Graded Investments - Pension as on 31.03.2026 <span id="docsize47">(178 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size47=FormatSize("181834");
+document.getElementById("docsize47").innerHTML ="("+ size47+")";
+delete size47;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 49 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-36-Premium+and+number+of+lives+31.03.2026.pdf/f9c2037e-6d6e-c250-b313-3a44cf0c9800?t=1779370226809" style="text-decoration: none;"> L-36 Premium and number of lives as on 31.03.2026 <span id="docsize48">(528 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size48=FormatSize("541112");
+document.getElementById("docsize48").innerHTML ="("+ size48+")";
+delete size48;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 50 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-37+Business+Aquisition+through+different+channels%28Group%29_31032026.pdf/440c357d-8049-df12-9061-0358888c8b44?t=1779368033777" style="text-decoration: none;"> L-37 Business Aquisition through different channels - Group as on 31.03.2026 <span id="docsize49">(521 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size49=FormatSize("533034");
+document.getElementById("docsize49").innerHTML ="("+ size49+")";
+delete size49;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 51 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-38-Business+Acquisition+through+Different+Channels+%28Individual%29+-31.03.2026.pdf/d8cddd8d-6d81-dada-41c4-8ea1ed02a826?t=1779370480628" style="text-decoration: none;"> L-38 Business Acquisition through Different Channel -Individuals as on 31.03.2026 <span id="docsize50">(301 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size50=FormatSize("308180");
+document.getElementById("docsize50").innerHTML ="("+ size50+")";
+delete size50;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 52 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-39+Data+on+Settlement+of+Claims+for++the++quarter+31.03.2026.pdf/1c13be05-841b-a16c-7d8b-69af5014ed7c?t=1779369870652" style="text-decoration: none;"> L-39 Data on Settlement of Claims for the quarter ended 31.03.2026 <span id="docsize51">(216 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size51=FormatSize("221642");
+document.getElementById("docsize51").innerHTML ="("+ size51+")";
+delete size51;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 53 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-39+Data+on+Settlement+of+Claims+up+to+the++quarter+31.03.2026.pdf/6afa9711-20a5-f9d4-1af5-4450cf0eebd6?t=1779369870048" style="text-decoration: none;"> L-39 Data on Settlement of Claims up to the quarter ended 31.03.2026 <span id="docsize52">(218 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size52=FormatSize("223144");
+document.getElementById("docsize52").innerHTML ="("+ size52+")";
+delete size52;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 54 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-40+Quarterly+claims+data++for+the+quarter+ending+31.03.2026.pdf/0444866e-c2e4-0584-ac01-feb52b7322de?t=1779369869416" style="text-decoration: none;"> L-40 Quarterly claims data for the quarter ended 31.03.2026 <span id="docsize53">(329 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size53=FormatSize("336930");
+document.getElementById("docsize53").innerHTML ="("+ size53+")";
+delete size53;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 55 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-40+Quarterly+claims+data++up+to+the++quarter+ending+31.03.2026.pdf/847518b5-2088-88f0-5b8d-88b7b549cf19?t=1779369868773" style="text-decoration: none;"> L-40 Quarterly claims data up to the quarter ended 31.03.2026 <span id="docsize54">(327 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size54=FormatSize("334458");
+document.getElementById("docsize54").innerHTML ="("+ size54+")";
+delete size54;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 56 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-41+Grievance+Disposal+March+2026.pdf/b8e0840c-8a86-ddc0-63d9-f44a3d9a1483?t=1779267507355" style="text-decoration: none;"> L-41 Grievance Disposal as on 31.03.2026 <span id="docsize55">(493 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size55=FormatSize("504346");
+document.getElementById("docsize55").innerHTML ="("+ size55+")";
+delete size55;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 57 </strong></td> 
+                <td><strong> L-42 Valuation Basis-Individual as on 31.03.2026 </strong></td>
+                <script type="text/javascript">
+size56=FormatSize("504346");
+document.getElementById("docsize56").innerHTML ="("+ size56+")";
+delete size56;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 58 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L42_Group_Mar2026.pdf/9dbf5988-7d91-a868-2e4d-607852a11afe?t=1779367194798" style="text-decoration: none;"> L-42 Valuation Basis-Group as on 31.03.2026 <span id="docsize57">(408 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size57=FormatSize("417359");
+document.getElementById("docsize57").innerHTML ="("+ size57+")";
+delete size57;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 59 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L43+disclosure+qly+31.03.2026.pdf/d18d658d-8321-2ed9-6189-980d0e22d560?t=1779362000804" style="text-decoration: none;"> L-43 Voting Activity Disclosure under Stewardship Code for the quarter ended 31.03.2026 <span id="docsize58">(475 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size58=FormatSize("486819");
+document.getElementById("docsize58").innerHTML ="("+ size58+")";
+delete size58;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 60 </strong></td> 
+                <td><strong> L-44 Embedded Value as on 31.03.2026 </strong></td>
+                <script type="text/javascript">
+size59=FormatSize("486819");
+document.getElementById("docsize59").innerHTML ="("+ size59+")";
+delete size59;
+</script>
+               </tr>
+               <tr>
+                <td style="text-align:center;"><strong> 61 </strong></td> 
+                <td><strong> <a href="/documents/20121/1772783/L-45_Office_Information_as_on_31_03_2026.pdf/d55d9680-f87e-f91b-b76f-f8c01e847063?t=1777894372468" style="text-decoration: none;"> L-45 Office Information as on 31.03.2026 <span id="docsize60">(141 KB)</span> </a> </strong></td>
+                <script type="text/javascript">
+size60=FormatSize("144134");
+document.getElementById("docsize60").innerHTML ="("+ size60+")";
+delete size60;
+</script>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+            <div style="text-align: right; font-size:20px;" class="updatedate">
+             <br><strong>Last modified date : </strong><strong><span id="date-output">25/5/2026</span></strong>
+             <input type="hidden" id="date-input" value="Mon, 25 May 2026 10:06:02 +0000">
+            </div>
+            <script>
+$(document).ready(function(){
+const dateString = $("#date-input").val();
+//const date = new Date(dateString);
+
+const englishDateString = convertHindiDateToEnglish(dateString);
+const date = new Date(englishDateString);
+
+const day = date.getDate();
+const month = date.getMonth() + 1;
+const year = date.getFullYear();
+const formattedDate =day+"/"+month+"/"+year;
+console.log(formattedDate);
+$("#date-output").html(formattedDate);
+});
+
+
+// Function to convert Hindi date string to English
+function convertHindiDateToEnglish(hindiDate) {
+   
+	  // Hindi to English mappings for days and months
+const hindiToEnglishDays = {
+    "रवि": "Sun",
+    "सोम": "Mon",
+    "मंगल": "Tue",
+    "बुध": "Wed",
+    "गुरु": "Thu",
+    "शुक्र": "Fri",
+    "शनि": "Sat"
+};
+
+const hindiToEnglishMonths = {
+    "जनवरी": "January",
+    "फ़रवरी": "February",
+    "मार्च": "March",
+    "अप्रैल": "April",
+    "मई": "May",
+    "जून": "June",
+    "जुलाई": "July",
+    "अगस्त": "August",
+    "सितंबर": "September",
+    "अक्&zwj;तूबर": "October",
+    "नवंबर": "November",
+    "दिसंबर": "December"
+};
+	  
+    // Replace Hindi day names with English
+    Object.keys(hindiToEnglishDays).forEach(hindiDay => {
+        hindiDate = hindiDate.replace(hindiDay, hindiToEnglishDays[hindiDay]);
+    });
+    
+    // Replace Hindi month names with English
+    Object.keys(hindiToEnglishMonths).forEach(hindiMonth => {
+        hindiDate = hindiDate.replace(hindiMonth, hindiToEnglishMonths[hindiMonth]);
+    });
+
+    // Return the modified English date string
+    return hindiDate;
+}
+</script>
+           </div>
+          <button type="button" id="bTp" class="back-btn">Back to Previous</button></section>
