@@ -7,7 +7,7 @@ Usage:
 Runs the full pipeline:
   1. Scrape LIC India Public Disclosure PDFs
   2. Extract 56 financial fields from 4 PDF types
-  3. Append new quarter to Master_Data/Master_LICIPD_DATA.csv
+  3. Append new quarter(s) to Master_Data/Master_LICIPD_DATA.csv
   4. Generate LICIPD_DATA and LICIPD_META xlsx files + ZIP
 """
 
@@ -35,6 +35,7 @@ def main():
 
     result = orchestrator.main()
 
+    quarters = result.get('quarters', [])
     if result.get('skipped'):
         status = 'NO NEW DATA'
     elif result['success']:
@@ -42,19 +43,24 @@ def main():
     else:
         status = 'FAILED'
 
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("LICIPD PIPELINE SUMMARY")
-    print("="*60)
-    print(f"  Status   : {status}")
-    print(f"  Quarter  : {result['quarter']}")
+    print("=" * 60)
+    print(f"  Status    : {status}")
+    if len(quarters) > 1:
+        print(f"  Quarters  : {', '.join(quarters)}  ({len(quarters)} processed)")
+    elif quarters:
+        print(f"  Quarter   : {quarters[0]}")
+    else:
+        print(f"  Quarter   : {result.get('quarter', 'N/A')}")
     if not result.get('skipped'):
-        print(f"  Appended : {result['appended']}")
-        print(f"  ZIP      : {result['zip']}")
-    if result['errors']:
-        print(f"  Warnings :")
+        print(f"  Appended  : {result.get('appended', False)}")
+        print(f"  ZIP       : {result.get('zip')}")
+    if result.get('errors'):
+        print(f"  Warnings  :")
         for e in result['errors']:
             print(f"    - {e}")
-    print("="*60)
+    print("=" * 60)
 
     return 0 if result['success'] else 1
 

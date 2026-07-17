@@ -1,0 +1,7 @@
+lets add  that mode ,typically if i dont run the script for the whole year means i will have to do the data manualy but typically the script needs to be inteligent enough to pick up where it left of based on the state .json and master to determind whats missing then process it  it can deploy multiple workers and if the missing quaters ar alot to process faster 
+
+what are your thoughs befor starting 
+
+
+One thing to clarify before I start: should the backfill mode be a separate flag in config.py (e.g. BACKFILL_MODE = True) you flip manually, or should the pipeline automatically detect gaps and switch into backfill mode on its own every run?
+the pipline should be able to do this by its self but you can add a config setting  where i can turn it of as for the  workers they will be more vaable if we have one crome session which will be doing the downloads clasiying them by quater then we acn have the workers  process the quater pdfs extraction  what do you think

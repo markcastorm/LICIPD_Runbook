@@ -1,8 +1,16 @@
 {
   "processed_quarters": {
+    "2025-Q3": {
+      "date_text": "As at September 30, 2025",
+      "processed_at": "2026-07-17 12:26:56"
+    },
+    "2025-Q4": {
+      "date_text": "As at December 31, 2025",
+      "processed_at": "2026-07-17 12:26:56"
+    },
     "2026-Q1": {
       "date_text": "As at March 31, 2026",
-      "processed_at": "2026-07-17 10:20:55"
+      "processed_at": "2026-07-17 12:26:56"
     }
   }
 }

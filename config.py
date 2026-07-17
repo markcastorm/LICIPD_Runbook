@@ -20,6 +20,13 @@ CLICK_DELAY    = (2, 4)  # random delay range (min, max) between clicks
 TARGET_YEAR = None        # e.g. "2025 - 2026" or None for latest
 TARGET_DATE = None        # e.g. "As at March 31, 2026" or None for latest
 
+# ── Backfill ──────────────────────────────────────────────────────────────────
+# BACKFILL_ENABLED: True  = auto-detect gaps in master CSV and process all
+#                           missing quarters in one run (recommended).
+#                  False  = process only the single latest available quarter.
+BACKFILL_ENABLED     = True
+BACKFILL_MAX_WORKERS = 4   # parallel workers for PDF extraction
+
 # ── State tracking ────────────────────────────────────────────────────────────
 # SKIP_IF_PROCESSED: True  = skip the run if the detected quarter was already
 #                            processed (logged as NO NEW DATA).

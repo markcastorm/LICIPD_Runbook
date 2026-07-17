@@ -627,3 +627,190 @@ def download():
                 pass
 
     return result
+
+
+# ── Backfill helpers ──────────────────────────────────────────────────────────
+
+def _discover_all_available(driver, stop_after=None):
+    """
+    Walk year pages on LIC site and collect (quarter, date_text, date_href).
+    Parses quarter labels from date link text — does NOT navigate to date pages.
+    Returns list sorted oldest → newest.
+
+    stop_after: quarter string (e.g. '2025-Q2'). Year pages are scanned
+    newest-first; once an entire year's quarters all fall at or before
+    stop_after we know older years are irrelevant and scanning stops early.
+    """
+    logger.info(f"Discovery: navigating to {config.BASE_URL}")
+    driver.get(config.BASE_URL)
+    _human_delay(2.0, 3.5)
+
+    year_links = _get_year_links(driver)
+    all_quarters = []
+    seen = set()
+
+    for year_text, year_href in year_links:
+        logger.info(f"Discovery: scanning {year_text!r}")
+        driver.get(year_href)
+        _human_delay(1.5, 2.5)
+
+        year_quarters = []
+        for date_text, date_href in _get_date_links(driver):
+            q = _parse_quarter_from_date(date_text, date_href)
+            if q and q not in seen:
+                seen.add(q)
+                all_quarters.append((q, date_text, date_href))
+                year_quarters.append(q)
+
+        # Early stop: every quarter in this year is at or before our floor,
+        # so all older year pages are guaranteed to be irrelevant too.
+        if stop_after and year_quarters and max(year_quarters) <= stop_after:
+            logger.info(
+                f"Discovery: earliest needed quarter reached after {year_text!r}; "
+                f"stopping early"
+            )
+            break
+
+    all_quarters.sort(key=lambda x: x[0])
+    logger.info(
+        f"Discovery complete: {len(all_quarters)} quarters found, "
+        f"{len([q for q in all_quarters if stop_after is None or q[0] > stop_after])} new"
+    )
+    return all_quarters
+
+
+def _download_quarter(driver, quarter, date_text, date_href, base_run_dir):
+    """
+    Navigate to a specific date page and download all 4 PDF categories.
+    Returns a pdf_paths dict in the same format as download().
+    Caller owns the driver lifecycle.
+    """
+    quarter_dir = os.path.join(base_run_dir, quarter.replace('-', '_'))
+    os.makedirs(quarter_dir, exist_ok=True)
+
+    result = {
+        'balance_sheet':             [],
+        'investments_policyholders': [],
+        'investments_linked':        [],
+        'revenue_account':           [],
+        'quarter':   quarter,
+        'date_text': date_text,
+        'skipped':   False,
+        'run_dir':   quarter_dir,
+    }
+
+    logger.info(f"[{quarter}] Navigating to {date_text!r}")
+    driver.get(date_href)
+    _human_delay(2.0, 3.0)
+
+    try:
+        pdf_links = _get_all_pdf_links(driver)
+    except Exception as exc:
+        logger.warning(f"[{quarter}] Page load timeout ({exc}); retrying")
+        _human_delay(3.0, 5.0)
+        driver.refresh()
+        _human_delay(3.0, 5.0)
+        try:
+            pdf_links = _get_all_pdf_links(driver)
+        except Exception:
+            logger.error(f"[{quarter}] Retry failed; skipping this quarter")
+            return result
+
+    if not _has_core_pdfs(pdf_links):
+        logger.warning(f"[{quarter}] Core PDFs not yet available; skipping")
+        return result
+
+    cookies = {c['name']: c['value'] for c in driver.get_cookies()}
+
+    bs = _match_balance_sheet(pdf_links)
+    if bs:
+        path = _download_pdf(
+            bs[1], os.path.join(quarter_dir, 'balance_sheet'),
+            _filename_from_href(bs[1]), cookies,
+        )
+        if path:
+            result['balance_sheet'].append(path)
+
+    invph = _match_investments_policyholders(pdf_links)
+    if invph:
+        path = _download_pdf(
+            invph[1], os.path.join(quarter_dir, 'investments_policyholders'),
+            _filename_from_href(invph[1]), cookies,
+        )
+        if path:
+            result['investments_policyholders'].append(path)
+
+    invlnk = _match_investments_linked(pdf_links)
+    if invlnk:
+        path = _download_pdf(
+            invlnk[1], os.path.join(quarter_dir, 'investments_linked'),
+            _filename_from_href(invlnk[1]), cookies,
+        )
+        if path:
+            result['investments_linked'].append(path)
+
+    for _, href in _match_revenue_accounts(pdf_links):
+        path = _download_pdf(
+            href, os.path.join(quarter_dir, 'revenue_account'),
+            _filename_from_href(href), cookies,
+        )
+        if path:
+            result['revenue_account'].append(path)
+
+    total = sum(len(v) for k, v in result.items() if isinstance(v, list))
+    logger.info(f"[{quarter}] Downloaded {total} PDFs to {quarter_dir}")
+    return result
+
+
+def discover_and_download(existing_quarters, base_run_dir, max_quarters=None):
+    """
+    Single browser session: discover all quarters available on LIC site,
+    filter out existing_quarters, then download PDFs for the gaps.
+
+    Args:
+        existing_quarters : set/list of quarter strings already in master CSV
+        base_run_dir      : directory under which per-quarter subdirs are created
+        max_quarters      : None = all missing; N = only the N most-recent missing
+
+    Returns:
+        list of pdf_paths dicts (oldest → newest), empty if no gaps found
+    """
+    existing = set(existing_quarters)
+    last = max(existing) if existing else None
+    driver = None
+    try:
+        driver = _build_driver(base_run_dir)
+
+        available = _discover_all_available(driver, stop_after=last)
+
+        # Only consider quarters that come after the last entry already in the
+        # master CSV — backfill picks up forward from where we stopped, never back.
+        missing = [
+            (q, dt, dh) for q, dt, dh in available
+            if q not in existing and (last is None or q > last)
+        ]
+
+        if not missing:
+            logger.info("No missing quarters found — master CSV is up to date")
+            return []
+
+        if max_quarters is not None:
+            missing = missing[-max_quarters:]   # keep only N most recent
+
+        logger.info(
+            f"Quarters to process ({len(missing)}): {[m[0] for m in missing]}"
+        )
+
+        results = []
+        for quarter, date_text, date_href in missing:
+            pdf_paths = _download_quarter(driver, quarter, date_text, date_href, base_run_dir)
+            results.append(pdf_paths)
+
+        return results
+
+    finally:
+        if driver:
+            try:
+                driver.quit()
+            except Exception:
+                pass
