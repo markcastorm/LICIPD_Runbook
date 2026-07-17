@@ -40,23 +40,46 @@ python main.py
   │
   └─► orchestrator.main()
         │
-        ├── Stage 1: scraper.download()
-        │     Returns: {
-        │       'balance_sheet':             [abs_path],
-        │       'investments_policyholders': [abs_path],
-        │       'investments_linked':        [abs_path],
-        │       'revenue_account':           [abs_path, ...],  # up to 4 PDFs
-        │       'quarter':                   'YYYY-QN',        # from URL detection
-        │       'run_dir':                   'downloads/<ts>/',
-        │     }
+        ├── Gap detection
+        │     _get_master_quarters() → reads master CSV → set of existing quarter labels
+        │     last = max(existing_quarters)   ← stop_after floor for discovery
         │
-        ├── Stage 2: extractor.extract(pdf_paths)
+        ├── Stage 1: scraper.discover_and_download(existing_quarters, run_dir)
+        │     Single browser session:
+        │       _discover_all_available(driver, stop_after=last)
+        │         → walks year pages newest-first
+        │         → early-stops once a year's max quarter ≤ last (no older data needed)
+        │         → returns [(quarter, date_text, date_href), ...]  sorted ascending
+        │       Filters: keep only q > last  (strictly newer than last CSV entry)
+        │       _download_quarter() for each missing quarter
+        │     Returns: list of pdf_paths dicts, one per quarter:
+        │       {
+        │         'balance_sheet':             [abs_path],
+        │         'investments_policyholders': [abs_path],
+        │         'investments_linked':        [abs_path],
+        │         'revenue_account':           [abs_path, ...],
+        │         'quarter':                   'YYYY-QN',
+        │         'date_text':                 'As at March 31, 2026',
+        │         'run_dir':                   'downloads/<ts>/<quarter>/',
+        │       }
+        │     BACKFILL_ENABLED=False → capped at 1 (most-recent missing quarter only)
+        │
+        ├── Stage 2: ProcessPoolExecutor → extractor.extract(pdf_paths) per quarter
+        │     Process-isolated workers (NOT threads) — PyMuPDF fitz is not thread-safe
+        │     Workers capped at min(BACKFILL_MAX_WORKERS, len(quarters))
         │     Returns: (quarter, {column_code: value_or_'NA'})
         │     Quarter priority: Revenue Account filename > Balance Sheet header > scraper URL
         │
-        └── Stage 3: file_generator.generate(quarter, data)
+        └── Stage 3: Sequential file_generator.generate(quarter, data)
+              Processed in chronological order (sorted quarter keys) to maintain CSV integrity
+              Each call: appends one row to master CSV, writes xlsx + ZIP,
+                         cleans output/latest/ before copying fresh files
               Returns: {appended, data_xlsx, meta_xlsx, zip, latest_dir}
 ```
+
+**BACKFILL_ENABLED = True (default)**: discovers and processes ALL quarters missing from master CSV after the last present quarter — useful after months without running.  
+**BACKFILL_ENABLED = False**: processes only the single most-recent missing quarter (classic one-shot mode).  
+**Master CSV is the source of truth** for gap detection. `state.json` is a secondary audit trail; deleting it has no effect on which quarters are re-processed.
 
 ---
 
@@ -65,7 +88,30 @@ python main.py
 ### Overview
 Selenium stealth navigation using `undetected-chromedriver` + `selenium-stealth`. Chrome version auto-detected via `winreg` (Windows) or CLI fallback (Linux). Downloads via `requests` with browser session cookies (faster than browser-triggered downloads).
 
-### 3-Level Site Navigation
+### Backfill Public API
+
+#### `discover_and_download(existing_quarters, base_run_dir, max_quarters=None)`
+Top-level entry point called by orchestrator. Opens one browser session and does both discovery and downloading.
+- Computes `last = max(existing_quarters)` **before** opening the browser (avoids `UnboundLocalError` in `try` block)
+- Calls `_discover_all_available(driver, stop_after=last)` → sorted list of all quarters available on site
+- Filters to quarters strictly after `last`
+- Calls `_download_quarter()` for each missing quarter in chronological order
+- Returns list of pdf_paths dicts (one per quarter)
+
+#### `_discover_all_available(driver, stop_after=None)`
+Walks all year pages newest-first. For each year page:
+- Collects all date links → calls `_parse_quarter_from_date()` to get quarter label
+- Builds `[(quarter, date_text, date_href), ...]`
+- **Early-stop**: once the max quarter seen in a year ≤ `stop_after`, all older years are irrelevant — stops immediately
+- Sorts result ascending before returning
+- Typical discovery time with early-stop: ~32 sec / 3 year pages (vs 2 min 28 sec / 22 pages without)
+
+#### `_download_quarter(driver, quarter, date_text, date_href, base_run_dir)`
+Navigates to one date page and downloads all 4 PDF categories into `base_run_dir/<quarter>/`.
+- Validates core PDFs are present (`_has_core_pdfs`)
+- Returns pdf_paths dict with category keys and paths
+
+### 3-Level Site Navigation (single-quarter mode when TARGET_YEAR/DATE are set)
 
 **Level 1 — Year selection** (`_get_year_links`, `_select_year`)
 - Page: `https://www.licindia.in/Bottom-Links/Public-disclosure`
@@ -73,12 +119,15 @@ Selenium stealth navigation using `undetected-chromedriver` + `selenium-stealth`
 - `config.TARGET_YEAR = None` → selects first link (latest year listed first)
 - `config.TARGET_YEAR = "2024 - 2025"` → fuzzy text match
 
-**Level 2 — Date selection** (`_get_date_links`, `_parse_quarter_from_date`)
+**Level 2 — Date selection + cross-year fallback** (`_get_date_links`, `_parse_quarter_from_date`)
 - Detects date links by: `'as-at-' in href` OR `'as at' in text`
 - `config.TARGET_DATE = None` → selects last link (oldest listed first, latest is last)
 - `config.TARGET_DATE = "As at 31 Dec 2024"` → fuzzy text match
-- **Fallback**: if latest date has no PDFs, walks backward date by date until PDFs found
-- When `TARGET_DATE` is set, does NOT fall back silently
+- **Cross-year fallback**: if the current year's dates all have no core PDFs (e.g. 2026-2027 only has one date and PDFs not yet posted), automatically navigates to the previous year and tries its dates
+  - Implemented as an outer loop over `year_links[year_start_idx:]`
+  - Stops as soon as `found_core = True`
+  - Only falls back when `TARGET_YEAR` and `TARGET_DATE` are both `None`
+- **Retry on timeout**: `_get_all_pdf_links` exceptions trigger one automatic page refresh + retry before giving up on that date
 
 **Level 3 — PDF discovery + download**
 - Finds all `<a href="*.pdf">` within `<section id="maincontent">`
@@ -103,15 +152,18 @@ TARGET_DATE = None        # None = latest; "As at 31 Dec 2024" = specific date
 HEADLESS_MODE = True      # False to open visible Chrome window
 WAIT_TIMEOUT = 60         # Seconds to wait for page elements
 REVENUE_ACCOUNT_PRIORITY = ["period ended", "quarter ended", "Half year ended"]
+BACKFILL_ENABLED = True   # True = all missing quarters; False = latest one only
+BACKFILL_MAX_WORKERS = 4  # ProcessPoolExecutor worker cap for PDF extraction
 ```
 
 ### Output Structure
 ```
 downloads/<YYYYMMDD_HHMMSS>/
-  balance_sheet/            L-3A- Balance Sheet as on DD.MM.YYYY.pdf
-  investments_policyholders/ L-13- Investments...pdf
-  investments_linked/       L-14- Investments...pdf
-  revenue_account/          L-1A- Revenue Account...pdf (1–4 files)
+  <YYYY_QN>/                          # one subfolder per quarter (backfill)
+    balance_sheet/            L-3A- Balance Sheet as on DD.MM.YYYY.pdf
+    investments_policyholders/ L-13- Investments...pdf
+    investments_linked/       L-14- Investments...pdf
+    revenue_account/          L-1A- Revenue Account...pdf (1–4 files)
 ```
 
 ---
@@ -250,9 +302,12 @@ Hindi direct matches:
 4. Writes `LICIPD_DATA_<ts>.xlsx` via openpyxl — styled headers (blue/white), freeze at B3
 5. Writes `LICIPD_META_<ts>.xlsx` via openpyxl — 56 rows, one per measure, freeze at A2
 6. Creates ZIP containing both xlsx files
-7. Copies all outputs to `output/latest/`
+7. **Cleans `output/latest/`** — removes all stale files before copying (prevents accumulation from previous runs)
+8. Copies all outputs to `output/latest/`
 
 **Output timestamp**: `datetime.now().strftime('%Y%m%d_%H%M%S')` — ensures multiple same-day runs each get their own folder.
+
+**Backfill behaviour**: called once per quarter in chronological order by orchestrator. Each call overwrites `output/latest/` so it always reflects the most recent quarter's outputs after the run finishes.
 
 ---
 
@@ -262,20 +317,53 @@ Hindi direct matches:
 
 ```python
 # Stage 1 failure → return immediately (no PDFs = cannot continue)
-# Stage 2 failure → return immediately (no data = cannot generate output)  
-# Stage 3 failure → logged as error; summary['success'] = False
+# Stage 2 failure → return immediately (no data = cannot generate output)
+# Stage 3 per-quarter failure → logged; other quarters still processed
 ```
+
+### Gap detection (`_get_master_quarters`)
+Reads master CSV (rows 3+), returns `set` of quarter labels already present. If CSV missing, returns empty set (full backfill from scratch).
+
+### Stage 1 — Scraper
+```python
+existing_quarters = _get_master_quarters()
+max_q = None if config.BACKFILL_ENABLED else 1
+all_pdf_paths = scraper.discover_and_download(existing_quarters, run_dir, max_quarters=max_q)
+```
+- Quarters with no PDFs (e.g. future quarter not yet posted) are logged as warnings in `summary['errors']` but don't abort the run
+- Quarters with at least one PDF category proceed to Stage 2
+
+### Stage 2 — Parallel extraction
+```python
+with ProcessPoolExecutor(max_workers=n_workers) as pool:
+    futures = {pool.submit(extractor.extract, pdf_paths): pdf_paths ...}
+```
+- `ProcessPoolExecutor` required (not `ThreadPoolExecutor`) because PyMuPDF's `fitz` has a module-level `TEXTPAGE` global in `table.py` that is NOT thread-safe — concurrent threads corrupt it, raising `ValueError: not a textpage of this page`
+- Workers capped at `min(BACKFILL_MAX_WORKERS, len(valid_pdf_paths))`
+- Results collected as futures complete (`as_completed`)
+
+### Stage 3 — Sequential file generation
+```python
+for q in sorted(quarter_results.keys()):
+    file_generator.generate(effective_q, data)
+    _save_processed_state(effective_q, date_text)
+    summary['quarters'].append(effective_q)
+```
+- Chronological order ensures master CSV rows are always appended newest-last
+- `_save_processed_state` writes to `state.json` as audit trail (not used for gap detection)
 
 **Quarter fallback chain:**
 1. `extractor.extract()` detects quarter from PDF content (primary)
 2. If extractor returns `None`, use `pdf_paths['quarter']` from scraper URL detection (fallback)
-3. If neither available → raise `RuntimeError("Quarter label could not be determined")`
+3. If neither available → warning logged; quarter skipped
 
 **Return dict:**
 ```python
 {
     'success':   bool,
-    'quarter':   'YYYY-QN' or None,
+    'skipped':   bool,        # True when master CSV is already up to date
+    'quarter':   'YYYY-QN',  # last quarter processed, or None
+    'quarters':  ['YYYY-QN', ...],  # all quarters processed this run
     'appended':  bool,
     'data_xlsx': path or None,
     'meta_xlsx': path or None,
@@ -295,6 +383,11 @@ TARGET_YEAR = None        # None=latest  |  "2024 - 2025" to target a year
 TARGET_DATE = None        # None=latest  |  "As at 31 Dec 2024" to target a date
 HEADLESS_MODE = True      # False for visible Chrome
 WAIT_TIMEOUT = 60
+
+# ── Backfill ─────────────────────────────────────────────────────────────────
+BACKFILL_ENABLED     = True   # True = process ALL missing quarters since last CSV entry
+                               # False = process only the 1 most-recent missing quarter
+BACKFILL_MAX_WORKERS = 4      # Max parallel ProcessPoolExecutor workers for PDF extraction
 
 # ── Revenue Account PDF priority ─────────────────────────────────────────────
 REVENUE_ACCOUNT_PRIORITY = ["period ended", "quarter ended", "Half year ended"]
@@ -488,3 +581,14 @@ Some quarterly PDFs are published in Hindi (notably June/Q2 quarters).
 - Test scripts moved to `Project_information/Testfolder/`
 - `README.md` created at project root
 - `CLAUDE.md` updated with full completed-pipeline detail
+
+### 2026-07-17: Backfill Mode + Robustness Improvements
+- **Cross-year fallback in scraper**: when the latest year (e.g. 2026-2027) has dates but no core PDFs posted yet, the scraper now automatically falls back to the previous year and tries its dates. Implemented as an outer loop over `year_links[year_start_idx:]`; stops on first year where `found_core = True`.
+- **Retry on PDF-list timeout**: `_get_all_pdf_links` exceptions trigger one automatic `driver.refresh()` + retry before skipping that date.
+- **`output/latest/` cleanup**: `file_generator.generate()` now deletes all stale files in `output/latest/` before copying fresh outputs (prevents accumulation from previous runs).
+- **Full backfill mode** (`BACKFILL_ENABLED = True`): pipeline auto-detects gaps in master CSV vs LIC site, processes all missing quarters in one run.
+  - `discover_and_download()`: single browser session for discovery + download; per-quarter subfolders under `downloads/<ts>/`
+  - `_discover_all_available()` with early-stop: stops scanning year pages once a year's max quarter ≤ last CSV entry (~32 sec / 3 pages vs 2 min 28 sec / 22 pages before)
+  - `ProcessPoolExecutor` (not `ThreadPoolExecutor`) for parallel PDF extraction — PyMuPDF `fitz` is not thread-safe
+  - Sequential chronological file generation to maintain CSV row order
+- **Backfill test result**: 3 missing quarters (2025-Q3, 2025-Q4, 2026-Q1) processed in 1 min 32 sec total. 2026-Q2 correctly skipped (PDFs not yet posted by LIC).

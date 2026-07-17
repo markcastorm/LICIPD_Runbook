@@ -15,13 +15,15 @@ python main.py
 ```
 
 The pipeline will:
-1. Launch a headless Chrome browser and navigate to LIC India's Public Disclosure site
-2. Download the latest quarterly PDFs (4 categories, ~5 files)
-3. Extract 56 financial fields from the PDFs
-4. Append the new quarter to `Master_Data/Master_LICIPD_DATA.csv`
+1. Compare the master CSV against LIC India's Public Disclosure site to find missing quarters
+2. Launch a headless Chrome browser and download PDFs for all missing quarters (4 categories each)
+3. Extract 56 financial fields from each quarter's PDFs (parallel workers)
+4. Append each new quarter to `Master_Data/Master_LICIPD_DATA.csv` in chronological order
 5. Generate `LICIPD_DATA_<timestamp>.xlsx`, `LICIPD_META_<timestamp>.xlsx`, and a ZIP
 
-Output is saved to `output/<YYYYMMDD_HHMMSS>/` and copied to `output/latest/`.
+Output is saved to `output/<YYYYMMDD_HHMMSS>/` and copied to `output/latest/` (stale files cleaned before each copy).
+
+**Backfill behaviour**: if you haven't run the pipeline for several quarters, it automatically detects and processes all missing quarters in one run — no manual intervention needed.
 
 ---
 
@@ -89,8 +91,10 @@ All settings are in `config.py`. The most commonly changed options:
 
 | Setting | Default | Description |
 |---------|---------|-------------|
-| `TARGET_YEAR` | `None` | Set to e.g. `"2024 - 2025"` to scrape a specific year. `None` = latest. |
-| `TARGET_DATE` | `None` | Set to e.g. `"As at 31 Dec 2024"` to scrape a specific quarter. `None` = latest. |
+| `BACKFILL_ENABLED` | `True` | `True` = process all missing quarters since last CSV entry. `False` = latest one only. |
+| `BACKFILL_MAX_WORKERS` | `4` | Max parallel worker processes for PDF extraction (one per quarter). |
+| `TARGET_YEAR` | `None` | Set to e.g. `"2024 - 2025"` to scrape a specific year. `None` = auto-detect. |
+| `TARGET_DATE` | `None` | Set to e.g. `"As at 31 Dec 2024"` to scrape a specific quarter. `None` = auto-detect. |
 | `HEADLESS_MODE` | `True` | `False` opens a visible Chrome window (useful for debugging). |
 | `WAIT_TIMEOUT` | `60` | Seconds to wait for page elements to load. |
 
@@ -102,7 +106,14 @@ TARGET_YEAR = "2024 - 2025"
 TARGET_DATE = "As at 31 Dec 2024"
 ```
 
-Reset to `None` after use to resume normal latest-quarter operation.
+Reset to `None` after use to resume normal auto-detect operation.
+
+### Example: Disable backfill (process latest quarter only)
+
+```python
+# config.py
+BACKFILL_ENABLED = False
+```
 
 ---
 
@@ -112,10 +123,17 @@ Reset to `None` after use to resume normal latest-quarter operation.
 
 Navigates the LIC India Public Disclosure site using Selenium with stealth mode.
 
+**Gap detection**: the orchestrator reads `Master_LICIPD_DATA.csv` to determine the last quarter already present, then calls `discover_and_download()` which uses a single browser session to:
+1. Walk year pages newest-first, collecting all available quarters (early-stops once a year's oldest quarter is already in the master CSV — avoids scanning 22 year pages when only 3 are needed)
+2. Filter to quarters strictly after the last CSV entry
+3. Download PDFs for each missing quarter into its own subfolder
+
 **3-level navigation:**
-1. Public Disclosure main page → select year (latest or `TARGET_YEAR`)
-2. Year page → select date (latest or `TARGET_DATE`)
+1. Public Disclosure main page → year pages (newest first)
+2. Year page → date links → quarter label detection
 3. Date page → find and download PDFs by text content matching
+
+**Cross-year fallback**: if the latest year (e.g. 2026-2027) has dates but PDFs are not yet posted, the scraper automatically falls back to the previous year and tries its dates.
 
 **PDF categories downloaded:**
 
@@ -127,8 +145,6 @@ Navigates the LIC India Public Disclosure site using Selenium with stealth mode.
 | Revenue Account | L-1A / L-1 | `L-1A- Revenue Account for the period ended...pdf` |
 
 Revenue Account may download up to 4 files (current + prior year, L-1 + L-1A variants). The extractor picks the correct one automatically.
-
-**Fallback behavior:** If the latest date has no PDFs yet (just posted), the scraper falls back to the previous date automatically.
 
 ### Stage 2 — Extractor (`extractor.py`)
 
@@ -152,11 +168,17 @@ Extracts 56 fields using PyMuPDF (`fitz`) `page.find_tables()`. All table detect
 
 **Quarter detection priority:** Revenue Account filename date > Balance Sheet date header > scraper URL detection.
 
+### Stage 2 — Extractor (`extractor.py`)
+
+Runs PDF extraction in parallel using `ProcessPoolExecutor` — one worker process per missing quarter. Process isolation is required because PyMuPDF (`fitz`) is not thread-safe. Workers are capped at `BACKFILL_MAX_WORKERS` (default 4).
+
 ### Stage 3 — File Generator (`file_generator.py`)
+
+Quarters are written to the master CSV and outputs are generated in **chronological order** to maintain CSV row integrity. `output/latest/` is fully cleaned before each run's final outputs are copied in (no stale files from previous runs).
 
 | Output | Description |
 |--------|-------------|
-| `Master_LICIPD_DATA.csv` | Master dataset — new quarter row appended (duplicate check prevents re-runs from adding rows) |
+| `Master_LICIPD_DATA.csv` | Master dataset — one row per quarter appended (duplicate check prevents re-runs from adding rows) |
 | `LICIPD_DATA_<timestamp>.xlsx` | All historical data with styled header, freeze panes |
 | `LICIPD_META_<timestamp>.xlsx` | 56-row metadata file (one row per measure) |
 | `LICIPD_<timestamp>.zip` | ZIP containing both xlsx files |
@@ -260,7 +282,9 @@ python test_revenue_account.py     # 4/4 ALL PASS
 |---------|-------------|-----|
 | Chrome fails to launch | Chrome not installed or wrong version | Install Chrome; `undetected-chromedriver` auto-patches |
 | `No year links found` | Site layout changed | Check `_get_year_links()` in `scraper.py` |
-| `Core PDFs not yet posted` | Latest quarter PDFs not uploaded yet | Wait for LIC to publish; pipeline auto-falls-back to prior date |
+| `[YYYY-Q2] No PDFs downloaded` warning | Latest quarter not yet posted by LIC | Normal — pipeline skips it and processes earlier available quarters |
 | `NA fields=XX/56` | Normal — some LIC categories not published | Expected; see NA count per quarter in logs |
 | `Quarter already in master CSV` | Re-run on same quarter | Normal dedup behavior; CSV not modified |
+| `NO NEW DATA` status | Master CSV already has all available quarters | Nothing to do; run again after LIC publishes next quarter |
 | `OSError: [WinError 6]` on exit | Harmless Chrome cleanup error on Windows | No action needed |
+| Slow discovery (many year pages) | `stop_after` early-stop not triggering | Check that master CSV has correct quarter labels in column 0 |
