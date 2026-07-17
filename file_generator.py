@@ -317,9 +317,14 @@ def generate(quarter, data):
         if _create_zip(zip_path, result['data_xlsx'], result['meta_xlsx']):
             result['zip'] = zip_path
 
-    # ── 5. Copy all outputs to output/latest/ ────────────────────────────────
+    # ── 5. Copy all outputs to output/latest/ (clear stale files first) ────────
     latest_dir = result['latest_dir']
     os.makedirs(latest_dir, exist_ok=True)
+    for stale in os.listdir(latest_dir):
+        try:
+            os.remove(os.path.join(latest_dir, stale))
+        except Exception:
+            pass
 
     for src in [result['data_xlsx'], result['meta_xlsx'], result['zip']]:
         if src and os.path.exists(src):

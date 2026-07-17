@@ -474,50 +474,92 @@ def download():
         driver.get(year_href)
         _human_delay(2.0, 3.0)
 
-        # ── Level 2: Year page → date (with fallback to prior date) ─────
-        date_links = _get_date_links(driver)
-        if not date_links:
-            raise RuntimeError("No date links found on year page")
+        # ── Level 2: Year/date search with cross-year fallback ──────────
+        # year_links is ordered latest-first; year_start_idx is the index of
+        # the selected year. When TARGET_YEAR is None, we walk forward through
+        # older years until we find one with core PDFs posted.
+        year_start_idx = next(
+            (i for i, (t, _) in enumerate(year_links) if t == year_text),
+            0,
+        )
 
-        # Determine starting index
-        if config.TARGET_DATE is not None:
-            target = config.TARGET_DATE.lower().replace(' ', '')
-            start_idx = len(date_links) - 1
-            for i, (text, href) in enumerate(date_links):
-                if target in text.lower().replace(' ', ''):
-                    start_idx = i
-                    break
-        else:
-            start_idx = len(date_links) - 1   # latest = last in list
-
-        # Navigate with fallback to earlier dates if PDFs aren't posted yet
         pdf_links = []
-        chosen_idx = start_idx
-        for idx in range(start_idx, -1, -1):
-            date_text, date_href = date_links[idx]
-            logger.info(f"Navigating to date: {date_text!r}")
-            driver.get(date_href)
-            _human_delay(2.0, 3.0)
+        date_text = date_href = None
+        found_core = False
 
-            pdf_links = _get_all_pdf_links(driver)
+        for yi, (cur_year_text, cur_year_href) in enumerate(year_links[year_start_idx:]):
+            if yi > 0:
+                logger.info(f"Falling back to previous year: {cur_year_text!r}")
+                driver.get(cur_year_href)
+                _human_delay(2.0, 3.0)
 
-            if _has_core_pdfs(pdf_links):
-                chosen_idx = idx
-                logger.info(f"PDFs confirmed available at: {date_text!r}")
+            date_links = _get_date_links(driver)
+            if not date_links:
+                logger.warning(f"No date links found for year {cur_year_text!r}")
+                continue
+
+            # Determine starting date index
+            if config.TARGET_DATE is not None and yi == 0:
+                target = config.TARGET_DATE.lower().replace(' ', '')
+                start_idx = len(date_links) - 1
+                for i, (text, href) in enumerate(date_links):
+                    if target in text.lower().replace(' ', ''):
+                        start_idx = i
+                        break
+            else:
+                start_idx = len(date_links) - 1   # latest = last in list
+
+            chosen_idx = start_idx
+            for idx in range(start_idx, -1, -1):
+                dt, dh = date_links[idx]
+                logger.info(f"Navigating to date: {dt!r}")
+                driver.get(dh)
+                _human_delay(2.0, 3.0)
+
+                try:
+                    page_pdf_links = _get_all_pdf_links(driver)
+                except Exception as exc:
+                    logger.warning(f"Timeout loading PDF list at {dt!r}: {exc}; retrying")
+                    _human_delay(3.0, 5.0)
+                    driver.refresh()
+                    _human_delay(3.0, 5.0)
+                    try:
+                        page_pdf_links = _get_all_pdf_links(driver)
+                    except Exception:
+                        logger.warning(f"Retry also failed for {dt!r}; skipping this date")
+                        page_pdf_links = []
+
+                if _has_core_pdfs(page_pdf_links):
+                    chosen_idx = idx
+                    pdf_links = page_pdf_links
+                    found_core = True
+                    logger.info(f"PDFs confirmed available at: {dt!r}")
+                    break
+
+                if config.TARGET_DATE is not None and yi == 0:
+                    logger.warning(f"Core PDFs not found at {dt!r} (TARGET_DATE set)")
+                    pdf_links = page_pdf_links
+                    break
+
+                logger.warning(f"Core PDFs not yet posted at {dt!r}; trying previous date")
+                pdf_links = page_pdf_links
+
+            if date_links:
+                date_text, date_href = date_links[chosen_idx]
+
+            if found_core:
                 break
 
-            if config.TARGET_DATE is not None:
-                # User specified a date; don't silently fall back
-                logger.warning(f"Core PDFs not found at {date_text!r} (TARGET_DATE set)")
+            # Don't cross year boundaries when a target year or date is pinned
+            if config.TARGET_YEAR is not None or config.TARGET_DATE is not None:
                 break
 
-            logger.warning(f"Core PDFs not yet posted at {date_text!r}; trying previous date")
+            logger.info(f"No core PDFs in year {cur_year_text!r}; trying previous year")
 
         if not pdf_links:
             raise RuntimeError("No PDF links found on any date page")
 
-        date_text, date_href = date_links[chosen_idx]
-        quarter = _parse_quarter_from_date(date_text, date_href)
+        quarter = _parse_quarter_from_date(date_text or '', date_href or '')
         result['quarter']   = quarter
         result['date_text'] = date_text
         logger.info(f"Quarter: {quarter}")
